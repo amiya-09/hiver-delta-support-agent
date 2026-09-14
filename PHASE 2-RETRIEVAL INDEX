@@ -1,0 +1,69 @@
+Phase 1 is closed — noted, and it's a good, disciplined call (don't chase evidence you don't have yet). Let's move to Phase 2: the retrieval index — this is the piece that makes "grounded in historical resolution" literally true.
+
+Before I write the Claude Code prompt, let me quickly verify the current Gemini SDK details, since package names and embedding model versions change and I don't want to hand you a prompt with a stale library name.
+
+Good — confirmed the current setup: Google's SDK migrated in late 2025, so the right package now is google-genai (not the older google-generativeai, which is deprecated), and the current embedding model is gemini-embedding-001. Worth catching now — if I'd handed you a prompt built on the old package name, Claude Code would've written code against a discontinued library.
+
+One thing you'll need before we start: a free Gemini API key from Google AI Studio — takes about a minute, no card required. Set it as an environment variable once you have it:
+
+bash
+export GOOGLE_API_KEY="your-key-here"
+What we're building
+
+The retrieval index: a searchable pool of real, historical Delta customer-complaint → resolution pairs, so that at agent-runtime we can find "what similar issue happened before, and how was it handled" for any new incoming message. This is the mechanism that makes "grounded" true rather than assumed.
+
+Design decisions baked into this, following from everything we've already established:
+
+Pool source: only pairs where is_thread_root == true AND is_dm_redirect == false — genuine opening complaints paired with real (non-redirect) resolutions. We have 34,435 candidates; after this filter we'll have fewer, but still comfortably more than our target.
+Pool size: ~2,500 (our earlier decision), randomly sampled with a fixed seed from the filtered pool — if the filtered pool ever comes in under 2,500, use all of it rather than erroring.
+No vector database, no FAISS — at 2,500 vectors, brute-force cosine similarity via plain NumPy matrix multiplication is fast enough and avoids an unnecessary dependency. This is the "simplest alternative that's still reasonable" call from our architecture doc.
+Caching from day one — every embedding call gets cached to disk by a hash of its text, written incrementally (not just at the end). This matters more here than it sounds: if the script crashes or hits a rate limit partway through embedding 2,500 texts, a rerun should resume from cache instead of re-paying for everything from scratch.
+Files created
+src/llm/__init__.py
+src/llm/gemini_client.py      # embed_texts() with disk caching + retries
+src/retrieval/__init__.py
+src/retrieval/build_index.py  # CLI: filter pool -> sample -> embed -> save index
+src/retrieval/query.py        # load index, embed a query, return top-k similar pairs
+tests/test_retrieval.py       # offline tests -- no real API calls
+requirements.txt              # add google-genai, numpy
+Inputs and outputs
+
+Input: data/processed/delta_pairs.jsonl (the 34,435 pairs from Phase 1)
+
+Output:
+
+data/processed/retrieval_index/embeddings.npy — NumPy array, one row per pooled pair, L2-normalized
+data/processed/retrieval_index/metadata.jsonl — one line per row, same order as the embeddings array, containing the original pair fields
+A query function: given new message text, returns the top-k most similar historical pairs with similarity scores
+Edge cases identified
+Edge case	Handling
+GOOGLE_API_KEY not set	Fail immediately with a clear, specific error message — not a cryptic SDK exception
+Script crashes/rate-limited mid-run	Cache is written incrementally per-text, so a rerun resumes from where it left off instead of re-embedding everything
+Filtered pool smaller than target pool size (2,500)	Use all available pairs, log a clear warning, don't crash
+Transient API error (network blip, rate limit)	Retry with exponential backoff, small fixed number of attempts, then fail loudly rather than silently returning bad data
+Same text embedded twice (e.g. rerun, or appears in both pool-building and a later query)	Cache hit — reuses the stored vector, no wasted API call
+API returns embeddings in unexpected order/count vs. input	Explicit length check against the input batch; raise an error rather than silently mismatching text to vector
+
+Reviewing the design notes
+Isolating _call_embed_api from _embed_batch_with_retry — right call. This means the retry/backoff logic and the caching logic can be tested independently of each other, which is cleaner than mocking the whole SDK.
+CACHE_DIR as a bare module-level Path, referenced by name (not imported elsewhere) — this is the correct pattern, and it's worth knowing why it's correct for your interview: if another file had done from gemini_client import CACHE_DIR, that would copy the value at import time, and monkeypatch.setattr(gemini_client, "CACHE_DIR", tmp_path) would silently fail to affect it — the test would look like it passed while actually writing to your real cache directory. Referencing it as gemini_client.CACHE_DIR everywhere is what makes the monkeypatch actually take effect. Good instinct.
+The cache-hit/API-call breakdown living inside embed_texts()'s print rather than being duplicated in build_index.py's summary — this is Claude Code correctly noticing a small contradiction in my own spec (I asked for the breakdown in both places without giving embed_texts a way to return it), and resolving it sensibly rather than duplicating output or silently changing the return type. That's a good sign — it means it's reasoning about consistency, not just pattern-matching instructions.
+
+test_embed_texts_preserves_input_order_across_cache_and_misses existing as its own explicit test is the one I'd have specifically worried about if it were missing — mixing cached and freshly-fetched results back into the original order is exactly the kind of thing that's easy to get subtly wrong (an off-by-one, or matching by "which finished first" instead of by position). Good that it's covered.
+
+Before we spend real API calls — let's actually read the code first
+
+Everything above sounds right, but this is the first phase touching a real external service with retry logic and a persistent cache, and I'd rather read the actual implementation once than debug a cache-poisoning or ordering bug after it's already written 2,500 files to disk. Could you paste the contents of:
+
+src/llm/gemini_client.py
+src/retrieval/build_index.py
+
+Once I've read through those and we're both comfortable, you run build_index.py for real — that's the point where actual (free-tier) quota gets spent, so worth the extra minute of review first.
+
+The issue: embeddings need to know if they're a "document" or a "query"
+
+Gemini's embedding model supports a task_type parameter — RETRIEVAL_DOCUMENT for things being indexed, RETRIEVAL_QUERY for the incoming search text. This isn't a minor tuning knob: asymmetric retrieval models like this one are specifically trained so that a document embedding and a query embedding for the same underlying meaning land close together in vector space, but a document embedded as if it were a query (or vice versa) can retrieve noticeably worse. Right now, gemini_client.py doesn't set task_type at all — everything defaults to whatever Gemini uses when it's unspecified, and query.py would embed an incoming customer message the exact same way build_index.py embeds the historical pool. That's the mismatch.
+
+Why this has to be fixed now, specifically
+
+The cache key is hashlib.sha256(f"{model}:{text}") — it doesn't include task_type. So here's the failure mode if we ran the real build today and fixed this later: we'd cache 2,500 embeddings under (model, text) keys with no task type. Later, if we add task_type to fix retrieval quality, those same (model, text) keys would still exist in the cache — so a rerun would silently reuse the old, wrong-task-type embeddings instead of regenerating them, and we might not notice for a while, since nothing would error. Catching this before the first real API call is free; catching it after means either blowing away the whole cache or shipping a real, hidden correctness bug.
