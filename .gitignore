@@ -1,5 +1,6 @@
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/delta_pairs.jsonl
 .cache/local_embeddings/
 .venv/
 __pycache__/
