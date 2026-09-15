@@ -1,6 +1,6 @@
 data/raw/
 data/processed/
-.cache/
+.cache/local_embeddings/
 .venv/
 __pycache__/
 .pytest_cache/
