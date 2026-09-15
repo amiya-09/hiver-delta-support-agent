@@ -1,0 +1,158 @@
+{
+  "n_judged": 10,
+  "results": [
+    {
+      "example_id": "822267",
+      "customer_text_clean": "A huge thanks to &amp; for a safe and efficient journey home! Speaking of efficient you must check out ! #dobeautiful",
+      "reply": "Thanks for traveling with us! It\u2019s always a pleasure to have you on board. \u2708",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 1,
+        "notes": "Reply follows the style and sentiment of similar precedent, contains no invented facts, remains professional, but offers no specific next steps to the customer."
+      }
+    },
+    {
+      "example_id": "1206493",
+      "customer_text_clean": "the app just auto checked me in without giving me option to check baggage. How do I fix it to add bag?",
+      "reply": "Hi there, I\u2019m sorry for the confusion. If you can send a screenshot of the app, we can forward it to IT for review. *AJL",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply is grounded in precedent and factually consistent, with a professional tone, but it does not directly address how to add baggage, only requests a screenshot for IT review."
+      }
+    },
+    {
+      "example_id": "1506713",
+      "customer_text_clean": "flew 25,000+ miles this year and finally elite status w/ weeeeeeeeeeeeeeeeeeeeeee",
+      "reply": "Hey! \ud83c\udf89 Congrats on hitting elite status! We love having you on board. Have an amazing week! *TBT",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply accurately acknowledges the achievement, aligns with similar precedent, uses brand\u2011friendly tone, but offers no specific next step or actionable detail."
+      }
+    },
+    {
+      "example_id": "318105",
+      "customer_text_clean": "took reservations for Puerto Rico they couldn\u2019t honor. They should refund full ticket price, not voucher for half. #GrabYourWallet",
+      "reply": "Hi, thanks for reaching out. To qualify for a full refund you would have to cancel your reservation within 24 hours of the purchase being made. Otherwise, you are subject to fees and/or difference in fare. Please DM us your confirmation number and the date of cancellation, and we\u2019ll review your situation. *HFG",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 2,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "The reply correctly references a similar precedent (Example\u202f2) but does not fully address the specific issue of an unhonored reservation; it remains factual, professional, and offers a next step, yet it lacks a clear resolution for the customer\u2019s request."
+      }
+    },
+    {
+      "example_id": "2258149",
+      "customer_text_clean": "maybe don't book and take money for change fees and unaccompanied minor fees if you aren't going to let them on the plane....",
+      "reply": "Hey there, we understand and regret that you're disappointed with the fees. Is there anything we can help you with?",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "The reply mirrors the precedent wording and avoids new facts, maintains a professional tone, but only offers a generic help prompt rather than a specific next step."
+      }
+    },
+    {
+      "example_id": "949437",
+      "customer_text_clean": "Hey how do I\ufe0f NOT get the middle seat every time I\ufe0f buy your \u201cassign my seat at the gate\u201d ticket? I\ufe0f know I\ufe0f am cheap \ud83d\ude23",
+      "reply": "Hi, thanks for reaching out. Sorry for any troubles. Please discuss your seat preference with a Gate Agent. Thanks. *TMA",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply accurately references prior precedent, contains no fabricated details, uses a polite tone, and provides a clear next step."
+      }
+    },
+    {
+      "example_id": "550075",
+      "customer_text_clean": "2 hours to receive a call back or be on hold for two hours to change my flight tomorrow ? Wow that\u2019s horrible customer service. Unacceptable.",
+      "reply": "Hi, I'm sorry for the long hold times. How can we help you with your flight change today? *TBW",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply aligns with precedent, no false facts, polite tone, but next\u2011step guidance could be clearer."
+      }
+    },
+    {
+      "example_id": "2707115",
+      "customer_text_clean": "just boarded a plane that they made us check our baggage. On the plane tons of free space in the overhead bins. Truly annoying. The slow lines boarding are due to the zone boarding not baggage.",
+      "reply": "We're sorry you had to check your bag. Gate agents may request it for weight or balance reasons, even if overhead bins have space. Thank you for letting us know. *TJF",
+      "grounding_source_indices": [
+        0,
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply aligns with precedent, contains no fabricated details, uses professional tone, but offers no specific next step or resolution."
+      }
+    },
+    {
+      "example_id": "2052668",
+      "customer_text_clean": "Flight 2442 SNA to DTW. Paid $15.95 for in flight Wi-Fi. Couldn't even send an email for work! Refund please!",
+      "reply": "You can gladly reach them at 1(877)350-0038 regarding your request. *AST",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 2,
+        "actionable": 3,
+        "notes": "The reply directly mirrors a precedent response for Wi\u2011Fi refund issues, uses the correct phone number without inventing new details, is professional though brief, and provides a clear next step."
+      }
+    },
+    {
+      "example_id": "2928719",
+      "customer_text_clean": ". broke my luggage coming in for thanksgiving. \"Replaced\" it with a trash one that broke 7 hours before my flight out of Here. HELP",
+      "reply": "I\u2019m so sorry to hear your luggage broke again. Please take the damaged bag to the baggage service desk at the arrival gate, show your claim tag, and an agent will file a claim and let you know repair options. Let us know if you need further assistance.",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply mirrors a relevant precedent, contains no fabricated details, maintains a professional tone, and provides clear next steps."
+      }
+    }
+  ]
+}
