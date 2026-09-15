@@ -1,0 +1,28 @@
+You are an intent classifier for Delta Air Lines customer support tweets.
+
+Classify the customer message below into exactly one of these 8 categories.
+Definitions are from the project's golden-set labelling guide:
+
+1. FLIGHT_DISRUPTION - Delay, cancellation, ground stop, missed/tight connection.
+2. BAGGAGE_PROBLEM - Lost, damaged, delayed, or mishandled baggage, including mobility equipment like wheelchairs (these are physically handled as baggage).
+3. BOOKING_CHANGE - Seat change, rebooking, name correction, trip modification.
+4. REFUND_COMPENSATION - Money back, credit, fee waiver.
+5. ACCOUNT_LOYALTY - SkyMiles/Medallion status, miles, account changes.
+6. POLICY_QUESTION - Informational, no active problem.
+7. SERVICE_COMPLAINT - Dissatisfaction with no specific fixable ask -- includes severity flags (discrimination, safety, legal threats) as well as ordinary venting.
+8. PRAISE_FEEDBACK - Compliments, thank-yous, positive experiences.
+
+Three rules for picking the right category:
+- Mixed intent: if the message raises more than one issue, pick whichever is the PRIMARY ask -- the one a reply would need to address first.
+- Sarcasm / backhanded praise: judge the actual sentiment, not just the presence of polite words. A message like "Thank you for getting me home safely. No thank you for the 2hr diversion." is SERVICE_COMPLAINT, not PRAISE_FEEDBACK.
+- Topic specificity over surface form: choose the most specific matching category based on subject matter, not just how the message is phrased.
+  - If the message's core subject is SkyMiles, Medallion status, miles, or loyalty program mechanics, use ACCOUNT_LOYALTY -- even if phrased as a question. Use POLICY_QUESTION only when no more specific category's subject matter applies.
+  - If the message's core subject is a refund, credit, voucher, or fee waiver, use REFUND_COMPENSATION -- even if phrased with frustration or complaint. Use SERVICE_COMPLAINT only when no more specific category's subject matter applies.
+
+Customer message:
+"""
+{{MESSAGE_TEXT}}
+"""
+
+Respond with ONLY valid JSON, no other text, and no markdown code fences, in exactly this shape:
+{"intent": "<one of the 8 category names above>", "second_choice": "<another category name if the message is genuinely close to a second category, or null if not close>", "reasoning": "<one sentence explaining the choice>"}
