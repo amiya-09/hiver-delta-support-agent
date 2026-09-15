@@ -1,0 +1,1450 @@
+{
+  "n_generated": 30,
+  "results": [
+    {
+      "example_id": "2963490",
+      "customer_text_clean": "How late does the JFK Jitney T2-T4 shuttle run and is it wheelchair accessible?",
+      "true_intent": "POLICY_QUESTION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "1781517",
+          "customer_text_raw": "@Delta still sitting. 3:00 take off delayed until 5:20 mechanical issues. At least we are sitting at the gate on board now https://t.co/IBBReaBWzh",
+          "customer_text_clean": "still sitting. 3:00 take off delayed until 5:20 mechanical issues. At least we are sitting at the gate on board now",
+          "brand_reply_tweet_id": "1781516",
+          "brand_reply_text_raw": "@317923 Our sincere apology for the delay, Nick. We appreciate your continued patience. Please let us know if we can further assist. *AJC",
+          "brand_reply_text_clean": "Our sincere apology for the delay, Nick. We appreciate your continued patience. Please let us know if we can further assist. *AJC",
+          "created_at": "Wed Oct 11 23:57:29 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8192241154558529
+        },
+        {
+          "customer_tweet_id": "352864",
+          "customer_text_raw": "@Delta can you tell me why DL1859 SFO to JFK is delayed, thx!",
+          "customer_text_clean": "can you tell me why DL1859 SFO to JFK is delayed, thx!",
+          "brand_reply_tweet_id": "352863",
+          "brand_reply_text_raw": "@199896 Hi Sorry about the delay. DL1859 SFO/JFK is on a delay due to to air traffic control.  *TDH",
+          "brand_reply_text_clean": "Hi Sorry about the delay. DL1859 SFO/JFK is on a delay due to to air traffic control. *TDH",
+          "created_at": "Sun Oct 08 13:14:30 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8186015704734078
+        },
+        {
+          "customer_tweet_id": "1184765",
+          "customer_text_raw": "@Delta is flt 1538 SFO to JFK still departing at 12:58?",
+          "customer_text_clean": "is flt 1538 SFO to JFK still departing at 12:58?",
+          "brand_reply_tweet_id": "1184764",
+          "brand_reply_text_raw": "@398609 We are very sorry for the delay, Teresa. We hope that you'll be able to get on your way soon. *TTN",
+          "brand_reply_text_clean": "We are very sorry for the delay, Teresa. We hope that you'll be able to get on your way soon. *TTN",
+          "created_at": "Sun Oct 15 20:28:35 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8159414741986668
+        }
+      ],
+      "reply": "Thanks for reaching out. For the most accurate JFK Jitney shuttle schedule and accessibility information, please contact the JFK airport shuttle service directly or let us know your flight details so we can help further.",
+      "grounding_source_indices": [],
+      "confidence_note": "I\u2019m confident this generic acknowledgment is appropriate given the lack of relevant precedent in the provided examples."
+    },
+    {
+      "example_id": "640133",
+      "customer_text_clean": "Huge thank you to for understanding + taking care of my cancelled trip. It's tough enough with a sick pup and missing #Thanksgiving with my immediate family. Your CX is fantastic! Special shout out to AJL on your team for prompt + empathetic attention. Happy Thanksgiving!",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "544612",
+          "customer_text_raw": "Thank you @Delta and @245694 #holidayparty https://t.co/qD379KL2dh",
+          "customer_text_clean": "Thank you and #holidayparty",
+          "brand_reply_tweet_id": "544611",
+          "brand_reply_text_raw": "@246545 Aww, how precious. It is well deserved. We are delighted to make a wish come true. Thanks for flying with us.  *AJZ",
+          "brand_reply_text_clean": "Aww, how precious. It is well deserved. We are delighted to make a wish come true. Thanks for flying with us. *AJZ",
+          "created_at": "Sat Dec 02 16:36:25 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8684459435374057
+        },
+        {
+          "customer_tweet_id": "1049894",
+          "customer_text_raw": "Thank you @Delta !  Wonderful flight home to #ATX from our Thanksgiving visit in @147878 with loved ones.  Great service at the gate and wonderful flight crew.  Very thankful!",
+          "customer_text_clean": "Thank you ! Wonderful flight home to #ATX from our Thanksgiving visit in with loved ones. Great service at the gate and wonderful flight crew. Very thankful!",
+          "brand_reply_tweet_id": "1049893",
+          "brand_reply_text_raw": "@368132 That's awesome to hear Don! Thanks for the shout out. Happy travels. \ud83d\ude0a *HKC",
+          "brand_reply_text_clean": "That's awesome to hear Don! Thanks for the shout out. Happy travels. \ud83d\ude0a *HKC",
+          "created_at": "Sat Nov 25 17:36:57 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8629233999448407
+        },
+        {
+          "customer_tweet_id": "1089016",
+          "customer_text_raw": "Thank you @Delta for the amazing customer service \ud83d\ude01\u2728",
+          "customer_text_clean": "Thank you for the amazing customer service \ud83d\ude01\u2728",
+          "brand_reply_tweet_id": "1089015",
+          "brand_reply_text_raw": "@375869 On behalf of *TMT, you are very welcome! *TBW",
+          "brand_reply_text_clean": "On behalf of *TMT, you are very welcome! *TBW",
+          "created_at": "Tue Nov 07 22:56:20 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8603863959350967
+        }
+      ],
+      "reply": "Aww, we\u2019re so glad we could help! Thank you for the kind words. Happy Thanksgiving to you and your pup. \ud83d\udc4f *AJL",
+      "grounding_source_indices": [
+        1
+      ],
+      "confidence_note": "I\u2019m reasonably confident that this reply aligns with the style and tone of the precedent examples provided."
+    },
+    {
+      "example_id": "760555",
+      "customer_text_clean": "I want to get my baggage fee reimbursed due to my company's travel website not adding my FF number, what documents should I provide?",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2243993",
+          "customer_text_raw": "@Delta What exactly is your policy for reimbursing expenses incurred when baggage is delayed for several days?",
+          "customer_text_clean": "What exactly is your policy for reimbursing expenses incurred when baggage is delayed for several days?",
+          "brand_reply_tweet_id": "2243992",
+          "brand_reply_text_raw": "@654162 Hi James, I apologize for the baggage delay. The following link will explain our expense reimbursement policy along with a baggage claim form for receipt of your request. Thank you.  *TMB",
+          "brand_reply_text_clean": "Hi James, I apologize for the baggage delay. The following link will explain our expense reimbursement policy along with a baggage claim form for receipt of your request. Thank you. *TMB",
+          "created_at": "Fri Nov 10 23:37:43 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8624026798023992
+        },
+        {
+          "customer_tweet_id": "623047",
+          "customer_text_raw": "@Delta where can I find the updated details of my delayed baggage expense claim? If the receipts were accepted?",
+          "customer_text_clean": "where can I find the updated details of my delayed baggage expense claim? If the receipts were accepted?",
+          "brand_reply_tweet_id": "623046",
+          "brand_reply_text_raw": "@267889 Hi Jessie, once you submit receipts for reimbursement, it can take 30-45 days for a response regarding your claim.  *TJW",
+          "brand_reply_text_clean": "Hi Jessie, once you submit receipts for reimbursement, it can take 30-45 days for a response regarding your claim. *TJW",
+          "created_at": "Wed Nov 22 16:10:35 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8592524576152656
+        },
+        {
+          "customer_tweet_id": "2112176",
+          "customer_text_raw": "@Delta I have checked in for my flight but what is the document that will get me through airport security without a boarding pass?",
+          "customer_text_clean": "I have checked in for my flight but what is the document that will get me through airport security without a boarding pass?",
+          "brand_reply_tweet_id": "2112175",
+          "brand_reply_text_raw": "@622891 Hi, Jack, when you did the check-in did you not print a boarding pass, or receive an e-boarding pass?  *TRR",
+          "brand_reply_text_clean": "Hi, Jack, when you did the check-in did you not print a boarding pass, or receive an e-boarding pass? *TRR",
+          "created_at": "Wed Nov 08 15:57:29 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8568457163090046
+        }
+      ],
+      "reply": "Hi [name], I\u2019m sorry about the trouble adding your FF number. For a baggage fee reimbursement we\u2019ll need your receipt and booking confirmation. Please DM us those details and we\u2019ll help you further. *TJW",
+      "grounding_source_indices": [
+        0,
+        1
+      ],
+      "confidence_note": "I\u2019m confident this reply follows the tone and approach of the provided examples and addresses the reimbursement request without making unsupported promises."
+    },
+    {
+      "example_id": "2797446",
+      "customer_text_clean": "BOS-MSP Flight 2391 gate agent Bonnie Turner has been a true gem from beginning to end. She deserves a reward ! Beyond helpful",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "616639",
+          "customer_text_raw": "Hey @Delta, shout out to your amazing gate agent Isabel at LAX (gate 32 DL 129) who was just super helpful &amp; helped make our day better.",
+          "customer_text_clean": "Hey , shout out to your amazing gate agent Isabel at LAX (gate 32 DL 129) who was just super helpful &amp; helped make our day better.",
+          "brand_reply_tweet_id": "616638",
+          "brand_reply_text_raw": "@266316 It will be my pleasure! I will send this right over to our leadership team at LAX airport.  *HYC",
+          "brand_reply_text_clean": "It will be my pleasure! I will send this right over to our leadership team at LAX airport. *HYC",
+          "created_at": "Thu Nov 02 20:55:58 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8411545187288091
+        },
+        {
+          "customer_tweet_id": "2575724",
+          "customer_text_raw": "Flying @Delta &amp; @428388 today - GREAT service from FA\u2019s Keisha &amp; Ileana and Gate Agent Kim in @122122",
+          "customer_text_clean": "Flying &amp; today - GREAT service from FA\u2019s Keisha &amp; Ileana and Gate Agent Kim in",
+          "brand_reply_tweet_id": "2575723",
+          "brand_reply_text_raw": "@730367 That's wonderful to hear, Seth. We'll make sure to pass along your praises for Keisha and Ileana. *TSB",
+          "brand_reply_text_clean": "That's wonderful to hear, Seth. We'll make sure to pass along your praises for Keisha and Ileana. *TSB",
+          "created_at": "Thu Nov 16 20:51:20 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8408965427104218
+        },
+        {
+          "customer_tweet_id": "851427",
+          "customer_text_raw": "The @Delta gate agent at SBN gate 5 earned every penny of her paycheck this afternoon. She was grace under pressure. \ud83d\udc4d\ud83c\udffb\ud83d\udeeb",
+          "customer_text_clean": "The gate agent at SBN gate 5 earned every penny of her paycheck this afternoon. She was grace under pressure. \ud83d\udc4d\ud83c\udffb\ud83d\udeeb",
+          "brand_reply_tweet_id": "851426",
+          "brand_reply_text_raw": "@270354 That's AWESOME!! I'll be sure her leadership team hears this. Thanks for choosing to fly with us. \u2708 *AMC",
+          "brand_reply_text_clean": "That's AWESOME!! I'll be sure her leadership team hears this. Thanks for choosing to fly with us. \u2708 *AMC",
+          "created_at": "Fri Oct 27 18:24:24 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8383403926724999
+        }
+      ],
+      "reply": "Thanks for sharing! We\u2019ll pass along your praise for Bonnie to the leadership team at MSP. \u2708 *HYC",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "I\u2019m highly confident that this reply follows the style and approach of the provided precedent examples."
+    },
+    {
+      "example_id": "936549",
+      "customer_text_clean": "Thanks for making me wait an hour (after a 9 hour intl. flight) before telling me that my bag didn't make the trip. Outstanding.",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2413297",
+          "customer_text_raw": "@Delta Waiting for an hour for baggage upon arrival? Unacceptable!",
+          "customer_text_clean": "Waiting for an hour for baggage upon arrival? Unacceptable!",
+          "brand_reply_tweet_id": "2413296",
+          "brand_reply_text_raw": "@693758 Thank you for your patience, Jermaine. I apologize for the delay in your baggage. Our team is diligently working on reuniting you with your baggage. *TJN",
+          "brand_reply_text_clean": "Thank you for your patience, Jermaine. I apologize for the delay in your baggage. Our team is diligently working on reuniting you with your baggage. *TJN",
+          "created_at": "Tue Nov 14 17:12:50 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.873850012133211
+        },
+        {
+          "customer_tweet_id": "2413288",
+          "customer_text_raw": "@Delta you might want to improve your baggage services. Landed an hour ago still waiting for the bags.....",
+          "customer_text_clean": "you might want to improve your baggage services. Landed an hour ago still waiting for the bags.....",
+          "brand_reply_tweet_id": "2413287",
+          "brand_reply_text_raw": "@693755 Brett, I am very sorry to hear that there has been such a delay in sending out the bags. We are working had to get your bags to you. *TBW",
+          "brand_reply_text_clean": "Brett, I am very sorry to hear that there has been such a delay in sending out the bags. We are working had to get your bags to you. *TBW",
+          "created_at": "Tue Nov 14 17:13:18 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8626371800114929
+        },
+        {
+          "customer_tweet_id": "1308666",
+          "customer_text_raw": "My luggage did not make it home @Delta ... oy",
+          "customer_text_clean": "My luggage did not make it home ... oy",
+          "brand_reply_tweet_id": "1308665",
+          "brand_reply_text_raw": "@425824 Oh no, George! Did you file a claim with our Baggage office?  *HDG",
+          "brand_reply_text_clean": "Oh no, George! Did you file a claim with our Baggage office? *HDG",
+          "created_at": "Fri Oct 27 04:27:41 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8589605545322563
+        }
+      ],
+      "reply": "Thank you for your patience. I\u2019m sorry you\u2019ve had to wait after your international flight. Our team is working to reunite you with your bag. If you haven\u2019t already, please file a claim with our Baggage office so we can resolve this promptly.",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "confidence_note": "Highly confident, as the reply directly mirrors the tone and content of the provided examples."
+    },
+    {
+      "example_id": "200544",
+      "customer_text_clean": "I\u2019m curious how you can just change someone\u2019s seat! I had an aisle on connect flight. Land. Now in a middle seat. Not cool!!",
+      "true_intent": "BOOKING_CHANGE",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "200544",
+          "customer_text_raw": "@824 I\u2019m curious how you can just change someone\u2019s seat!  I had an aisle on connect flight. Land. Now in a middle seat. Not cool!!",
+          "customer_text_clean": "I\u2019m curious how you can just change someone\u2019s seat! I had an aisle on connect flight. Land. Now in a middle seat. Not cool!!",
+          "brand_reply_tweet_id": "200543",
+          "brand_reply_text_raw": "@163321 @824 Hi Danny. Which flight are you having a problem with? *ALS",
+          "brand_reply_text_clean": "Hi Danny. Which flight are you having a problem with? *ALS",
+          "created_at": "Wed Oct 04 19:42:49 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.9256777573281106
+        },
+        {
+          "customer_tweet_id": "1302490",
+          "customer_text_raw": "Congratulations @delta!  You have created an annoying cast system. Crummy seat for a sky miles member. :-(",
+          "customer_text_clean": "Congratulations ! You have created an annoying cast system. Crummy seat for a sky miles member. :-(",
+          "brand_reply_tweet_id": "1302489",
+          "brand_reply_text_raw": "@424393 I am sorry for the disappointment this morning. Is there anything I can do to help? *TBW",
+          "brand_reply_text_clean": "I am sorry for the disappointment this morning. Is there anything I can do to help? *TBW",
+          "created_at": "Mon Oct 16 09:54:17 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8732348863105911
+        },
+        {
+          "customer_tweet_id": "606352",
+          "customer_text_raw": "@Delta if you\u2019re in basic economy and if they\u2019re are seats left....can I change it",
+          "customer_text_clean": "if you\u2019re in basic economy and if they\u2019re are seats left....can I change it",
+          "brand_reply_tweet_id": "606351",
+          "brand_reply_text_raw": "@224056 Hi, yes you may change your seat assignment if you are within the guidelines of the rule of a Basic Economy fare and seats are available.  *TDH",
+          "brand_reply_text_clean": "Hi, yes you may change your seat assignment if you are within the guidelines of the rule of a Basic Economy fare and seats are available. *TDH",
+          "created_at": "Wed Nov 22 11:24:40 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8675172807222373
+        }
+      ],
+      "reply": "Hi Danny. Which flight had the seat change? *ALS",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "Very confident, as the reply mirrors the exact tone and content of the most similar prior response."
+    },
+    {
+      "example_id": "2157846",
+      "customer_text_clean": "Ive been trying to change a reservation for the past hour. Tried website but wont load payment page. Tried APP but keeps saying it can't process. Called and 2hour wait!! WTH?",
+      "true_intent": "BOOKING_CHANGE",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "780075",
+          "customer_text_raw": "Your website won't let me book a flight with an eCredit, and there is a TWO HOUR hold time to speak to someone? @824",
+          "customer_text_clean": "Your website won't let me book a flight with an eCredit, and there is a TWO HOUR hold time to speak to someone?",
+          "brand_reply_tweet_id": "780074",
+          "brand_reply_text_raw": "@306249 Hi, Matt. Our apologies for the delayed response. Please let us know if assistance is still needed. *ABN",
+          "brand_reply_text_clean": "Hi, Matt. Our apologies for the delayed response. Please let us know if assistance is still needed. *ABN",
+          "created_at": "Thu Oct 12 05:39:54 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8790931424495051
+        },
+        {
+          "customer_tweet_id": "418844",
+          "customer_text_raw": "@delta Is your booking and website down??",
+          "customer_text_clean": "Is your booking and website down??",
+          "brand_reply_tweet_id": "418843",
+          "brand_reply_text_raw": "@214897 We have gotten reports of the issue, Brian. Our page should be back momentarily. Our apologies for the inconvenience.  *ALA",
+          "brand_reply_text_clean": "We have gotten reports of the issue, Brian. Our page should be back momentarily. Our apologies for the inconvenience. *ALA",
+          "created_at": "Tue Oct 10 04:52:27 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8770832733945093
+        },
+        {
+          "customer_tweet_id": "982159",
+          "customer_text_raw": "@Delta sorry, reservation is G8J4BZ. Please help.Thanks",
+          "customer_text_clean": "sorry, reservation is G8J4BZ. Please help.Thanks",
+          "brand_reply_tweet_id": "982158",
+          "brand_reply_text_raw": "@352881 I am showing that there are 9 people on this reservation. *TBW",
+          "brand_reply_text_clean": "I am showing that there are 9 people on this reservation. *TBW",
+          "created_at": "Sun Oct 22 14:18:28 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8733773798551073
+        }
+      ],
+      "reply": "Hi, thanks for reaching out. We\u2019re sorry you\u2019re having trouble with our website and app, and that the call wait was so long. We\u2019re aware of the issue and are working to fix it. Please DM us your reservation number so we can change it for you right away. Thanks for your patience!",
+      "grounding_source_indices": [
+        0,
+        1
+      ],
+      "confidence_note": "I am confident the reply follows Delta\u2019s prior responses to website and app downtime and long wait times."
+    },
+    {
+      "example_id": "416801",
+      "customer_text_clean": "How does my luggage end up on a flight to Mexico when I\u2019m going to Jamaica from Atlanta???",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "250126",
+          "customer_text_raw": "We need free drinks in the air! Flight 727 out of Atlanta to Jamaica! ASAP! \n@Delta",
+          "customer_text_clean": "We need free drinks in the air! Flight 727 out of Atlanta to Jamaica! ASAP!",
+          "brand_reply_tweet_id": "250125",
+          "brand_reply_text_raw": "@175432 Hi. We are so sorry for the delay. They are obtaining another aircraft for your flight. \u2708 *TMS",
+          "brand_reply_text_clean": "Hi. We are so sorry for the delay. They are obtaining another aircraft for your flight. \u2708 *TMS",
+          "created_at": "Thu Oct 05 17:13:01 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.857189124532837
+        },
+        {
+          "customer_tweet_id": "2666152",
+          "customer_text_raw": "Are MQMs counted for the CY purchased, or the CY they\u2019re flown? @delta",
+          "customer_text_clean": "Are MQMs counted for the CY purchased, or the CY they\u2019re flown?",
+          "brand_reply_tweet_id": "2666151",
+          "brand_reply_text_raw": "@349491 They are counted once travel has commenced.  *ACJ",
+          "brand_reply_text_clean": "They are counted once travel has commenced. *ACJ",
+          "created_at": "Sun Nov 26 22:11:39 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8537909526740732
+        },
+        {
+          "customer_tweet_id": "2223477",
+          "customer_text_raw": "@Delta I\u2019m travelling from the UK to Columbus taking a connecting flight, will my luggage be transferred to my final destination?",
+          "customer_text_clean": "I\u2019m travelling from the UK to Columbus taking a connecting flight, will my luggage be transferred to my final destination?",
+          "brand_reply_tweet_id": "2223476",
+          "brand_reply_text_raw": "@649284 Hi Chloe! We will check your baggage to your final destination.  *AJR",
+          "brand_reply_text_clean": "Hi Chloe! We will check your baggage to your final destination. *AJR",
+          "created_at": "Fri Nov 10 14:25:05 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8505997315824065
+        }
+      ],
+      "reply": "Hi! We\u2019re sorry to hear that. We\u2019ll check your baggage and make sure it\u2019s on the correct flight to Jamaica. Please DM us your confirmation number so we can look into it.",
+      "grounding_source_indices": [
+        2
+      ],
+      "confidence_note": "I am highly confident that Example 2 is the most relevant precedent for a baggage transfer issue and the reply follows the same style and content."
+    },
+    {
+      "example_id": "363790",
+      "customer_text_clean": "Possible to refund a non-refundable ticket due to a terrible incident? was bought over a month ago for flight in January",
+      "true_intent": "REFUND_COMPENSATION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "401749",
+          "customer_text_raw": "@Delta Are you flying to SJU? If so what's the delay for a return flight once tickets are purchased?",
+          "customer_text_clean": "Are you flying to SJU? If so what's the delay for a return flight once tickets are purchased?",
+          "brand_reply_tweet_id": "401748",
+          "brand_reply_text_raw": "@210075 I'm not sure that I understand when you say what is the delay for a return flight once a ticket is purchased. Pls clarify.  *HJB",
+          "brand_reply_text_clean": "I'm not sure that I understand when you say what is the delay for a return flight once a ticket is purchased. Pls clarify. *HJB",
+          "created_at": "Mon Oct 09 19:21:22 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8604805350173421
+        },
+        {
+          "customer_tweet_id": "1910408",
+          "customer_text_raw": "@824 please give an update on flight #6081. This is awful",
+          "customer_text_clean": "please give an update on flight #6081. This is awful",
+          "brand_reply_tweet_id": "1910406",
+          "brand_reply_text_raw": "@569118 My info shows DL 6081 today has an estimated departure time of 7:15 pm. *TMT",
+          "brand_reply_text_clean": "My info shows DL 6081 today has an estimated departure time of 7:15 pm. *TMT",
+          "created_at": "Wed Nov 08 01:35:19 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8560865185452367
+        },
+        {
+          "customer_tweet_id": "284949",
+          "customer_text_raw": "Sorry @Delta, but your customer service is an absolute joke. Tried to rebook flights due to #irma and no one knows what\u2019s what.",
+          "customer_text_clean": "Sorry , but your customer service is an absolute joke. Tried to rebook flights due to #irma and no one knows what\u2019s what.",
+          "brand_reply_tweet_id": "284948",
+          "brand_reply_text_raw": "@183888 Hello, Nicklas. Sorry for the inconvenience. If you need any help, let us know.  *ARD",
+          "brand_reply_text_clean": "Hello, Nicklas. Sorry for the inconvenience. If you need any help, let us know. *ARD",
+          "created_at": "Fri Oct 06 13:58:37 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.855516681646239
+        }
+      ],
+      "reply": "Hello, sorry to hear about your situation. For a refund request, please DM us your booking confirmation number and details and we\u2019ll review it.",
+      "grounding_source_indices": [],
+      "confidence_note": "Low confidence as no precedent covers refund requests, but the reply follows a generic acknowledgment style consistent with Delta\u2019s tone."
+    },
+    {
+      "example_id": "459167",
+      "customer_text_clean": "how can I redeem my companion certificate or make sure that I am eligible for one?",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "801753",
+          "customer_text_raw": "@Delta the companion certificate search engine is searching paid fares, not certificate availability. Help?",
+          "customer_text_clean": "the companion certificate search engine is searching paid fares, not certificate availability. Help?",
+          "brand_reply_tweet_id": "801752",
+          "brand_reply_text_raw": "@311046 You may contact our Online Customer Support Desk at 888 750 3284 for assistance. *ALS",
+          "brand_reply_text_clean": "You may contact our Online Customer Support Desk at 888 750 3284 for assistance. *ALS",
+          "created_at": "Thu Oct 12 16:10:12 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8576949595359449
+        },
+        {
+          "customer_tweet_id": "982159",
+          "customer_text_raw": "@Delta sorry, reservation is G8J4BZ. Please help.Thanks",
+          "customer_text_clean": "sorry, reservation is G8J4BZ. Please help.Thanks",
+          "brand_reply_tweet_id": "982158",
+          "brand_reply_text_raw": "@352881 I am showing that there are 9 people on this reservation. *TBW",
+          "brand_reply_text_clean": "I am showing that there are 9 people on this reservation. *TBW",
+          "created_at": "Sun Oct 22 14:18:28 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8570514178340876
+        },
+        {
+          "customer_tweet_id": "298507",
+          "customer_text_raw": "@Delta Hi, your website is not working, do you know When it Will be repaired ? I cannot book my flight",
+          "customer_text_clean": "Hi, your website is not working, do you know When it Will be repaired ? I cannot book my flight",
+          "brand_reply_tweet_id": "298506",
+          "brand_reply_text_raw": "@187127 Are you receiving an error message when trying to book online.  *HKS",
+          "brand_reply_text_clean": "Are you receiving an error message when trying to book online. *HKS",
+          "created_at": "Fri Oct 06 19:43:56 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8467476681518988
+        }
+      ],
+      "reply": "You can redeem your companion certificate or check eligibility by contacting our Online Customer Support Desk at 888\u2011750\u20113284. They can guide you through the process.",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "I am fairly confident that this reply aligns with Delta's prior approach to companion certificate inquiries."
+    },
+    {
+      "example_id": "2541909",
+      "customer_text_clean": "why is the seat I pick changed with no heads up? 2nd time in 3 flights this has happened. Unacceptable.",
+      "true_intent": "BOOKING_CHANGE",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "452148",
+          "customer_text_raw": "@delta you assigned me a seat that doesn't recline. How do I get a partial refund or credit?",
+          "customer_text_clean": "you assigned me a seat that doesn't recline. How do I get a partial refund or credit?",
+          "brand_reply_tweet_id": "452146",
+          "brand_reply_text_raw": "@222253 Hi, Adam. Thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances.  *AST",
+          "brand_reply_text_clean": "Hi, Adam. Thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances. *AST",
+          "created_at": "Thu Nov 30 22:28:21 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8733672928743258
+        },
+        {
+          "customer_tweet_id": "1642133",
+          "customer_text_raw": "When @Delta forces you to check in a bag cause you only allowed 2. My third \"bag\" was a plastic bag with a sandwhich for the flight \ud83d\ude44\ud83d\ude24\ud83e\udd26\ud83c\udffc\u200d\u2640\ufe0f https://t.co/RG3FBtI0pN",
+          "customer_text_clean": "When forces you to check in a bag cause you only allowed 2. My third \"bag\" was a plastic bag with a sandwhich for the flight \ud83d\ude44\ud83d\ude24\ud83e\udd26\ud83c\udffc\u200d\u2640\ufe0f",
+          "brand_reply_tweet_id": "1642131",
+          "brand_reply_text_raw": "@501968 Please see the attached link for approved carry-ons and extra items. https://t.co/aGzPDdhtWv *TMT",
+          "brand_reply_text_clean": "Please see the attached link for approved carry-ons and extra items. *TMT",
+          "created_at": "Mon Nov 06 00:15:50 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8730799889417198
+        },
+        {
+          "customer_tweet_id": "2937184",
+          "customer_text_raw": "@Delta you need to check the quality of your seats! I can\u2019t recline it \ud83d\ude12 #DL1472 21E https://t.co/5hiSXvFHHI",
+          "customer_text_clean": "you need to check the quality of your seats! I can\u2019t recline it \ud83d\ude12 #DL1472 21E",
+          "brand_reply_tweet_id": "2937183",
+          "brand_reply_text_raw": "@811941 Hi Gabriela, I'm very sorry your seat recline is not working. Thank you for letting us know. I will pass this on to cabin service.  *TJW",
+          "brand_reply_text_clean": "Hi Gabriela, I'm very sorry your seat recline is not working. Thank you for letting us know. I will pass this on to cabin service. *TJW",
+          "created_at": "Wed Nov 29 11:50:37 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8723061148245458
+        }
+      ],
+      "reply": "Hi, I\u2019m very sorry your seat assignment changed without notice. Thank you for letting us know. I\u2019ll forward your feedback to cabin service so they can look into it. If you need to change your seat again, let us know and we\u2019ll help. *TJW",
+      "grounding_source_indices": [
+        2
+      ],
+      "confidence_note": "I\u2019m confident this reply appropriately reflects Delta\u2019s tone and approach from the relevant precedent (Example 2)."
+    },
+    {
+      "example_id": "396186",
+      "customer_text_clean": "My husband just boarded his flight for Chicago. We paid extra for extra legroom. They made him move to a regular seat. Refund?",
+      "true_intent": "REFUND_COMPENSATION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "452148",
+          "customer_text_raw": "@delta you assigned me a seat that doesn't recline. How do I get a partial refund or credit?",
+          "customer_text_clean": "you assigned me a seat that doesn't recline. How do I get a partial refund or credit?",
+          "brand_reply_tweet_id": "452146",
+          "brand_reply_text_raw": "@222253 Hi, Adam. Thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances.  *AST",
+          "brand_reply_text_clean": "Hi, Adam. Thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances. *AST",
+          "created_at": "Thu Nov 30 22:28:21 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8536335941692617
+        },
+        {
+          "customer_tweet_id": "825577",
+          "customer_text_raw": "@824 agent said my checked bag would get on earlier flight, so I paid $75 to change. Bag didn\u2019t make it. Can you refund my $75?",
+          "customer_text_clean": "agent said my checked bag would get on earlier flight, so I paid $75 to change. Bag didn\u2019t make it. Can you refund my $75?",
+          "brand_reply_tweet_id": "825575",
+          "brand_reply_text_raw": "@316627 ...earlier flight. I'm unable to refund the fee that you have paid as you traveled on the earlier flight.  *HDG 2/2",
+          "brand_reply_text_clean": "...earlier flight. I'm unable to refund the fee that you have paid as you traveled on the earlier flight. *HDG 2/2",
+          "created_at": "Fri Oct 13 00:48:48 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8500893640597382
+        },
+        {
+          "customer_tweet_id": "1254651",
+          "customer_text_raw": "Also @Delta, paid $650 for tix (JFK LAX RT) and told not eligible for $75 same day change bc this was \"deep discount.\" Seriously?",
+          "customer_text_clean": "Also , paid $650 for tix (JFK LAX RT) and told not eligible for $75 same day change bc this was \"deep discount.\" Seriously?",
+          "brand_reply_tweet_id": "1254650",
+          "brand_reply_text_raw": "@414284 That's correct, Scott. Certain lower fares aren't eligible for same day change. *ABN",
+          "brand_reply_text_clean": "That's correct, Scott. Certain lower fares aren't eligible for same day change. *ABN",
+          "created_at": "Thu Oct 26 06:53:49 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8489751505649507
+        }
+      ],
+      "reply": "Hi, thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances.",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "I\u2019m fairly confident this reply aligns with the precedent example regarding seat changes and refunds."
+    },
+    {
+      "example_id": "2653474",
+      "customer_text_clean": "That feel when you had a shit time on your last flight so you're worried about your next one which only has 40 minutes between connections and their big advice is to pay to upgrade your seat to make sure you can get off faster.",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2413288",
+          "customer_text_raw": "@Delta you might want to improve your baggage services. Landed an hour ago still waiting for the bags.....",
+          "customer_text_clean": "you might want to improve your baggage services. Landed an hour ago still waiting for the bags.....",
+          "brand_reply_tweet_id": "2413287",
+          "brand_reply_text_raw": "@693755 Brett, I am very sorry to hear that there has been such a delay in sending out the bags. We are working had to get your bags to you. *TBW",
+          "brand_reply_text_clean": "Brett, I am very sorry to hear that there has been such a delay in sending out the bags. We are working had to get your bags to you. *TBW",
+          "created_at": "Tue Nov 14 17:13:18 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8520362812349214
+        },
+        {
+          "customer_tweet_id": "2094896",
+          "customer_text_raw": "shout out to @Delta changed my flight not once but TWICE without notifying us, which led to an extra $1200 to pay, and when i called to fix seats, after holding for 53 minutes, the representative said she \"didnt want to deal with this\" and hung up on me.",
+          "customer_text_clean": "shout out to changed my flight not once but TWICE without notifying us, which led to an extra $1200 to pay, and when i called to fix seats, after holding for 53 minutes, the representative said she \"didnt want to deal with this\" and hung up on me.",
+          "brand_reply_tweet_id": "2094894",
+          "brand_reply_text_raw": "@618912 HI, Dakota. I'm sorry for any frustration you've experienced. How may I assist you tonight? *ALY",
+          "brand_reply_text_clean": "HI, Dakota. I'm sorry for any frustration you've experienced. How may I assist you tonight? *ALY",
+          "created_at": "Wed Nov 08 04:38:00 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8447040136253889
+        },
+        {
+          "customer_tweet_id": "1547109",
+          "customer_text_raw": "What happened to seat upgrades being applied at flight check in @Delta??",
+          "customer_text_clean": "What happened to seat upgrades being applied at flight check in ??",
+          "brand_reply_tweet_id": "1547110",
+          "brand_reply_text_raw": "@291603 Hi Michael. If seats are available, Medallions will be upgraded based on status. This can occur before, during or after check in. *HTP",
+          "brand_reply_text_clean": "Hi Michael. If seats are available, Medallions will be upgraded based on status. This can occur before, during or after check in. *HTP",
+          "created_at": "Fri Oct 20 00:46:31 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8439264281223926
+        }
+      ],
+      "reply": "Hi there. We\u2019re sorry to hear about the short connection and your concerns. If seats are available, upgrades can be applied based on status before, during or after check\u2011in. If you\u2019d like help checking availability or arranging an upgrade, please DM us your confirmation number.",
+      "grounding_source_indices": [
+        2
+      ],
+      "confidence_note": "I\u2019m confident this reply is consistent with the style and policy details provided in Example 2."
+    },
+    {
+      "example_id": "951150",
+      "customer_text_clean": "thank you for being accomodating in changing my daughter\u2019s flight! You rock and so does Stacy the rep!",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "1956759",
+          "customer_text_raw": "@Delta Thank you for taking care of my little girl! https://t.co/bWYuaqHsvK",
+          "customer_text_clean": "Thank you for taking care of my little girl!",
+          "brand_reply_tweet_id": "1956758",
+          "brand_reply_text_raw": "@580676 Hi, Sarah, thank you for sharing such a beautiful story it brings tears to my eyes. I'm so happy to hear we took care of your girl.  *TRR",
+          "brand_reply_text_clean": "Hi, Sarah, thank you for sharing such a beautiful story it brings tears to my eyes. I'm so happy to hear we took care of your girl. *TRR",
+          "created_at": "Mon Oct 30 17:58:13 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8428528149329818
+        },
+        {
+          "customer_tweet_id": "171231",
+          "customer_text_raw": "Shout out to @Delta for being so wonderful and understanding and helping me change my flight to see my mother for Christmas\u2764\ufe0f",
+          "customer_text_clean": "Shout out to for being so wonderful and understanding and helping me change my flight to see my mother for Christmas\u2764\ufe0f",
+          "brand_reply_tweet_id": "171230",
+          "brand_reply_text_raw": "@155956 You are very welcome. Enjoy the holidays. \u2708 *AMC",
+          "brand_reply_text_clean": "You are very welcome. Enjoy the holidays. \u2708 *AMC",
+          "created_at": "Fri Nov 24 22:09:58 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8402284829881526
+        },
+        {
+          "customer_tweet_id": "256808",
+          "customer_text_raw": "@Delta you are amazing! https://t.co/sg6vuxJVoJ",
+          "customer_text_clean": "you are amazing!",
+          "brand_reply_tweet_id": "256807",
+          "brand_reply_text_raw": "@177069 You're the amazing ones! Thanks for sharing. \ud83d\ude0a *TJE",
+          "brand_reply_text_clean": "You're the amazing ones! Thanks for sharing. \ud83d\ude0a *TJE",
+          "created_at": "Thu Oct 05 19:21:06 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.838571748823802
+        }
+      ],
+      "reply": "You\u2019re very welcome! Stacy\u2019s thrilled you\u2019re happy. Enjoy the trip, and we\u2019re here if you need anything else. \u2708 *AMC",
+      "grounding_source_indices": [
+        1
+      ],
+      "confidence_note": "I\u2019m confident this reply aligns with the style and content of Example 1, which addresses flight changes and a rep\u2019s name."
+    },
+    {
+      "example_id": "806930",
+      "customer_text_clean": "Thanks for the flight from DCA to ATL. One more to reach home.",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "399261",
+          "customer_text_raw": "@delta, Karen and crew were outstanding NRT-ATL today. Always a pleasure to return home on DL after a long trip overseas.",
+          "customer_text_clean": ", Karen and crew were outstanding NRT-ATL today. Always a pleasure to return home on DL after a long trip overseas.",
+          "brand_reply_tweet_id": "399260",
+          "brand_reply_text_raw": "@210395 We're proud of them too. Thanks for being a loyal Diamond Medallion/Million Miler. I will let their leadership teams know. *HJH",
+          "brand_reply_text_clean": "We're proud of them too. Thanks for being a loyal Diamond Medallion/Million Miler. I will let their leadership teams know. *HJH",
+          "created_at": "Tue Oct 17 20:46:59 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8645489771087707
+        },
+        {
+          "customer_tweet_id": "1695622",
+          "customer_text_raw": "On earlier flight home!  Thanks Daysi at DCA. @Delta",
+          "customer_text_clean": "On earlier flight home! Thanks Daysi at DCA.",
+          "brand_reply_tweet_id": "1695621",
+          "brand_reply_text_raw": "@514417 Safe travels~ *ALS",
+          "brand_reply_text_clean": "Safe travels~ *ALS",
+          "created_at": "Tue Oct 17 17:10:11 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8618349087812452
+        },
+        {
+          "customer_tweet_id": "1103851",
+          "customer_text_raw": "Hats off to @Delta Supervsr Francisco Cortes at ATL, who recovered a laptop I left @ the gate, called me @ home that night to get it to me.",
+          "customer_text_clean": "Hats off to Supervsr Francisco Cortes at ATL, who recovered a laptop I left @ the gate, called me @ home that night to get it to me.",
+          "brand_reply_tweet_id": "1103850",
+          "brand_reply_text_raw": "@380485 Thanks for the shout-out, Lisa! Glad to hear that. Please feel free to tweet us if you need us! *AJC",
+          "brand_reply_text_clean": "Thanks for the shout-out, Lisa! Glad to hear that. Please feel free to tweet us if you need us! *AJC",
+          "created_at": "Mon Oct 23 23:55:17 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8556159110022554
+        }
+      ],
+      "reply": "Safe travels~ *ALS",
+      "grounding_source_indices": [
+        1
+      ],
+      "confidence_note": "Very confident, as the reply mirrors a directly similar past response."
+    },
+    {
+      "example_id": "2382720",
+      "customer_text_clean": "Flight DL1699 on 4thNov. Was not allowed to board the flight even though I was before 15 minutes before. Overcharged me 75USD for the next flight after 4 hours. Need a refund! #poorservice",
+      "true_intent": "REFUND_COMPENSATION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2731651",
+          "customer_text_raw": "@Delta $75 to get on an earlier flight, really?! How does that make sense?",
+          "customer_text_clean": "$75 to get on an earlier flight, really?! How does that make sense?",
+          "brand_reply_tweet_id": "2731650",
+          "brand_reply_text_raw": "@765754 Hi, Frannie. Our Same Day Confirmed or Same Day Standby program allows changes for a fee of $75. The alternative is to pay the change fee that is on your ticket plus the difference in fare if you have a changeable ticket.  *AJL",
+          "brand_reply_text_clean": "Hi, Frannie. Our Same Day Confirmed or Same Day Standby program allows changes for a fee of $75. The alternative is to pay the change fee that is on your ticket plus the difference in fare if you have a changeable ticket. *AJL",
+          "created_at": "Mon Nov 20 15:31:45 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8696796206103077
+        },
+        {
+          "customer_tweet_id": "1410986",
+          "customer_text_raw": "@824 could you guys get just 1 flight right?  The 4 hour delay on DL1316 shouldnt surprise me!",
+          "customer_text_clean": "could you guys get just 1 flight right? The 4 hour delay on DL1316 shouldnt surprise me!",
+          "brand_reply_tweet_id": "1410984",
+          "brand_reply_text_raw": "@447946 Hi, Susan. My apologies for the inconvenience we've caused. We are trying our best to get you going asap.  *HDG",
+          "brand_reply_text_clean": "Hi, Susan. My apologies for the inconvenience we've caused. We are trying our best to get you going asap. *HDG",
+          "created_at": "Thu Nov 02 00:46:06 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8612363131647285
+        },
+        {
+          "customer_tweet_id": "2972093",
+          "customer_text_raw": "Was @Delta same day change fee always $75? Jesus. Buying a flight and making changes feel like being indebted to the mob sometimes.",
+          "customer_text_clean": "Was same day change fee always $75? Jesus. Buying a flight and making changes feel like being indebted to the mob sometimes.",
+          "brand_reply_tweet_id": "2972092",
+          "brand_reply_text_raw": "@462268 Hi, Jerome, the same day change fee increased back in March of this year. From $50 to $75. *TSB",
+          "brand_reply_text_clean": "Hi, Jerome, the same day change fee increased back in March of this year. From $50 to $75. *TSB",
+          "created_at": "Thu Nov 30 01:27:33 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8601149449892167
+        }
+      ],
+      "reply": "Hi, @User. I\u2019m sorry you experienced this. Our Same Day Confirmed or Same Day Standby program allows changes for a $75 fee. If you have a changeable ticket you can pay the change fee on the ticket plus the fare difference instead. Please DM us your confirmation number and we\u2019ll review the details together.",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "I\u2019m confident that Example 0 directly informs the tone and content of this reply, as it addresses the $75 change fee and offers a similar response style."
+    },
+    {
+      "example_id": "1053785",
+      "customer_text_clean": "Thanks for the first class upgrade! It\u2019s my son\u2019s first flight... I told him not to let it get to his head!",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "435852",
+          "customer_text_raw": "Thanks for the upgrade to first class @Delta !",
+          "customer_text_clean": "Thanks for the upgrade to first class !",
+          "brand_reply_tweet_id": "435851",
+          "brand_reply_text_raw": "@218532 Enjoy the ride, Kal! :-) *AAB",
+          "brand_reply_text_clean": "Enjoy the ride, Kal! :-) *AAB",
+          "created_at": "Tue Oct 10 16:50:33 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8581646250411163
+        },
+        {
+          "customer_tweet_id": "1745945",
+          "customer_text_raw": "Flying that first class @Delta \ud83d\udc4c\ud83c\udffb",
+          "customer_text_clean": "Flying that first class \ud83d\udc4c\ud83c\udffb",
+          "brand_reply_tweet_id": "1745944",
+          "brand_reply_text_raw": "@526403 What a wonderful way to travel! Enjoy that spacious seat! *TBW",
+          "brand_reply_text_clean": "What a wonderful way to travel! Enjoy that spacious seat! *TBW",
+          "created_at": "Tue Oct 17 20:14:56 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8462800968176232
+        },
+        {
+          "customer_tweet_id": "1227350",
+          "customer_text_raw": "Enjoying @15049 before my flight to #Portland \ud83d\udc4f\ud83c\udffb Second flight today, second #Upgrade THANK YOU @Delta #firstclass #KeepClimbing \u2708\ufe0f",
+          "customer_text_clean": "Enjoying before my flight to #Portland \ud83d\udc4f\ud83c\udffb Second flight today, second #Upgrade THANK YOU #firstclass #KeepClimbing \u2708\ufe0f",
+          "brand_reply_tweet_id": "1227349",
+          "brand_reply_text_raw": "@126374 @15049 You're very welcome :-)  *HRS",
+          "brand_reply_text_clean": "You're very welcome :-) *HRS",
+          "created_at": "Mon Oct 16 00:58:15 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8444973422111055
+        }
+      ],
+      "reply": "Enjoy the ride, and best of luck to your son on his first flight! \u2708\ufe0f *AAB",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "confidence_note": "I am confident in this reply because all three precedent examples involve thanking customers for a first\u2011class upgrade and using a friendly, brief response with the same style and emoji."
+    },
+    {
+      "example_id": "950379",
+      "customer_text_clean": "Can\u2019t wait fo get my \u201cafter your flight\u201d survey for this flight... they\u2019re not gonna like my comments (tho I am pretty sure they don\u2019t actually care...)",
+      "true_intent": "SERVICE_COMPLAINT",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "327818",
+          "customer_text_raw": "@Delta Could you explain why your passengers don't matter to you after they've paid for their flights? \nWe're not even useful to you as bodies in your seats after you have our money.",
+          "customer_text_clean": "Could you explain why your passengers don't matter to you after they've paid for their flights? We're not even useful to you as bodies in your seats after you have our money.",
+          "brand_reply_tweet_id": "327817",
+          "brand_reply_text_raw": "@194160 ...visit our CCT link as soon as you are done with you trip. https://t.co/nRwwhAyc5S *HFG 2/2",
+          "brand_reply_text_clean": "...visit our CCT link as soon as you are done with you trip. *HFG 2/2",
+          "created_at": "Sat Nov 25 03:59:11 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8617429298564583
+        },
+        {
+          "customer_tweet_id": "773881",
+          "customer_text_raw": ".@Delta as a \"valued customer\", you're going to take up to 30 days to respond? On vacation til then? By then I'll be back w/ @116450 https://t.co/80gKxBC3sf",
+          "customer_text_clean": ". as a \"valued customer\", you're going to take up to 30 days to respond? On vacation til then? By then I'll be back w/",
+          "brand_reply_tweet_id": "773880",
+          "brand_reply_text_raw": "@304869 ...case will be reviewed/responded and resolved.  *HAA 2/2",
+          "brand_reply_text_clean": "...case will be reviewed/responded and resolved. *HAA 2/2",
+          "created_at": "Thu Oct 12 01:51:11 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8600350930679506
+        },
+        {
+          "customer_tweet_id": "780075",
+          "customer_text_raw": "Your website won't let me book a flight with an eCredit, and there is a TWO HOUR hold time to speak to someone? @824",
+          "customer_text_clean": "Your website won't let me book a flight with an eCredit, and there is a TWO HOUR hold time to speak to someone?",
+          "brand_reply_tweet_id": "780074",
+          "brand_reply_text_raw": "@306249 Hi, Matt. Our apologies for the delayed response. Please let us know if assistance is still needed. *ABN",
+          "brand_reply_text_clean": "Hi, Matt. Our apologies for the delayed response. Please let us know if assistance is still needed. *ABN",
+          "created_at": "Thu Oct 12 05:39:54 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8594223784592575
+        }
+      ],
+      "reply": "Your feedback matters to us! When you\u2019ve finished your trip, please share your thoughts through our post\u2011flight survey link here: https://\u2026 Thank you for helping us improve.",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "I am fairly confident this reply aligns with the precedent example and Delta\u2019s tone."
+    },
+    {
+      "example_id": "438117",
+      "customer_text_clean": "Great flight from Orlando to Detroit. Thanks . Love the free inflight movies and USB ports. can\u2019t compete with that !",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "438117",
+          "customer_text_raw": "Great flight from Orlando to Detroit. Thanks @Delta. Love the free inflight movies and USB ports. @SouthwestAir can\u2019t compete with that !",
+          "customer_text_clean": "Great flight from Orlando to Detroit. Thanks . Love the free inflight movies and USB ports. can\u2019t compete with that !",
+          "brand_reply_tweet_id": "438116",
+          "brand_reply_text_raw": "@219083 We are so glad to hear that Marc! Free movies are always the best! \ud83c\udfa5 *TJN",
+          "brand_reply_text_clean": "We are so glad to hear that Marc! Free movies are always the best! \ud83c\udfa5 *TJN",
+          "created_at": "Tue Oct 10 17:56:10 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.9251080196195948
+        },
+        {
+          "customer_tweet_id": "894451",
+          "customer_text_raw": "One of my favorite things about connecting on @Delta through Detroit was seeing the beauty of the 747. Will miss you queen of the skies. https://t.co/k5JmqZ28MZ",
+          "customer_text_clean": "One of my favorite things about connecting on through Detroit was seeing the beauty of the 747. Will miss you queen of the skies.",
+          "brand_reply_tweet_id": "894450",
+          "brand_reply_text_raw": "@332376 Nice shot! The Queen will surely be missed. Thanks for choosing to fly with us. *AMC",
+          "brand_reply_text_clean": "Nice shot! The Queen will surely be missed. Thanks for choosing to fly with us. *AMC",
+          "created_at": "Fri Oct 20 21:44:19 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8589827801132652
+        },
+        {
+          "customer_tweet_id": "48641",
+          "customer_text_raw": "Mechanical issues on @Delta plane, cant make honeymoon connection, still in Detroit, support makes us do the work. Nice Platinum service ...",
+          "customer_text_clean": "Mechanical issues on plane, cant make honeymoon connection, still in Detroit, support makes us do the work. Nice Platinum service ...",
+          "brand_reply_tweet_id": "48639",
+          "brand_reply_text_raw": "@126838 Hi. I see that you  have been rebooked.  *AMR",
+          "brand_reply_text_clean": "Hi. I see that you have been rebooked. *AMR",
+          "created_at": "Wed Nov 01 17:06:09 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.858471293143897
+        }
+      ],
+      "reply": "We\u2019re so glad you had a great flight! Free movies are always the best! \ud83c\udfa5",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "High confidence \u2013 the response mirrors the exact approach used in Example 0, which has a similarity of 0.93 to the customer\u2019s message."
+    },
+    {
+      "example_id": "2523726",
+      "customer_text_clean": "Can I carry on snowshoes ?",
+      "true_intent": "POLICY_QUESTION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2873820",
+          "customer_text_raw": "@Delta Hi! I\u2019m flying to London tomorrow. Is 1 rucksack plus a bag full of sweets/clothes (not from the airport) allowed for carry on?",
+          "customer_text_clean": "Hi! I\u2019m flying to London tomorrow. Is 1 rucksack plus a bag full of sweets/clothes (not from the airport) allowed for carry on?",
+          "brand_reply_tweet_id": "2873819",
+          "brand_reply_text_raw": "@797847 Hi Cherrelle. As long as there is are no liquid over 3.4 ounces, you are allowed a carry-on and a personal item at no charge. *TKR",
+          "brand_reply_text_clean": "Hi Cherrelle. As long as there is are no liquid over 3.4 ounces, you are allowed a carry-on and a personal item at no charge. *TKR",
+          "created_at": "Tue Nov 28 04:18:31 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8347330210961535
+        },
+        {
+          "customer_tweet_id": "1554669",
+          "customer_text_raw": "@Delta can i bring a microwave as a carry-on?",
+          "customer_text_clean": "can i bring a microwave as a carry-on?",
+          "brand_reply_tweet_id": "1554670",
+          "brand_reply_text_raw": "@480852 If it meets the dimensions of the standard carry-on size(no larger than 45 linear inches), can fit under the seat in front of you, or in the overhead bin.  *ACJ",
+          "brand_reply_text_clean": "If it meets the dimensions of the standard carry-on size(no larger than 45 linear inches), can fit under the seat in front of you, or in the overhead bin. *ACJ",
+          "created_at": "Sun Nov 26 03:23:13 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8305539171247662
+        },
+        {
+          "customer_tweet_id": "982159",
+          "customer_text_raw": "@Delta sorry, reservation is G8J4BZ. Please help.Thanks",
+          "customer_text_clean": "sorry, reservation is G8J4BZ. Please help.Thanks",
+          "brand_reply_tweet_id": "982158",
+          "brand_reply_text_raw": "@352881 I am showing that there are 9 people on this reservation. *TBW",
+          "brand_reply_text_clean": "I am showing that there are 9 people on this reservation. *TBW",
+          "created_at": "Sun Oct 22 14:18:28 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.828892048959568
+        }
+      ],
+      "reply": "If your snowshoes meet the dimensions of the standard carry\u2011on size (no larger than 45 linear inches), they can be brought in the cabin; they must fit under the seat in front of you, or in the overhead bin. *ACJ",
+      "grounding_source_indices": [
+        1
+      ],
+      "confidence_note": "I am confident in this reply because it directly mirrors the response given for a similar carry\u2011on item in Example 1."
+    },
+    {
+      "example_id": "877851",
+      "customer_text_clean": "Rather an ordeal for us to make sched BOS-LAS trip w/ a few unhelpful agents but grateful for help from Mike Lania (a real \ud83c\udf1f) in BOS",
+      "true_intent": "SERVICE_COMPLAINT",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "200640",
+          "customer_text_raw": "@Delta Traveling causes unexpected surprises https://t.co/RICYEGhrA7",
+          "customer_text_clean": "Traveling causes unexpected surprises",
+          "brand_reply_tweet_id": "200639",
+          "brand_reply_text_raw": "@163352 Awesome photo, Maggie. Thanks for sharing.  *TJF",
+          "brand_reply_text_clean": "Awesome photo, Maggie. Thanks for sharing. *TJF",
+          "created_at": "Wed Oct 04 18:42:22 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8126223751593578
+        },
+        {
+          "customer_tweet_id": "1423123",
+          "customer_text_raw": "i need assistance @Delta",
+          "customer_text_clean": "i need assistance",
+          "brand_reply_tweet_id": "1423121",
+          "brand_reply_text_raw": "@450706 Hi there. How can we assist? *ALA",
+          "brand_reply_text_clean": "Hi there. How can we assist? *ALA",
+          "created_at": "Thu Nov 02 09:30:07 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8036989847657822
+        },
+        {
+          "customer_tweet_id": "616639",
+          "customer_text_raw": "Hey @Delta, shout out to your amazing gate agent Isabel at LAX (gate 32 DL 129) who was just super helpful &amp; helped make our day better.",
+          "customer_text_clean": "Hey , shout out to your amazing gate agent Isabel at LAX (gate 32 DL 129) who was just super helpful &amp; helped make our day better.",
+          "brand_reply_tweet_id": "616638",
+          "brand_reply_text_raw": "@266316 It will be my pleasure! I will send this right over to our leadership team at LAX airport.  *HYC",
+          "brand_reply_text_clean": "It will be my pleasure! I will send this right over to our leadership team at LAX airport. *HYC",
+          "created_at": "Thu Nov 02 20:55:58 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8029242193823178
+        }
+      ],
+      "reply": "It will be my pleasure! I will send this right over to our leadership team at BOS. *HYC",
+      "grounding_source_indices": [
+        2
+      ],
+      "confidence_note": "High confidence that this reply follows Delta's past approach to praising a helpful agent."
+    },
+    {
+      "example_id": "1225906",
+      "customer_text_clean": "Hey can you confirm that when booking a flight Heathrow to JFK that 1 bag is included for each passnger in the cost of the flight",
+      "true_intent": "POLICY_QUESTION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "24603",
+          "customer_text_raw": "@Delta Just to make sure, this price is for all three flights? Of just 1 of them? https://t.co/NNABN16oxC",
+          "customer_text_clean": "Just to make sure, this price is for all three flights? Of just 1 of them?",
+          "brand_reply_tweet_id": "24602",
+          "brand_reply_text_raw": "@121305 Hi. That is the total for all three segments at the time you sent this screen shot. *ALY",
+          "brand_reply_text_clean": "Hi. That is the total for all three segments at the time you sent this screen shot. *ALY",
+          "created_at": "Wed Nov 01 09:14:46 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8573960968481151
+        },
+        {
+          "customer_tweet_id": "1226677",
+          "customer_text_raw": "@Delta Hi there. I am about to book a flight SFO - JFK, do I pay for my checked bag online now or do I pay for it on the day at the airport? Thanks!",
+          "customer_text_clean": "Hi there. I am about to book a flight SFO - JFK, do I pay for my checked bag online now or do I pay for it on the day at the airport? Thanks!",
+          "brand_reply_tweet_id": "1226676",
+          "brand_reply_text_raw": "@407787 ...you can pay at the airport. *TCC 2/2",
+          "brand_reply_text_clean": "...you can pay at the airport. *TCC 2/2",
+          "created_at": "Wed Oct 25 19:43:28 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8533314596607453
+        },
+        {
+          "customer_tweet_id": "1069048",
+          "customer_text_raw": "@Delta can I use a backpack as my personal item on one of your flights?",
+          "customer_text_clean": "can I use a backpack as my personal item on one of your flights?",
+          "brand_reply_tweet_id": "1069047",
+          "brand_reply_text_raw": "@372275 A personal item would be a small purse, briefcase, camera bag, laptop, etc.  https://t.co/aGzPDdhtWv. *ALS",
+          "brand_reply_text_clean": "A personal item would be a small purse, briefcase, camera bag, laptop, etc. *ALS",
+          "created_at": "Mon Oct 23 15:37:03 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8530812501121636
+        }
+      ],
+      "reply": "Thank you for reaching out! To confirm baggage details for your Heathrow to JFK flight, please visit your booking details or contact our reservations team directly. If you need assistance, feel free to DM us your confirmation number.",
+      "grounding_source_indices": [],
+      "confidence_note": "No direct precedent found; providing a safe, general response instead."
+    },
+    {
+      "example_id": "841378",
+      "customer_text_clean": "why charge me for a seat that is not available and not already refund my money",
+      "true_intent": "REFUND_COMPENSATION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "452148",
+          "customer_text_raw": "@delta you assigned me a seat that doesn't recline. How do I get a partial refund or credit?",
+          "customer_text_clean": "you assigned me a seat that doesn't recline. How do I get a partial refund or credit?",
+          "brand_reply_tweet_id": "452146",
+          "brand_reply_text_raw": "@222253 Hi, Adam. Thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances.  *AST",
+          "brand_reply_text_clean": "Hi, Adam. Thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances. *AST",
+          "created_at": "Thu Nov 30 22:28:21 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8922107015714937
+        },
+        {
+          "customer_tweet_id": "2094896",
+          "customer_text_raw": "shout out to @Delta changed my flight not once but TWICE without notifying us, which led to an extra $1200 to pay, and when i called to fix seats, after holding for 53 minutes, the representative said she \"didnt want to deal with this\" and hung up on me.",
+          "customer_text_clean": "shout out to changed my flight not once but TWICE without notifying us, which led to an extra $1200 to pay, and when i called to fix seats, after holding for 53 minutes, the representative said she \"didnt want to deal with this\" and hung up on me.",
+          "brand_reply_tweet_id": "2094894",
+          "brand_reply_text_raw": "@618912 HI, Dakota. I'm sorry for any frustration you've experienced. How may I assist you tonight? *ALY",
+          "brand_reply_text_clean": "HI, Dakota. I'm sorry for any frustration you've experienced. How may I assist you tonight? *ALY",
+          "created_at": "Wed Nov 08 04:38:00 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8832350645550573
+        },
+        {
+          "customer_tweet_id": "2427860",
+          "customer_text_raw": "Hey @Delta, first I couldn't choose seats, then I try to PAY YOU and you won't let me. Now you don't get my $363. Get your shit together. https://t.co/oBSuUqG8xG",
+          "customer_text_clean": "Hey , first I couldn't choose seats, then I try to PAY YOU and you won't let me. Now you don't get my $363. Get your shit together.",
+          "brand_reply_tweet_id": "2427859",
+          "brand_reply_text_raw": "@697099 Hi, Matt. Thanks for reaching out via this channel. Fares are never guaranteed until paid for. Feel free to contact our Online Support Team at 1(888)750-3284.  *AST",
+          "brand_reply_text_clean": "Hi, Matt. Thanks for reaching out via this channel. Fares are never guaranteed until paid for. Feel free to contact our Online Support Team at 1(888)750-3284. *AST",
+          "created_at": "Tue Nov 14 19:48:54 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.880225325124139
+        }
+      ],
+      "reply": "Hi, thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances. Please contact our Online Support Team at 1(888)750-3284 for assistance. *AST",
+      "grounding_source_indices": [
+        0,
+        2
+      ],
+      "confidence_note": "I am confident that this reply accurately reflects the tone and content of the provided precedent examples."
+    },
+    {
+      "example_id": "2049167",
+      "customer_text_clean": "I had two stunningly good customer service service experiences today. Surprised and grateful.",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2544193",
+          "customer_text_raw": "@Delta thank you for your superb customer service today!",
+          "customer_text_clean": "thank you for your superb customer service today!",
+          "brand_reply_tweet_id": "2544192",
+          "brand_reply_text_raw": "@657178 Good morning, Julie. Thank you so very much for the accolades! I hope you have a great day. *TRR",
+          "brand_reply_text_clean": "Good morning, Julie. Thank you so very much for the accolades! I hope you have a great day. *TRR",
+          "created_at": "Thu Nov 16 13:31:31 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8570344694373996
+        },
+        {
+          "customer_tweet_id": "1098016",
+          "customer_text_raw": "Thank you @Delta for having great customer service on the phone today. Very much appreciated.",
+          "customer_text_clean": "Thank you for having great customer service on the phone today. Very much appreciated.",
+          "brand_reply_tweet_id": "1098015",
+          "brand_reply_text_raw": "@379092 David, you are welcome! Happy to be able to help! *ACJ",
+          "brand_reply_text_clean": "David, you are welcome! Happy to be able to help! *ACJ",
+          "created_at": "Mon Oct 23 22:02:48 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8473772182936748
+        },
+        {
+          "customer_tweet_id": "1484490",
+          "customer_text_raw": "@Delta Great customer service!  Thanks",
+          "customer_text_clean": "Great customer service! Thanks",
+          "brand_reply_tweet_id": "1484489",
+          "brand_reply_text_raw": "@464746 You are welcome! *TCC",
+          "brand_reply_text_clean": "You are welcome! *TCC",
+          "created_at": "Mon Oct 16 21:39:45 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8451416305573998
+        }
+      ],
+      "reply": "Good morning! Thank you so very much for the accolades! We\u2019re thrilled to hear you had two stunningly good customer service experiences today. I hope you have a great day! *TRR",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "Highly confident; matches precedent examples closely."
+    },
+    {
+      "example_id": "2981698",
+      "customer_text_clean": "please send a thanks to Medallion customer service. They helped in a big way today!",
+      "true_intent": "PRAISE_FEEDBACK",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2544193",
+          "customer_text_raw": "@Delta thank you for your superb customer service today!",
+          "customer_text_clean": "thank you for your superb customer service today!",
+          "brand_reply_tweet_id": "2544192",
+          "brand_reply_text_raw": "@657178 Good morning, Julie. Thank you so very much for the accolades! I hope you have a great day. *TRR",
+          "brand_reply_text_clean": "Good morning, Julie. Thank you so very much for the accolades! I hope you have a great day. *TRR",
+          "created_at": "Thu Nov 16 13:31:31 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8639071279250028
+        },
+        {
+          "customer_tweet_id": "2342890",
+          "customer_text_raw": "Thanks @Delta for having the most awesome dedicated #skymiles medallion line representatives. They're always so good! Makes frequent travel a little bit easier :)",
+          "customer_text_clean": "Thanks for having the most awesome dedicated #skymiles medallion line representatives. They're always so good! Makes frequent travel a little bit easier :)",
+          "brand_reply_tweet_id": "2342889",
+          "brand_reply_text_raw": "@151258 Hi, Jill, we appreciate the accolades and appreciate your continued loyalty to us. I hope you have a wonderful day.  *TRR",
+          "brand_reply_text_clean": "Hi, Jill, we appreciate the accolades and appreciate your continued loyalty to us. I hope you have a wonderful day. *TRR",
+          "created_at": "Mon Nov 13 15:01:15 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8544620929728671
+        },
+        {
+          "customer_tweet_id": "1098016",
+          "customer_text_raw": "Thank you @Delta for having great customer service on the phone today. Very much appreciated.",
+          "customer_text_clean": "Thank you for having great customer service on the phone today. Very much appreciated.",
+          "brand_reply_tweet_id": "1098015",
+          "brand_reply_text_raw": "@379092 David, you are welcome! Happy to be able to help! *ACJ",
+          "brand_reply_text_clean": "David, you are welcome! Happy to be able to help! *ACJ",
+          "created_at": "Mon Oct 23 22:02:48 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8519095091115837
+        }
+      ],
+      "reply": "Hi there, thank you for the shout\u2011out! We\u2019re glad our Medallion team could help. Have a wonderful day!",
+      "grounding_source_indices": [
+        1
+      ],
+      "confidence_note": "Highly confident this reply matches the tone and style of the provided precedent."
+    },
+    {
+      "example_id": "269900",
+      "customer_text_clean": "Your website will not allow me to cancel my flight. I called &amp; was in hold for an hour, only to have representative drop my call.",
+      "true_intent": "BOOKING_CHANGE",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "780075",
+          "customer_text_raw": "Your website won't let me book a flight with an eCredit, and there is a TWO HOUR hold time to speak to someone? @824",
+          "customer_text_clean": "Your website won't let me book a flight with an eCredit, and there is a TWO HOUR hold time to speak to someone?",
+          "brand_reply_tweet_id": "780074",
+          "brand_reply_text_raw": "@306249 Hi, Matt. Our apologies for the delayed response. Please let us know if assistance is still needed. *ABN",
+          "brand_reply_text_clean": "Hi, Matt. Our apologies for the delayed response. Please let us know if assistance is still needed. *ABN",
+          "created_at": "Thu Oct 12 05:39:54 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8865063981651052
+        },
+        {
+          "customer_tweet_id": "2263825",
+          "customer_text_raw": "@Delta Why can't i cancel my flight online?",
+          "customer_text_clean": "Why can't i cancel my flight online?",
+          "brand_reply_tweet_id": "2263824",
+          "brand_reply_text_raw": "@659017 Please provide your confirmation number, here, for assistance. I'm happy to take a look at it for you.  *TSL https://t.co/6iDGBJAc2m",
+          "brand_reply_text_clean": "Please provide your confirmation number, here, for assistance. I'm happy to take a look at it for you. *TSL",
+          "created_at": "Sat Nov 11 03:26:38 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8675577407088226
+        },
+        {
+          "customer_tweet_id": "1933138",
+          "customer_text_raw": "@Delta what a shit show. You said you would call names to assign seats, but it\u2019s just a free for all... https://t.co/Irfny1yAH5",
+          "customer_text_clean": "what a shit show. You said you would call names to assign seats, but it\u2019s just a free for all...",
+          "brand_reply_tweet_id": "1933136",
+          "brand_reply_text_raw": "@575241 Hi there. I'm sorry for any inconvenience this may have caused. Pls let us know if we may be of any assistance via this channel. *TKR",
+          "brand_reply_text_clean": "Hi there. I'm sorry for any inconvenience this may have caused. Pls let us know if we may be of any assistance via this channel. *TKR",
+          "created_at": "Sat Oct 28 21:23:00 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8550686967728648
+        }
+      ],
+      "reply": "Hi, sorry to hear you\u2019re having trouble cancelling your flight. Please DM us your confirmation number and we\u2019ll look into it right away. Thanks for reaching out.",
+      "grounding_source_indices": [
+        1
+      ],
+      "confidence_note": "I\u2019m confident this reply follows the style and content of the similar past case (Example\u00a01)."
+    },
+    {
+      "example_id": "1532876",
+      "customer_text_clean": "Been on hold for almost 1 hour while talks to about my ticket credit.. smh",
+      "true_intent": "REFUND_COMPENSATION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "1484456",
+          "customer_text_raw": "@Delta I have an issue with my ticket",
+          "customer_text_clean": "I have an issue with my ticket",
+          "brand_reply_tweet_id": "1484455",
+          "brand_reply_text_raw": "@464736 Hi, Luke. How may we assist you? *ABN",
+          "brand_reply_text_clean": "Hi, Luke. How may we assist you? *ABN",
+          "created_at": "Fri Nov 03 03:23:32 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8853995138156612
+        },
+        {
+          "customer_tweet_id": "569704",
+          "customer_text_raw": "@Delta seriously? a two hour hold time?? what happened to your call back service? #igotalifetolive",
+          "customer_text_clean": "seriously? a two hour hold time?? what happened to your call back service? #igotalifetolive",
+          "brand_reply_tweet_id": "569701",
+          "brand_reply_text_raw": "@253716 I do apologize for the long hold times we're experiencing tonight. How may we help you via this channel? *TAC",
+          "brand_reply_text_clean": "I do apologize for the long hold times we're experiencing tonight. How may we help you via this channel? *TAC",
+          "created_at": "Sun Dec 03 03:12:15 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8722976520765201
+        },
+        {
+          "customer_tweet_id": "2157724",
+          "customer_text_raw": "@Delta your current hold time is between 45 minutes and 1 hour.  No thanks",
+          "customer_text_clean": "your current hold time is between 45 minutes and 1 hour. No thanks",
+          "brand_reply_tweet_id": "2157723",
+          "brand_reply_text_raw": "@633828 I'm sorry Steve, can I help? *TBT",
+          "brand_reply_text_clean": "I'm sorry Steve, can I help? *TBT",
+          "created_at": "Thu Nov 09 04:22:04 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8691889102901703
+        }
+      ],
+      "reply": "I\u2019m sorry for the long hold time you\u2019ve experienced. How can we help you with your ticket credit via this channel? *TAC",
+      "grounding_source_indices": [
+        1,
+        2
+      ],
+      "confidence_note": "Very confident as the reply directly mirrors the tone and apology for hold times in the provided precedents."
+    },
+    {
+      "example_id": "2560926",
+      "customer_text_clean": "joining the many others who get wronged by , waste hours of my life I\u2019ll never get back trying to fix it, &amp; deal with insincere agents &amp; a credit so cheesy it\u2019s more insulting than if I got nothing. #neveragain #backtoAA #idratherwalk #dontwastemytime",
+      "true_intent": "REFUND_COMPENSATION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "536136",
+          "customer_text_raw": "@Delta It\u2019s a shame that you had an opportunity to Win over the customer for a bad experience and chose not to.",
+          "customer_text_clean": "It\u2019s a shame that you had an opportunity to Win over the customer for a bad experience and chose not to.",
+          "brand_reply_tweet_id": "536135",
+          "brand_reply_text_raw": "@239999 I am sorry that we were not able to meet your expectations in handling this situation. Please know that if you do decide to accept the $50.00 voucher the offer still stands. *TBW",
+          "brand_reply_text_clean": "I am sorry that we were not able to meet your expectations in handling this situation. Please know that if you do decide to accept the $50.00 voucher the offer still stands. *TBW",
+          "created_at": "Sat Dec 02 13:14:11 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8460238405635778
+        },
+        {
+          "customer_tweet_id": "1225081",
+          "customer_text_raw": ".@Delta the way u treat your customers is trash.",
+          "customer_text_clean": ". the way u treat your customers is trash.",
+          "brand_reply_tweet_id": "1225080",
+          "brand_reply_text_raw": "@407411 We are sorry to learn you feel this way. Please let us know if there is any way we could assist via Twitter. *AFC https://t.co/6iDGBJAc2m",
+          "brand_reply_text_clean": "We are sorry to learn you feel this way. Please let us know if there is any way we could assist via Twitter. *AFC",
+          "created_at": "Mon Oct 16 01:25:58 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8405170072674156
+        },
+        {
+          "customer_tweet_id": "1894439",
+          "customer_text_raw": "@Delta why do you have the worst customer support team ever?",
+          "customer_text_clean": "why do you have the worst customer support team ever?",
+          "brand_reply_tweet_id": "1894437",
+          "brand_reply_text_raw": "@564719 Hi, Brian. I am sorry you feel that way. May I be able to assist you? *TJF",
+          "brand_reply_text_clean": "Hi, Brian. I am sorry you feel that way. May I be able to assist you? *TJF",
+          "created_at": "Wed Oct 18 12:25:48 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8363100701720346
+        }
+      ],
+      "reply": "We\u2019re sorry you feel this way. Please let us know if there is any way we can assist, or feel free to DM us with more details.",
+      "grounding_source_indices": [
+        1,
+        2
+      ],
+      "confidence_note": "I am confident that this reply follows the tone and approach used in the similar past cases (examples 1 and 2)."
+    },
+    {
+      "example_id": "1103858",
+      "customer_text_clean": "sitting through a long delay for OGG to LAX. Staff is wonderful, pilot is very informative. They're all beyond patient. #impressed",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "2443158",
+          "customer_text_raw": "def had a good flight, @Delta knows how to treat ya. \u263a\ufe0f\ud83d\udee9\ud83c\udf0e",
+          "customer_text_clean": "def had a good flight, knows how to treat ya. \u263a\ufe0f\ud83d\udee9\ud83c\udf0e",
+          "brand_reply_tweet_id": "2443157",
+          "brand_reply_text_raw": "@700581 Great to hear you enjoyed our flight and service! Hope to see you again soon.  *TLT",
+          "brand_reply_text_clean": "Great to hear you enjoyed our flight and service! Hope to see you again soon. *TLT",
+          "created_at": "Tue Nov 14 23:55:31 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8346186189280478
+        },
+        {
+          "customer_tweet_id": "378565",
+          "customer_text_raw": "@Delta Lourdes C. At DTW was very helpful. A 4.5 hr delay after being up for &gt;36 hrs. She listened and helped to make a bad sit. Better. \u2665\ufe0f",
+          "customer_text_clean": "Lourdes C. At DTW was very helpful. A 4.5 hr delay after being up for &gt;36 hrs. She listened and helped to make a bad sit. Better. \u2665\ufe0f",
+          "brand_reply_tweet_id": "378564",
+          "brand_reply_text_raw": "@205835 We appreciate your feedback, Matthew. \ud83d\ude0a *ALA",
+          "brand_reply_text_clean": "We appreciate your feedback, Matthew. \ud83d\ude0a *ALA",
+          "created_at": "Mon Oct 09 05:21:38 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8330660395707821
+        },
+        {
+          "customer_tweet_id": "1917162",
+          "customer_text_raw": "Excellent flight DL3774 @Delta!",
+          "customer_text_clean": "Excellent flight DL3774 !",
+          "brand_reply_tweet_id": "1917161",
+          "brand_reply_text_raw": "@571026 Glad you had such a great experience on your flight today! *TBW",
+          "brand_reply_text_clean": "Glad you had such a great experience on your flight today! *TBW",
+          "created_at": "Sat Nov 25 14:16:34 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8322235453883877
+        }
+      ],
+      "reply": "Thanks for sharing! We're thrilled you enjoyed our flight and the care our crew provided during the delay. Safe travels on your next journey with us! *TLT",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "confidence_note": "High confidence \u2013 the reply closely follows the tone and style seen in the provided examples praising staff and service."
+    },
+    {
+      "example_id": "264919",
+      "customer_text_clean": "wheelchair assistance at DTW severely understaffed this morning. wait a long time.",
+      "true_intent": "SERVICE_COMPLAINT",
+      "retrieved_examples": [
+        {
+          "customer_tweet_id": "264919",
+          "customer_text_raw": "@Delta wheelchair assistance at DTW severely understaffed this morning. wait a long time.",
+          "customer_text_clean": "wheelchair assistance at DTW severely understaffed this morning. wait a long time.",
+          "brand_reply_tweet_id": "264918",
+          "brand_reply_text_raw": "@179114 This isn't good to hear. Thanks for making us aware, Brad. I'll be sure to escalate these concerns to the DTW leadership team asap.  *HJB",
+          "brand_reply_text_clean": "This isn't good to hear. Thanks for making us aware, Brad. I'll be sure to escalate these concerns to the DTW leadership team asap. *HJB",
+          "created_at": "Sat Oct 07 17:29:13 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.9213603149436962
+        },
+        {
+          "customer_tweet_id": "378565",
+          "customer_text_raw": "@Delta Lourdes C. At DTW was very helpful. A 4.5 hr delay after being up for &gt;36 hrs. She listened and helped to make a bad sit. Better. \u2665\ufe0f",
+          "customer_text_clean": "Lourdes C. At DTW was very helpful. A 4.5 hr delay after being up for &gt;36 hrs. She listened and helped to make a bad sit. Better. \u2665\ufe0f",
+          "brand_reply_tweet_id": "378564",
+          "brand_reply_text_raw": "@205835 We appreciate your feedback, Matthew. \ud83d\ude0a *ALA",
+          "brand_reply_text_clean": "We appreciate your feedback, Matthew. \ud83d\ude0a *ALA",
+          "created_at": "Mon Oct 09 05:21:38 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8657045098871432
+        },
+        {
+          "customer_tweet_id": "322106",
+          "customer_text_raw": "What's wrong @Delta ran out of professional development time to train employees?  Now the stewardess says there are no pens? Unbelievable.",
+          "customer_text_clean": "What's wrong ran out of professional development time to train employees? Now the stewardess says there are no pens? Unbelievable.",
+          "brand_reply_tweet_id": "322105",
+          "brand_reply_text_raw": "@192743 I am so sorry to hear you're having such a tough time inflight this morning.  *HPL",
+          "brand_reply_text_clean": "I am so sorry to hear you're having such a tough time inflight this morning. *HPL",
+          "created_at": "Sat Oct 07 13:36:38 +0000 2017",
+          "is_thread_root": true,
+          "is_dm_redirect": false,
+          "similarity_score": 0.8526154811590237
+        }
+      ],
+      "reply": "This isn\u2019t good to hear. Thanks for making us aware. I\u2019ll be sure to elevate these concerns to the DTW leadership team asap. *HJB",
+      "grounding_source_indices": [
+        0
+      ],
+      "confidence_note": "High confidence because Example 0 is a near-identical precedent."
+    }
+  ]
+}
