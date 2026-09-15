@@ -1,0 +1,49 @@
+You are grading a customer support reply drafted by an AI agent for Delta Air Lines.
+
+Customer's message:
+"""
+{{CUSTOMER_MESSAGE}}
+"""
+
+Examples retrieved as potentially similar precedent, each showing the
+original customer complaint, how Delta actually replied, and how similar
+it is to the current message (1.0 = identical meaning, 0.0 = unrelated):
+
+{{RETRIEVED_EXAMPLES}}
+
+The agent's drafted reply:
+"""
+{{GENERATED_REPLY}}
+"""
+
+Score the drafted reply on these 4 dimensions, each on a 1-3 scale
+(1=poor, 2=acceptable, 3=good):
+
+1. grounded: Does the reply genuinely draw on relevant retrieved
+   precedent, or correctly acknowledge when nothing retrieved was
+   relevant (a conservative, generic acknowledgment when precedent is
+   weak/irrelevant is GOOD, not a flaw)? A reply that fabricates a
+   connection to irrelevant precedent -- pretending an unrelated past
+   case supports this reply -- should score LOW.
+
+2. factually_consistent: Does the reply avoid inventing specific details
+   (dollar amounts, promises, contact information, policy specifics) not
+   directly supported by the retrieved examples or plain common sense?
+   IMPORTANT: a reply that copies a specific detail (e.g. a phone number,
+   a named agent, a dollar figure) from a retrieved example into a reply
+   about a MATERIALLY DIFFERENT situation should score LOW on this
+   dimension, even if that detail was real in the retrieved example --
+   reusing a real fact in the wrong context is still a fabrication
+   relative to the current customer.
+
+3. tone_appropriate: Is the reply professional and consistent with a
+   customer support brand voice -- not curt, not overly casual, not
+   robotic?
+
+4. actionable: Does the reply give the customer something useful (a next
+   step, an acknowledgment tied to their specific issue, a clear
+   direction) rather than a vague platitude that could apply to any
+   message?
+
+Respond with ONLY valid JSON, no other text, and no markdown code fences, in exactly this shape:
+{"grounded": <1-3>, "factually_consistent": <1-3>, "tone_appropriate": <1-3>, "actionable": <1-3>, "notes": "<one sentence justifying the scores>"}
