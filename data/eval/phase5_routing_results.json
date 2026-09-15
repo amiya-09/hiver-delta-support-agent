@@ -1,0 +1,4288 @@
+{
+  "n_total": 240,
+  "overlap_count": 23,
+  "isolated": {
+    "binary_metrics": {
+      "accuracy": 0.8333333333333334,
+      "per_label": {
+        "ESCALATE": {
+          "precision": 0.5876288659793815,
+          "recall": 1.0,
+          "f1": 0.7402597402597402,
+          "support": 57
+        },
+        "AUTO_HANDLE": {
+          "precision": 1.0,
+          "recall": 0.7814207650273224,
+          "f1": 0.8773006134969326,
+          "support": 183
+        }
+      },
+      "confusion_matrix": {
+        "ESCALATE": {
+          "ESCALATE": 57,
+          "AUTO_HANDLE": 0
+        },
+        "AUTO_HANDLE": {
+          "ESCALATE": 40,
+          "AUTO_HANDLE": 143
+        }
+      }
+    },
+    "rule_metrics": {
+      "accuracy": 0.8083333333333333,
+      "per_label": {
+        "hard_risk_keyword": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 20
+        },
+        "risk_category_default": {
+          "precision": 0.5535714285714286,
+          "recall": 0.8857142857142857,
+          "f1": 0.6813186813186813,
+          "support": 35
+        },
+        "weak_grounding": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "ambiguous_classification": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "none_auto_handle": {
+          "precision": 1.0,
+          "recall": 0.7814207650273224,
+          "f1": 0.8773006134969326,
+          "support": 183
+        }
+      },
+      "confusion_matrix": {
+        "hard_risk_keyword": {
+          "hard_risk_keyword": 20,
+          "risk_category_default": 0,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "risk_category_default": {
+          "hard_risk_keyword": 4,
+          "risk_category_default": 31,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "weak_grounding": {
+          "hard_risk_keyword": 1,
+          "risk_category_default": 0,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "ambiguous_classification": {
+          "hard_risk_keyword": 1,
+          "risk_category_default": 0,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "none_auto_handle": {
+          "hard_risk_keyword": 14,
+          "risk_category_default": 25,
+          "weak_grounding": 1,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 143
+        }
+      }
+    }
+  },
+  "end_to_end": {
+    "binary_metrics": {
+      "accuracy": 0.7708333333333334,
+      "per_label": {
+        "ESCALATE": {
+          "precision": 0.5089285714285714,
+          "recall": 1.0,
+          "f1": 0.6745562130177515,
+          "support": 57
+        },
+        "AUTO_HANDLE": {
+          "precision": 1.0,
+          "recall": 0.6994535519125683,
+          "f1": 0.8231511254019294,
+          "support": 183
+        }
+      },
+      "confusion_matrix": {
+        "ESCALATE": {
+          "ESCALATE": 57,
+          "AUTO_HANDLE": 0
+        },
+        "AUTO_HANDLE": {
+          "ESCALATE": 55,
+          "AUTO_HANDLE": 128
+        }
+      }
+    },
+    "rule_metrics": {
+      "accuracy": 0.7375,
+      "per_label": {
+        "hard_risk_keyword": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 20
+        },
+        "risk_category_default": {
+          "precision": 0.6744186046511628,
+          "recall": 0.8285714285714286,
+          "f1": 0.7435897435897435,
+          "support": 35
+        },
+        "weak_grounding": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "ambiguous_classification": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "none_auto_handle": {
+          "precision": 1.0,
+          "recall": 0.6994535519125683,
+          "f1": 0.8231511254019294,
+          "support": 183
+        }
+      },
+      "confusion_matrix": {
+        "hard_risk_keyword": {
+          "hard_risk_keyword": 20,
+          "risk_category_default": 0,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "risk_category_default": {
+          "hard_risk_keyword": 4,
+          "risk_category_default": 29,
+          "weak_grounding": 0,
+          "ambiguous_classification": 2,
+          "none_auto_handle": 0
+        },
+        "weak_grounding": {
+          "hard_risk_keyword": 1,
+          "risk_category_default": 0,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "ambiguous_classification": {
+          "hard_risk_keyword": 1,
+          "risk_category_default": 0,
+          "weak_grounding": 0,
+          "ambiguous_classification": 0,
+          "none_auto_handle": 0
+        },
+        "none_auto_handle": {
+          "hard_risk_keyword": 14,
+          "risk_category_default": 14,
+          "weak_grounding": 1,
+          "ambiguous_classification": 26,
+          "none_auto_handle": 128
+        }
+      }
+    }
+  },
+  "per_example": [
+    {
+      "example_id": "2872070",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8208953598486596,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "2615549",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8663225269558203,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "1932380",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8654611963424188,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
+      }
+    },
+    {
+      "example_id": "2209618",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8867150347034698,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "662980",
+      "self_matches_removed": 0,
+      "top_similarity": 0.890925322794154,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "214187",
+      "self_matches_removed": 0,
+      "top_similarity": 0.838719966983194,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "1506713",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8666989687754898,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "1341993",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8759987304132748,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "1225340",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8731735029882237,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "608666",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8404379778746806,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "2836426",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8525738470603458,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "522770",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8581158760016866,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2271159",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8652713526201096,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "265060",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8803496968098998,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "259508",
+      "self_matches_removed": 0,
+      "top_similarity": 0.7991012008215993,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "weak_grounding",
+        "reason": "No sufficiently similar historical precedent found (similarity=0.80)."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "weak_grounding",
+        "reason": "No sufficiently similar historical precedent found (similarity=0.80)."
+      }
+    },
+    {
+      "example_id": "568992",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8687718726568613,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "1206427",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8815215490145145,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "953331",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8734390574179398,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2643167",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8810545968888261,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "223259",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8739495248473788,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2888963",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8609501530978947,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1103837",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8653185899084052,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
+      }
+    },
+    {
+      "example_id": "459167",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8576949595359449,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1110459",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8703137058903142,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "259003",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8325076896668601,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "1882931",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8546126036959596,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "2928719",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8523246219651678,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "560026",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8447146155396189,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "1206493",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8805278337953312,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "1091468",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8447064311869035,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "1015333",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8428490975356214,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "680083",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8583590539393962,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "506153",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8723825863001846,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
+      }
+    },
+    {
+      "example_id": "2505595",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8669255799884525,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "416801",
+      "self_matches_removed": 0,
+      "top_similarity": 0.857189124532837,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "2707115",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8751021326851163,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "1933308",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8668119462346437,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "184015",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8983906155362384,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "438942",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8845157511794683,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "998450",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8536665488028048,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "1043882",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8763203883303091,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "2294513",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8572103055389222,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "2769250",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8865948940023454,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "171261",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8694091567275731,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "2568604",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8588237794461815,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "936549",
+      "self_matches_removed": 0,
+      "top_similarity": 0.873850012133211,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "1906961",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8803538401020291,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "1000386",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8773262477678713,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "2038932",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8548576026330794,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2704398",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8706336114587361,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "52361",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8641379540776437,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: BOOKING_CHANGE vs BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "760555",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8624026798023992,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2626720",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8573609693888458,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "801755",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8816989445758048,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "2805356",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8519410077645632,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "269900",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8865063981651052,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "563558",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8585482562414166,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "550075",
+      "self_matches_removed": 0,
+      "top_similarity": 0.9036811579036167,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.90) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs BOOKING_CHANGE."
+      }
+    },
+    {
+      "example_id": "200544",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8732348863105911,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "965884",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8724017734184998,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs BOOKING_CHANGE."
+      }
+    },
+    {
+      "example_id": "508937",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8692148980745488,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "249286",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8292689705451457,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      }
+    },
+    {
+      "example_id": "949437",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8804520524948544,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "2157846",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8790931424495051,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: BOOKING_CHANGE vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "2541909",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8733672928743258,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs BOOKING_CHANGE."
+      }
+    },
+    {
+      "example_id": "2742133",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8708629747513901,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2951627",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8618418931723508,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1182600",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8802807773684624,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "492523",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8802689717509968,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "2811308",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8557382815255197,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "2258149",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8382850640841252,
+      "true_escalate": true,
+      "true_escalation_rule": "ambiguous_classification",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'unaccompanied minor'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'unaccompanied minor'."
+      }
+    },
+    {
+      "example_id": "86481",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8563015253379676,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "2887806",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8805162152911139,
+      "true_escalate": true,
+      "true_escalation_rule": "weak_grounding",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "680088",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8612407669691152,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1341999",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8602872253089633,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1197794",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8678697061804027,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "1130628",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8645800279028897,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "369321",
+      "self_matches_removed": 0,
+      "top_similarity": 0.879172702346747,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "642182",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8750359079032217,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "2774764",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8790390609975174,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "2105393",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8611149643357373,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs BOOKING_CHANGE."
+      }
+    },
+    {
+      "example_id": "1110886",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8645363350430479,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1165806",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8757018147475717,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "2582219",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8663780233332213,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "280219",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8796721643225714,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "2855970",
+      "self_matches_removed": 0,
+      "top_similarity": 0.9048678002731816,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.90) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.90) and confident classification."
+      }
+    },
+    {
+      "example_id": "2769929",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8487977184727218,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2081528",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8819664773617693,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "1117773",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8887376402898552,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "1364016",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8884489929658002,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "102261",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8427679033033522,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "885874",
+      "self_matches_removed": 0,
+      "top_similarity": 0.857113041113791,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "2105430",
+      "self_matches_removed": 0,
+      "top_similarity": 0.871915620578841,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "1743881",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8618409887083391,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+      }
+    },
+    {
+      "example_id": "875335",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8456816691688567,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "1103858",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8346186189280478,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      }
+    },
+    {
+      "example_id": "1709473",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8420721896939314,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "640133",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8684459435374057,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2653474",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8520362812349214,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+      }
+    },
+    {
+      "example_id": "435226",
+      "self_matches_removed": 0,
+      "top_similarity": 0.888103285646727,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "2556176",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8930663719343901,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+      }
+    },
+    {
+      "example_id": "408513",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8756520489481601,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "274479",
+      "self_matches_removed": 0,
+      "top_similarity": 0.849877302025902,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "2963490",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8192241154558529,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "2215012",
+      "self_matches_removed": 0,
+      "top_similarity": 0.861645074139997,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "513119",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8877119056250637,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "1051988",
+      "self_matches_removed": 0,
+      "top_similarity": 0.9132347371010939,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.91) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.91) and confident classification."
+      }
+    },
+    {
+      "example_id": "1225906",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8573960968481151,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "783827",
+      "self_matches_removed": 0,
+      "top_similarity": 0.860528204091886,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1933497",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8554148182685093,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1517024",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8649880440933015,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2094812",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8404178690114483,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "1714383",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8906393824155735,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "661841",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8638011962148932,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1808027",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8627385472251949,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "603627",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8603650509808555,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "189513",
+      "self_matches_removed": 0,
+      "top_similarity": 0.841398879535469,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "1358379",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8388389790622428,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "1221109",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8541938684960534,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "1129486",
+      "self_matches_removed": 1,
+      "top_similarity": 0.86489470145542,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "719966",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8488077747607203,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "569699",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8767864221232893,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "224174",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8592157840637603,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "223269",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8459031021050527,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "502753",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8517282835806633,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2523726",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8347330210961535,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      }
+    },
+    {
+      "example_id": "1014426",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8550201414920888,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "385717",
+      "self_matches_removed": 0,
+      "top_similarity": 0.849174764665251,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "1384694",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8786777109122089,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      }
+    },
+    {
+      "example_id": "1091450",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8499595041555629,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "552705",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8843666863223244,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      }
+    },
+    {
+      "example_id": "260053",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8493115629977884,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      }
+    },
+    {
+      "example_id": "1045012",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8613649847389341,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "1128315",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8614606040138806,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "2664027",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8365797932940553,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "951150",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8428528149329818,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "2902859",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8271057929482851,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "1053785",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8581646250411163,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "778419",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8521341417086892,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      }
+    },
+    {
+      "example_id": "1743860",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8840286814834053,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "774696",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8676131085070242,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "1998373",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8344904712543443,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "181463",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8576189578186065,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2969676",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8389295149644761,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs PRAISE_FEEDBACK."
+      }
+    },
+    {
+      "example_id": "829578",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8680430100345751,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "1172622",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8532674132360152,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "1049376",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8435548267869732,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "2324776",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8837695569159525,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "229246",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8562960338848369,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1001311",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8683869636739887,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2981698",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8639071279250028,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "218453",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8827448776511007,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "2425051",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8721240576882976,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2797446",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8411545187288091,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "1053801",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8431834893598031,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "2794582",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8586877387758909,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2049167",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8570344694373996,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "189521",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8450341826794601,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2258194",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8702928691735802,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "438117",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8589827801132652,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "115408",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8473803046764428,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2610091",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8480498612642762,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "888447",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8788384956759469,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "822267",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8657349644100079,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "554183",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8394497797056888,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+      }
+    },
+    {
+      "example_id": "410583",
+      "self_matches_removed": 0,
+      "top_similarity": 0.856997823578391,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2417402",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8707350145851789,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2605823",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8750808455546802,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    },
+    {
+      "example_id": "1891167",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8331898072689807,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      }
+    },
+    {
+      "example_id": "363427",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8599974101248841,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2094999",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8559011072067969,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "1442073",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8693168593080478,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "157111",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8467105685295816,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "140221",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8468209269547327,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "387291",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8712250137665045,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "806930",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8645489771087707,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2223415",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8509255280570189,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my daughter'."
+      }
+    },
+    {
+      "example_id": "496232",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8441926118310009,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'medical emergency'."
+      }
+    },
+    {
+      "example_id": "304979",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8870027389010634,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2382720",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8696796206103077,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "438615",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8669964781991821,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "97743",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8635203059350947,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "1064228",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8469179225516247,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "922824",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8620806078733216,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "841378",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8922107015714937,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "565478",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8449255300714844,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "396186",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8536335941692617,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2454789",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8519082397942206,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2052668",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8765084702113067,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "318105",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8557024950014526,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2215051",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8351319884831052,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "1562694",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8610044181695616,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "157118",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8662843824261068,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "146036",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8581396382922057,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "363790",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8604805350173421,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "864948",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8504440434526708,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2244205",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8680833722258772,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "97772",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8505640285547791,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "790274",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8767588297775095,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2584677",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8573942016798927,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+      }
+    },
+    {
+      "example_id": "2413337",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8515946890904216,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2560926",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8460238405635778,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "1532876",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8853995138156612,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "839457",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8309699699293269,
+      "true_escalate": true,
+      "true_escalation_rule": "risk_category_default",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "1098020",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8616809915453385,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
+      }
+    },
+    {
+      "example_id": "2891330",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8387767484893696,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "568998",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8534522985302608,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "1165445",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8399177360433846,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racism'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racism'."
+      }
+    },
+    {
+      "example_id": "2600411",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8515997497918301,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "2789447",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8655702379458438,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racism'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racism'."
+      }
+    },
+    {
+      "example_id": "264919",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8657045098871432,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "2449842",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8388330598042786,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'attorney'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'attorney'."
+      }
+    },
+    {
+      "example_id": "799312",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8549422790330651,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racism'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racism'."
+      }
+    },
+    {
+      "example_id": "2740946",
+      "self_matches_removed": 0,
+      "top_similarity": 0.851602173446947,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racist'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'racist'."
+      }
+    },
+    {
+      "example_id": "1735374",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8472585174746035,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'wheelchair'."
+      }
+    },
+    {
+      "example_id": "2902873",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8472110331066991,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "2872952",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8586150551116717,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "514191",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8422349562746108,
+      "true_escalate": true,
+      "true_escalation_rule": "hard_risk_keyword",
+      "isolated": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "hard_risk_keyword",
+        "reason": "High-risk keyword match: 'my son'."
+      }
+    },
+    {
+      "example_id": "298511",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8690533422939344,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "2244185",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8709934311366974,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "1363386",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8578873208746821,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+      }
+    },
+    {
+      "example_id": "551361",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8584145108833782,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+      }
+    },
+    {
+      "example_id": "152351",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8496880757412751,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2795738",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8662899915018254,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      }
+    },
+    {
+      "example_id": "448925",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8550163521848226,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "2507731",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8678617285021889,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "487000",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8535913311731546,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "2136967",
+      "self_matches_removed": 0,
+      "top_similarity": 0.878760227930802,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
+      }
+    },
+    {
+      "example_id": "470328",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8468134101117355,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "172576",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8573410839372106,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "950379",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8617429298564583,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "892732",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8514471481529371,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "594132",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8897595691505189,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "2777831",
+      "self_matches_removed": 1,
+      "top_similarity": 0.8579280805101545,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+      }
+    },
+    {
+      "example_id": "2215021",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8309391119721947,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.83) and confident classification."
+      }
+    },
+    {
+      "example_id": "1571138",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8860796301848091,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+      }
+    },
+    {
+      "example_id": "184043",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8539158567618846,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+      }
+    },
+    {
+      "example_id": "877851",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8126223751593578,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.81) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs PRAISE_FEEDBACK."
+      }
+    },
+    {
+      "example_id": "961583",
+      "self_matches_removed": 0,
+      "top_similarity": 0.8822280744021356,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
+      }
+    },
+    {
+      "example_id": "2591394",
+      "self_matches_removed": 1,
+      "top_similarity": 0.875112472879651,
+      "true_escalate": false,
+      "true_escalation_rule": "none_auto_handle",
+      "isolated": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      },
+      "end_to_end": {
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+      }
+    }
+  ]
+}
