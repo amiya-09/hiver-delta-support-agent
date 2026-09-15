@@ -1,0 +1,26 @@
+{
+  "n_scored": 30,
+  "n_skipped_incomplete": 0,
+  "per_dimension": {
+    "grounded": {
+      "n": 30,
+      "exact_match_rate": 0.7333333333333333,
+      "within_one_rate": 0.9
+    },
+    "factually_consistent": {
+      "n": 30,
+      "exact_match_rate": 0.8,
+      "within_one_rate": 0.8
+    },
+    "tone_appropriate": {
+      "n": 30,
+      "exact_match_rate": 0.7,
+      "within_one_rate": 1.0
+    },
+    "actionable": {
+      "n": 30,
+      "exact_match_rate": 0.7,
+      "within_one_rate": 0.9666666666666667
+    }
+  }
+}

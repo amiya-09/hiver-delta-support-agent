@@ -1,0 +1,460 @@
+{
+  "n_judged": 30,
+  "results": [
+    {
+      "example_id": "2963490",
+      "customer_text_clean": "How late does the JFK Jitney T2-T4 shuttle run and is it wheelchair accessible?",
+      "reply": "Thanks for reaching out. For the most accurate JFK Jitney shuttle schedule and accessibility information, please contact the JFK airport shuttle service directly or let us know your flight details so we can help further.",
+      "grounding_source_indices": [],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply is a generic but appropriate response, acknowledges lack of relevant precedent, offers actionable steps, and avoids fabricating facts."
+      }
+    },
+    {
+      "example_id": "640133",
+      "customer_text_clean": "Huge thank you to for understanding + taking care of my cancelled trip. It's tough enough with a sick pup and missing #Thanksgiving with my immediate family. Your CX is fantastic! Special shout out to AJL on your team for prompt + empathetic attention. Happy Thanksgiving!",
+      "reply": "Aww, we\u2019re so glad we could help! Thank you for the kind words. Happy Thanksgiving to you and your pup. \ud83d\udc4f *AJL",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply is well grounded in similar precedent, factually neutral, tone fits Delta\u2019s friendly brand, but offers no next step, so only acceptable in actionability."
+      }
+    },
+    {
+      "example_id": "760555",
+      "customer_text_clean": "I want to get my baggage fee reimbursed due to my company's travel website not adding my FF number, what documents should I provide?",
+      "reply": "Hi [name], I\u2019m sorry about the trouble adding your FF number. For a baggage fee reimbursement we\u2019ll need your receipt and booking confirmation. Please DM us those details and we\u2019ll help you further. *TJW",
+      "grounding_source_indices": [
+        0,
+        1
+      ],
+      "scores": {
+        "grounded": 2,
+        "factually_consistent": 3,
+        "tone_appropriate": 2,
+        "actionable": 3,
+        "notes": "The reply references similar reimbursement policy language from precedent (grounded 2), avoids any invented facts (factually_consistent 3), uses a generally professional tone but a casual \u2018DM\u2019 could be less formal (tone_appropriate 2), and clearly instructs the customer to send receipt and booking confirmation (actionable 3)."
+      }
+    },
+    {
+      "example_id": "2797446",
+      "customer_text_clean": "BOS-MSP Flight 2391 gate agent Bonnie Turner has been a true gem from beginning to end. She deserves a reward ! Beyond helpful",
+      "reply": "Thanks for sharing! We\u2019ll pass along your praise for Bonnie to the leadership team at MSP. \u2708 *HYC",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply accurately references the customer\u2019s praise, follows the precedent style, avoids invented details, uses a professional tone, and explicitly states the action of forwarding the praise to leadership."
+      }
+    },
+    {
+      "example_id": "936549",
+      "customer_text_clean": "Thanks for making me wait an hour (after a 9 hour intl. flight) before telling me that my bag didn't make the trip. Outstanding.",
+      "reply": "Thank you for your patience. I\u2019m sorry you\u2019ve had to wait after your international flight. Our team is working to reunite you with your bag. If you haven\u2019t already, please file a claim with our Baggage office so we can resolve this promptly.",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply mirrors the precedent\u2019s apology and claim instruction without adding new facts, maintains a professional tone, and provides a clear next step."
+      }
+    },
+    {
+      "example_id": "200544",
+      "customer_text_clean": "I\u2019m curious how you can just change someone\u2019s seat! I had an aisle on connect flight. Land. Now in a middle seat. Not cool!!",
+      "reply": "Hi Danny. Which flight had the seat change? *ALS",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "Reply directly mirrors the precedent, contains no invented details, is polite, and asks for specific flight information to proceed."
+      }
+    },
+    {
+      "example_id": "2157846",
+      "customer_text_clean": "Ive been trying to change a reservation for the past hour. Tried website but wont load payment page. Tried APP but keeps saying it can't process. Called and 2hour wait!! WTH?",
+      "reply": "Hi, thanks for reaching out. We\u2019re sorry you\u2019re having trouble with our website and app, and that the call wait was so long. We\u2019re aware of the issue and are working to fix it. Please DM us your reservation number so we can change it for you right away. Thanks for your patience!",
+      "grounding_source_indices": [
+        0,
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply acknowledges the website/app issue and long wait, references the general problem seen in the precedent, contains no fabricated details, stays polite, and instructs the customer to provide the reservation number for immediate action."
+      }
+    },
+    {
+      "example_id": "416801",
+      "customer_text_clean": "How does my luggage end up on a flight to Mexico when I\u2019m going to Jamaica from Atlanta???",
+      "reply": "Hi! We\u2019re sorry to hear that. We\u2019ll check your baggage and make sure it\u2019s on the correct flight to Jamaica. Please DM us your confirmation number so we can look into it.",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 2,
+        "actionable": 3,
+        "notes": "The reply is grounded on the baggage\u2011transfer precedent, contains no fabricated specifics, offers a clear next step, but its informal tone slightly deviates from Delta\u2019s formal brand voice."
+      }
+    },
+    {
+      "example_id": "363790",
+      "customer_text_clean": "Possible to refund a non-refundable ticket due to a terrible incident? was bought over a month ago for flight in January",
+      "reply": "Hello, sorry to hear about your situation. For a refund request, please DM us your booking confirmation number and details and we\u2019ll review it.",
+      "grounding_source_indices": [],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply is generic but appropriate, with no fabricated details and a clear next step."
+      }
+    },
+    {
+      "example_id": "459167",
+      "customer_text_clean": "how can I redeem my companion certificate or make sure that I am eligible for one?",
+      "reply": "You can redeem your companion certificate or check eligibility by contacting our Online Customer Support Desk at 888\u2011750\u20113284. They can guide you through the process.",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply directly references the phone number used in the relevant precedent, maintains professional tone, and gives a clear next step for the customer."
+      }
+    },
+    {
+      "example_id": "2541909",
+      "customer_text_clean": "why is the seat I pick changed with no heads up? 2nd time in 3 flights this has happened. Unacceptable.",
+      "reply": "Hi, I\u2019m very sorry your seat assignment changed without notice. Thank you for letting us know. I\u2019ll forward your feedback to cabin service so they can look into it. If you need to change your seat again, let us know and we\u2019ll help. *TJW",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply is a conservative, professional response that aligns with the tone and style of the retrieved examples without fabricating details and provides a clear next step by forwarding feedback to cabin service."
+      }
+    },
+    {
+      "example_id": "396186",
+      "customer_text_clean": "My husband just boarded his flight for Chicago. We paid extra for extra legroom. They made him move to a regular seat. Refund?",
+      "reply": "Hi, thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances.",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 1,
+        "notes": "The reply directly echoes a relevant precedent, contains no invented details, is polite, but offers no next step or guidance."
+      }
+    },
+    {
+      "example_id": "2653474",
+      "customer_text_clean": "That feel when you had a shit time on your last flight so you're worried about your next one which only has 40 minutes between connections and their big advice is to pay to upgrade your seat to make sure you can get off faster.",
+      "reply": "Hi there. We\u2019re sorry to hear about the short connection and your concerns. If seats are available, upgrades can be applied based on status before, during or after check\u2011in. If you\u2019d like help checking availability or arranging an upgrade, please DM us your confirmation number.",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 2,
+        "actionable": 3,
+        "notes": "The reply accurately references the seat\u2011upgrade precedent, avoids invented details, offers a concrete next step, but the casual tone (\u201cHi there,\u201d \u201cDM us\u201d) is slightly less formal than Delta\u2019s brand voice."
+      }
+    },
+    {
+      "example_id": "951150",
+      "customer_text_clean": "thank you for being accomodating in changing my daughter\u2019s flight! You rock and so does Stacy the rep!",
+      "reply": "You\u2019re very welcome! Stacy\u2019s thrilled you\u2019re happy. Enjoy the trip, and we\u2019re here if you need anything else. \u2708 *AMC",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "The reply appropriately references the gratitude and Stacy, aligns with the tone of the precedents, avoids fabricating details, but offers only a generic offer rather than a specific next step."
+      }
+    },
+    {
+      "example_id": "806930",
+      "customer_text_clean": "Thanks for the flight from DCA to ATL. One more to reach home.",
+      "reply": "Safe travels~ *ALS",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 1,
+        "notes": "The reply references a relevant precedent, contains no fabricated facts, is friendly and brand\u2011appropriate, but offers no actionable next step."
+      }
+    },
+    {
+      "example_id": "2382720",
+      "customer_text_clean": "Flight DL1699 on 4thNov. Was not allowed to board the flight even though I was before 15 minutes before. Overcharged me 75USD for the next flight after 4 hours. Need a refund! #poorservice",
+      "reply": "Hi, @User. I\u2019m sorry you experienced this. Our Same Day Confirmed or Same Day Standby program allows changes for a $75 fee. If you have a changeable ticket you can pay the change fee on the ticket plus the fare difference instead. Please DM us your confirmation number and we\u2019ll review the details together.",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply accurately reflects the same-day change policy and fee details from the retrieved precedent, uses a polite professional tone, and offers a clear next step for the customer."
+      }
+    },
+    {
+      "example_id": "1053785",
+      "customer_text_clean": "Thanks for the first class upgrade! It\u2019s my son\u2019s first flight... I told him not to let it get to his head!",
+      "reply": "Enjoy the ride, and best of luck to your son on his first flight! \u2708\ufe0f *AAB",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply follows precedent phrasing, avoids false details, uses a warm but professional tone, and specifically acknowledges the customer's upgrade and son's first flight."
+      }
+    },
+    {
+      "example_id": "950379",
+      "customer_text_clean": "Can\u2019t wait fo get my \u201cafter your flight\u201d survey for this flight... they\u2019re not gonna like my comments (tho I am pretty sure they don\u2019t actually care...)",
+      "reply": "Your feedback matters to us! When you\u2019ve finished your trip, please share your thoughts through our post\u2011flight survey link here: https://\u2026 Thank you for helping us improve.",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply accurately reflects the precedent by encouraging post\u2011flight survey submission, remains factually neutral, maintains a professional tone, and provides a clear next step."
+      }
+    },
+    {
+      "example_id": "438117",
+      "customer_text_clean": "Great flight from Orlando to Detroit. Thanks . Love the free inflight movies and USB ports. can\u2019t compete with that !",
+      "reply": "We\u2019re so glad you had a great flight! Free movies are always the best! \ud83c\udfa5",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply aligns with precedent, has no fabricated details, maintains Delta's friendly tone, but offers no next step, so it is acceptable but not actionable."
+      }
+    },
+    {
+      "example_id": "2523726",
+      "customer_text_clean": "Can I carry on snowshoes ?",
+      "reply": "If your snowshoes meet the dimensions of the standard carry\u2011on size (no larger than 45 linear inches), they can be brought in the cabin; they must fit under the seat in front of you, or in the overhead bin. *ACJ",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "Reply accurately draws on a relevant precedent about carry\u2011on size limits and provides a clear next step for the customer."
+      }
+    },
+    {
+      "example_id": "877851",
+      "customer_text_clean": "Rather an ordeal for us to make sched BOS-LAS trip w/ a few unhelpful agents but grateful for help from Mike Lania (a real \ud83c\udf1f) in BOS",
+      "reply": "It will be my pleasure! I will send this right over to our leadership team at BOS. *HYC",
+      "grounding_source_indices": [
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "The reply appropriately references a similar precedent, mentions no new facts, remains professional, and clearly states the next step of forwarding feedback to leadership."
+      }
+    },
+    {
+      "example_id": "1225906",
+      "customer_text_clean": "Hey can you confirm that when booking a flight Heathrow to JFK that 1 bag is included for each passnger in the cost of the flight",
+      "reply": "Thank you for reaching out! To confirm baggage details for your Heathrow to JFK flight, please visit your booking details or contact our reservations team directly. If you need assistance, feel free to DM us your confirmation number.",
+      "grounding_source_indices": [],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 2,
+        "actionable": 3,
+        "notes": "The reply is generic and does not fabricate facts, but uses a slightly informal tone with \"DM us\"; it clearly directs the customer to booking details or reservations."
+      }
+    },
+    {
+      "example_id": "841378",
+      "customer_text_clean": "why charge me for a seat that is not available and not already refund my money",
+      "reply": "Hi, thanks for reaching out via this channel. A refund or partial credit would not be an option under these circumstances. Please contact our Online Support Team at 1(888)750-3284 for assistance. *AST",
+      "grounding_source_indices": [
+        0,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "Reply references similar precedent, uses accurate phone number, maintains professional tone, and directs customer to next step."
+      }
+    },
+    {
+      "example_id": "2049167",
+      "customer_text_clean": "I had two stunningly good customer service service experiences today. Surprised and grateful.",
+      "reply": "Good morning! Thank you so very much for the accolades! We\u2019re thrilled to hear you had two stunningly good customer service experiences today. I hope you have a great day! *TRR",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "The reply draws from precedent, contains no new facts, sounds professional, but offers no next step beyond a thank\u2011you."
+      }
+    },
+    {
+      "example_id": "2981698",
+      "customer_text_clean": "please send a thanks to Medallion customer service. They helped in a big way today!",
+      "reply": "Hi there, thank you for the shout\u2011out! We\u2019re glad our Medallion team could help. Have a wonderful day!",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply reflects precedent, contains no false specifics, uses friendly but professional tone, but does not confirm or explain forwarding thanks to Medallion service."
+      }
+    },
+    {
+      "example_id": "269900",
+      "customer_text_clean": "Your website will not allow me to cancel my flight. I called &amp; was in hold for an hour, only to have representative drop my call.",
+      "reply": "Hi, sorry to hear you\u2019re having trouble cancelling your flight. Please DM us your confirmation number and we\u2019ll look into it right away. Thanks for reaching out.",
+      "grounding_source_indices": [
+        1
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 2,
+        "actionable": 3,
+        "notes": "The reply draws on relevant precedent, stays factually accurate, provides a clear next step, but uses a somewhat informal tone."
+      }
+    },
+    {
+      "example_id": "1532876",
+      "customer_text_clean": "Been on hold for almost 1 hour while talks to about my ticket credit.. smh",
+      "reply": "I\u2019m sorry for the long hold time you\u2019ve experienced. How can we help you with your ticket credit via this channel? *TAC",
+      "grounding_source_indices": [
+        1,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "Reply directly mirrors the precedent style, contains no fabricated details, maintains professional tone, and invites the customer to specify next steps for ticket credit."
+      }
+    },
+    {
+      "example_id": "2560926",
+      "customer_text_clean": "joining the many others who get wronged by , waste hours of my life I\u2019ll never get back trying to fix it, &amp; deal with insincere agents &amp; a credit so cheesy it\u2019s more insulting than if I got nothing. #neveragain #backtoAA #idratherwalk #dontwastemytime",
+      "reply": "We\u2019re sorry you feel this way. Please let us know if there is any way we can assist, or feel free to DM us with more details.",
+      "grounding_source_indices": [
+        1,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "The reply is a conservative, generic acknowledgment that aligns with similar precedent, contains no invented facts, maintains a polite tone, and offers a next step for the customer to provide more details."
+      }
+    },
+    {
+      "example_id": "1103858",
+      "customer_text_clean": "sitting through a long delay for OGG to LAX. Staff is wonderful, pilot is very informative. They're all beyond patient. #impressed",
+      "reply": "Thanks for sharing! We're thrilled you enjoyed our flight and the care our crew provided during the delay. Safe travels on your next journey with us! *TLT",
+      "grounding_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 2,
+        "notes": "Reply acknowledges the compliment, references staff, is factually accurate and professional, but offers no specific next step."
+      }
+    },
+    {
+      "example_id": "264919",
+      "customer_text_clean": "wheelchair assistance at DTW severely understaffed this morning. wait a long time.",
+      "reply": "This isn\u2019t good to hear. Thanks for making us aware. I\u2019ll be sure to elevate these concerns to the DTW leadership team asap. *HJB",
+      "grounding_source_indices": [
+        0
+      ],
+      "scores": {
+        "grounded": 3,
+        "factually_consistent": 3,
+        "tone_appropriate": 3,
+        "actionable": 3,
+        "notes": "Reply closely mirrors a relevant precedent, escalates the issue appropriately, and maintains a professional tone without inventing details."
+      }
+    }
+  ]
+}
