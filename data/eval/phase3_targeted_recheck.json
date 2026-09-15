@@ -1,0 +1,714 @@
+{
+  "n_previously_wrong": 58,
+  "n_fixed": 22,
+  "n_control_sample": 30,
+  "n_still_correct": 28,
+  "previously_wrong_recheck": [
+    {
+      "example_id": "2615549",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "1932380",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "214187",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "1225340",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "608666",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "2836426",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2271159",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "259508",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "2643167",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "223259",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "1103837",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "459167",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "1110459",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "BOOKING_CHANGE",
+      "previous_correct": false,
+      "new_predicted_intent": "BOOKING_CHANGE",
+      "new_correct": false
+    },
+    {
+      "example_id": "506153",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": false
+    },
+    {
+      "example_id": "2707115",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "998450",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": false
+    },
+    {
+      "example_id": "1043882",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2769250",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2038932",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "52361",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "BOOKING_CHANGE",
+      "previous_correct": false,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "760555",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "REFUND_COMPENSATION",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2805356",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "550075",
+      "true_intent": "BOOKING_CHANGE",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "BOOKING_CHANGE",
+      "new_correct": true
+    },
+    {
+      "example_id": "965884",
+      "true_intent": "BOOKING_CHANGE",
+      "previous_predicted_intent": "ACCOUNT_LOYALTY",
+      "previous_correct": false,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": false
+    },
+    {
+      "example_id": "249286",
+      "true_intent": "BOOKING_CHANGE",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "2541909",
+      "true_intent": "BOOKING_CHANGE",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "BOOKING_CHANGE",
+      "new_correct": true
+    },
+    {
+      "example_id": "2951627",
+      "true_intent": "BOOKING_CHANGE",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "2258149",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2774764",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2769929",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": false
+    },
+    {
+      "example_id": "102261",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": false
+    },
+    {
+      "example_id": "1743881",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": false
+    },
+    {
+      "example_id": "1103858",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": false
+    },
+    {
+      "example_id": "640133",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": false
+    },
+    {
+      "example_id": "2653474",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "435226",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2556176",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "1384694",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "BOOKING_CHANGE",
+      "previous_correct": false,
+      "new_predicted_intent": "BOOKING_CHANGE",
+      "new_correct": false
+    },
+    {
+      "example_id": "2969676",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "189521",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": true
+    },
+    {
+      "example_id": "1442073",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "140221",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "2223415",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "438615",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "1064228",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": false
+    },
+    {
+      "example_id": "922824",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2215051",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "1562694",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "BOOKING_CHANGE",
+      "previous_correct": false,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": false
+    },
+    {
+      "example_id": "146036",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2584677",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2560926",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": false,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "448925",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": false,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": false
+    },
+    {
+      "example_id": "2507731",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": false,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": false
+    },
+    {
+      "example_id": "2136967",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": false,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": false
+    },
+    {
+      "example_id": "2777831",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "2215021",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": true
+    },
+    {
+      "example_id": "1571138",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "961583",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": false,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": true
+    }
+  ],
+  "control_sample_recheck": [
+    {
+      "example_id": "1735374",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": true,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": true
+    },
+    {
+      "example_id": "1906961",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": true,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "265060",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "ACCOUNT_LOYALTY",
+      "previous_correct": true,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "1225906",
+      "true_intent": "POLICY_QUESTION",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": true,
+      "new_predicted_intent": "POLICY_QUESTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "875335",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2081528",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "200544",
+      "true_intent": "BOOKING_CHANGE",
+      "previous_predicted_intent": "BOOKING_CHANGE",
+      "previous_correct": true,
+      "new_predicted_intent": "BOOKING_CHANGE",
+      "new_correct": true
+    },
+    {
+      "example_id": "2568604",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": true,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "487000",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": true,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": true
+    },
+    {
+      "example_id": "565478",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "REFUND_COMPENSATION",
+      "previous_correct": true,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "184015",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": true,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "1532876",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "REFUND_COMPENSATION",
+      "previous_correct": true,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2324776",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": true,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": true
+    },
+    {
+      "example_id": "1206427",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "ACCOUNT_LOYALTY",
+      "previous_correct": true,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "568992",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "ACCOUNT_LOYALTY",
+      "previous_correct": true,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    },
+    {
+      "example_id": "438942",
+      "true_intent": "BAGGAGE_PROBLEM",
+      "previous_predicted_intent": "BAGGAGE_PROBLEM",
+      "previous_correct": true,
+      "new_predicted_intent": "BAGGAGE_PROBLEM",
+      "new_correct": true
+    },
+    {
+      "example_id": "280219",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "1364016",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "363427",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": true,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": true
+    },
+    {
+      "example_id": "2891330",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": false
+    },
+    {
+      "example_id": "184043",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": true,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": true
+    },
+    {
+      "example_id": "318105",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "REFUND_COMPENSATION",
+      "previous_correct": true,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "642182",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2795738",
+      "true_intent": "SERVICE_COMPLAINT",
+      "previous_predicted_intent": "SERVICE_COMPLAINT",
+      "previous_correct": true,
+      "new_predicted_intent": "SERVICE_COMPLAINT",
+      "new_correct": true
+    },
+    {
+      "example_id": "1049376",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": true,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": true
+    },
+    {
+      "example_id": "2855970",
+      "true_intent": "FLIGHT_DISRUPTION",
+      "previous_predicted_intent": "FLIGHT_DISRUPTION",
+      "previous_correct": true,
+      "new_predicted_intent": "FLIGHT_DISRUPTION",
+      "new_correct": true
+    },
+    {
+      "example_id": "2797446",
+      "true_intent": "PRAISE_FEEDBACK",
+      "previous_predicted_intent": "PRAISE_FEEDBACK",
+      "previous_correct": true,
+      "new_predicted_intent": "PRAISE_FEEDBACK",
+      "new_correct": true
+    },
+    {
+      "example_id": "2413337",
+      "true_intent": "REFUND_COMPENSATION",
+      "previous_predicted_intent": "REFUND_COMPENSATION",
+      "previous_correct": true,
+      "new_predicted_intent": "REFUND_COMPENSATION",
+      "new_correct": true
+    },
+    {
+      "example_id": "783827",
+      "true_intent": "POLICY_QUESTION",
+      "previous_predicted_intent": "POLICY_QUESTION",
+      "previous_correct": true,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": false
+    },
+    {
+      "example_id": "2209618",
+      "true_intent": "ACCOUNT_LOYALTY",
+      "previous_predicted_intent": "ACCOUNT_LOYALTY",
+      "previous_correct": true,
+      "new_predicted_intent": "ACCOUNT_LOYALTY",
+      "new_correct": true
+    }
+  ]
+}
