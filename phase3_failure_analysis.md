@@ -1,126 +1,96 @@
 # Phase 3 Failure Analysis: Intent Classification
 
-Baseline results (before prompt fix): 75.83% overall accuracy (240 examples,
-`openai/gpt-oss-20b` via Groq). Compared against a trivial baseline (20.0%,
-always predict the mode category) and a keyword-rule baseline (59.6%) --
-see `data/eval/phase3_baseline_results.json`.
+Baseline result before any fix: 75.83% accuracy on the 240-example
+golden set, against a 20.0% trivial baseline and a 59.6% keyword-rule
+baseline. Three real patterns came out of reading the model's own
+stated reasoning for every wrong answer, not just staring at the
+confusion matrix.
 
-Three real failure patterns emerged from reading the model's own stated
-`reasoning` field for every misclassified example, not just the confusion
-matrix counts.
+## The model picks the generic category over the specific one when phrasing and topic disagree
 
-## Failure mode 1: Surface form overrides topic specificity
-**Affects ~14 of ~58 total misclassifications (~24%) -- the single
-largest identified cause.**
+This affects around 14 of roughly 58 total misclassifications, close to
+a quarter, the single biggest cause I found.
 
-Two category pairs show the identical mechanism: when a message's
-*phrasing* matches one category's definition (a question → POLICY_QUESTION;
-frustrated tone → SERVICE_COMPLAINT) while its *topic* matches a more
-specific category (miles/loyalty → ACCOUNT_LOYALTY; refund/credit →
-REFUND_COMPENSATION), the model defaults to the generic, form-matching
-category over the specific, topic-matching one.
+Two category pairs show the exact same mechanism. When a message's
+phrasing matches one category's definition, a question phrased like
+POLICY_QUESTION, a frustrated tone phrased like SERVICE_COMPLAINT, while
+its actual topic points to something more specific, the model defaults
+to the generic, form-matching category instead.
 
-**Real examples (ACCOUNT_LOYALTY mislabelled as POLICY_QUESTION), with the
-model's own reasoning:**
-- *"asking about a SkyMiles program policy — the bonus miles awarded for
-  donations"* → the model explicitly names the SkyMiles topic, then still
-  picks the generic category because the message is phrased as a question.
-- *"asking for clarification on how to use miles for an upgrade"* → same
-  pattern.
+Real examples where ACCOUNT_LOYALTY got mislabelled as POLICY_QUESTION,
+with the model's own stated reasoning: one message asked about a
+SkyMiles bonus-miles policy for donations, and the model's reasoning
+literally named the SkyMiles topic, then still picked the generic
+category because the message was phrased as a question. Another asked
+about using miles for an upgrade, same pattern.
 
-**Real examples (REFUND_COMPENSATION mislabelled as SERVICE_COMPLAINT):**
-- *"the voucher cannot be applied when purchasing a new ticket, indicating
-  a service issue"* → again, the model names the voucher/refund topic
-  directly, then defaults to the generic complaint category because of the
-  frustrated tone.
+Real examples where REFUND_COMPENSATION got mislabelled as
+SERVICE_COMPLAINT: one message said a voucher couldn't be applied to a
+new ticket, and the model's own reasoning named the voucher topic
+directly, then defaulted to the generic complaint category because of
+the frustrated tone.
 
-**Hypothesis:** the prompt's category definitions don't state a precedence
-rule for when phrasing and topic point to different categories. Confirmed
-by the model's own reasoning text, not inferred.
+The prompt's category definitions just didn't say what to do when
+phrasing and topic point to different places, and I confirmed that by
+reading the model's actual stated reasoning, not by guessing.
 
-**Fix attempted and evaluated:** added an explicit "topic specificity over
-surface form" rule to the prompt (see decision log #24). Validated via a
-targeted recheck (not a full 240-example rerun -- see decision log #22)
-rather than guessing from the fix alone:
-- **22 of 58** previously-misclassified examples (38%) are now correct.
-- **2 of 30** examples from a random control sample of previously-*correct*
-  examples regressed to incorrect (a 6.7% regression rate on the sampled
-  control group).
-- Net estimate, extrapolating the control-sample regression rate across
-  all 182 originally-correct examples: approximately **192/240 (~79.9%)**,
-  up from the original 75.83% -- a real, meaningful improvement, but not
-  a clean win. The fix helped considerably more than it hurt, but it did
-  measurably hurt something, and that should be stated plainly rather
-  than only reporting the 22 fixed cases. The 2 regressed control examples
-  have not yet been individually reviewed to confirm the regression's
-  own root cause (a natural next step, cheap to do since it requires no
-  further API calls -- just reading the saved recheck JSON).
+## I tried a fix, and it helped more than it hurt, but not cleanly
 
-## Failure mode 2: Gratitude about a resolved disruption -- a genuine taxonomy ambiguity, not a model error
-**Affects 4 misclassifications (FLIGHT_DISRUPTION mislabelled as
-PRAISE_FEEDBACK).**
+I added a rule telling the model to weight topic over phrasing for
+those two category pairs specifically. To test it without re-running
+the whole golden set (Groq's daily token budget made that expensive to
+repeat every time), I built a tool that only rechecks the previously
+wrong examples plus a random sample of previously correct ones.
 
-Initially hypothesized as a sarcasm-detection failure (the taxonomy's
-sarcasm rule exists for a similar surface pattern). Reading the actual
-reasoning disproved this -- these are not sarcastic. Real example: a
-customer thanking staff for quickly rebooking them after a delay, with no
-remaining complaint or ask.
+22 of 58 known errors got fixed. But 2 of 30 examples from the control
+sample, previously correct, broke. That's a real net improvement,
+about 79.9% estimated up from 75.83%, but not a clean win, and I think
+it's more honest to say so than to only report the 22 fixed cases.
 
-**This is not a model bug.** The labelling guide's "mixed intent → pick
-the primary ask" rule doesn't cover messages with *no* ask at all, only
-gratitude about how a past problem was resolved. Whether the "true"
-category should be the underlying event (FLIGHT_DISRUPTION) or the
-expressed sentiment (PRAISE_FEEDBACK) is a genuine, reasonable disagreement
-that a human labeller could also make either way -- not something a
-prompt fix should paper over. Documented as a known taxonomy boundary
-case rather than "fixed."
+I went back and looked at the two regressions individually instead of
+just accepting the net number. One was the message "do I not have to
+pay for checked baggage if I have SkyTeam Elite status," true category
+POLICY_QUESTION, correct before the fix, now flipped to ACCOUNT_LOYALTY.
+My new rule says to use ACCOUNT_LOYALTY when the core subject is
+loyalty program mechanics, but here the elite status is only a
+qualifying condition for a baggage-fee question, not what the message
+is actually about. The model triggered on the mere presence of a
+loyalty term rather than genuinely checking whether it's the core
+subject, even though the rule's wording explicitly asked for that
+distinction.
 
-## Failure mode 3: The fix itself introduced a new, narrower failure mode
+The other regression was stranger. A message about being dragged off a
+flight during a security incident, true category SERVICE_COMPLAINT,
+flipped to FLIGHT_DISRUPTION. This message has no actual connection to
+either of my rule's two named triggers, loyalty or refund language.
+My best guess is that the general idea behind the rule, match by topic
+instead of surface phrasing, generalized further than the two specific
+cases I wrote it for, and the word "airline" ended up read as a signal
+toward FLIGHT_DISRUPTION even though the real content is a
+safety complaint. This is a real risk with prompt-based fixes generally:
+a rule aimed at two specific confusions can shift behavior somewhere
+else entirely, through the general principle it teaches, not just its
+literal wording.
 
-Both regressions found in the targeted recheck's 30-example control
-sample reveal a real cost of the topic-specificity fix (failure mode 1),
-not just its benefit.
+## A pattern that turned out to be a genuine gray area, not a model mistake
 
-**3a. Triggering on mere presence of a term, not genuine "core subject"
-status.** Example: *"Do I not have to pay for checked baggage if I have
-SkyTeam Elite status?"* (true: `POLICY_QUESTION`, correctly classified
-before the fix, now flips to `ACCOUNT_LOYALTY`). The new rule says "if
-the message's *core subject* is ... loyalty program mechanics, use
-ACCOUNT_LOYALTY" -- but here, elite status is only a qualifying condition
-for a baggage-fee policy question, not the subject of the question
-itself. The model appears to trigger on the mere presence of a
-loyalty-program term rather than genuinely assessing whether it's the
-core subject, despite the rule's explicit wording asking for exactly
-that distinction.
-
-**3b. Apparent generalization of the rule's underlying principle beyond
-its two stated cases.** Example: *"me and my son were just dragged off
-the airline. No one recorded. I saw a security punch and I'm mad."*
-(true: `SERVICE_COMPLAINT` -- a genuine safety/security incident,
-correctly classified before the fix, now flips to `FLIGHT_DISRUPTION`).
-This message has no textual connection to either of the rule's two
-specific triggers (loyalty/miles, refund/credit). Working hypothesis:
-the rule's underlying *principle* -- "match by topic, not surface
-phrasing" -- may have generalized further than the two cases it was
-written for, causing the word "airline" to be read as a topic signal
-toward `FLIGHT_DISRUPTION` even though the actual content is a
-security-incident complaint. This is speculative but plausible, and
-worth flagging as a real risk of prompt-based fixes generally: a rule
-written to correct two specific category confusions can shift model
-behavior in unrelated categories through the general principle it
-teaches, not just its literal, named content.
-
-**Net effect:** the fix is still a real improvement (22 fixed vs. 2
-regressed in the sampled groups, an estimated ~+4 points overall -- see
-above), but it is not a clean, isolated win. This is good material for
-the "misleading headline number" section: a single accuracy delta can
-hide the fact that a fix's mechanism has side effects beyond its
-intended, named scope.
+I originally guessed this one was a sarcasm-detection failure, since my
+prompt has a rule for a similar surface pattern. Reading the actual
+model reasoning disproved that. These four cases (FLIGHT_DISRUPTION
+mislabelled as PRAISE_FEEDBACK) aren't sarcastic at all, they're
+genuine thank-yous for how a disruption got handled, with nothing left
+to complain about. My own labelling guide's rule for mixed intent,
+"pick the primary ask," doesn't actually cover a message with no ask at
+all, just gratitude about a resolved problem. Whether the true category
+should be the underlying event or the expressed sentiment is a real,
+reasonable disagreement a human labeller could land on either way. I'm
+documenting this as a genuine boundary in my own taxonomy, not
+something a prompt fix should try to paper over.
 
 ## What this means for the headline number
-The 75.83% figure is not purely a measure of model capability -- it
-partly reflects an unresolved ambiguity in our own taxonomy (failure
-mode 2) and a fixable, evidence-backed prompt gap (failure mode 1). A
-reader should not treat 75.83% as "how good the model is" in isolation;
-see the report's dedicated "what is misleading about my headline number"
-section for the full discussion.
+
+75.83% isn't purely a measure of how good the model is. Part of it
+reflects a real gap in my taxonomy that a reasonable person could
+disagree with me on, and part of it reflects a fixable, evidence-backed
+prompt problem. Anyone reading that number in isolation would be
+missing both of those things.
