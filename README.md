@@ -18,8 +18,8 @@ Requires **Python 3.11** and internet access for the one-time embedding
 model download (~130MB, no API key needed for that step).
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/amiya-09/hiver-delta-support-agent.git
+cd hiver-delta-support-agent
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
@@ -132,8 +132,10 @@ data/eval/ Real evaluation outputs from this project's runs
 
 - `report.md` — problem framing, results vs. baselines, failure analysis, limitations, next steps
 - `decision_log.md` — every non-obvious decision made, and why
-- `phase3_failure_analysis.md`, `phase4_failure_analysis.md`, `phase5_failure_analysis.md` — detailed, evidence-based findings per phase
-- `golden_set_labelling_guide.md` — the reference used for hand-labelling the golden set
+- `citations.md` — dataset, models, libraries, and AI assistance used
+- `PHASE_1-DATA_PIPELINE.md` through `PHASE_6-LLM_JUDGE.md`, `GOLDEN_SET.md` — the story of each phase, what I built and what actually happened
+- `phase1_failure_analysis.md` through `phase6_failure_analysis.md` — detailed, evidence-based findings per phase, with real examples
+- `golden_set_labelling_guide.md` — the reference I labelled the golden set against
 - `PHASE_LOG.md` — running status per phase
 
 ## Known limitations (see `report.md` for full discussion)
