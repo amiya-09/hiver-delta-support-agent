@@ -284,54 +284,54 @@
   },
   "llm_classifier": {
     "metrics": {
-      "accuracy": 0.7583333333333333,
+      "accuracy": 0.7875,
       "per_label": {
         "FLIGHT_DISRUPTION": {
-          "precision": 0.9230769230769231,
+          "precision": 0.8275862068965517,
           "recall": 0.7058823529411765,
-          "f1": 0.8000000000000002,
+          "f1": 0.7619047619047619,
           "support": 34
         },
         "BAGGAGE_PROBLEM": {
-          "precision": 0.88,
-          "recall": 0.7096774193548387,
-          "f1": 0.7857142857142856,
+          "precision": 0.8571428571428571,
+          "recall": 0.7741935483870968,
+          "f1": 0.8135593220338982,
           "support": 31
         },
         "BOOKING_CHANGE": {
-          "precision": 0.6666666666666666,
-          "recall": 0.6153846153846154,
-          "f1": 0.64,
+          "precision": 0.6923076923076923,
+          "recall": 0.6923076923076923,
+          "f1": 0.6923076923076923,
           "support": 13
         },
         "REFUND_COMPENSATION": {
-          "precision": 0.9523809523809523,
-          "recall": 0.6896551724137931,
-          "f1": 0.7999999999999999,
+          "precision": 0.8,
+          "recall": 0.8275862068965517,
+          "f1": 0.8135593220338982,
           "support": 29
         },
         "ACCOUNT_LOYALTY": {
-          "precision": 0.9166666666666666,
-          "recall": 0.4583333333333333,
-          "f1": 0.611111111111111,
+          "precision": 0.8571428571428571,
+          "recall": 0.75,
+          "f1": 0.7999999999999999,
           "support": 24
         },
         "POLICY_QUESTION": {
-          "precision": 0.5909090909090909,
-          "recall": 1.0,
-          "f1": 0.7428571428571429,
+          "precision": 0.6666666666666666,
+          "recall": 0.8461538461538461,
+          "f1": 0.7457627118644068,
           "support": 26
         },
         "SERVICE_COMPLAINT": {
-          "precision": 0.5490196078431373,
-          "recall": 0.8,
-          "f1": 0.6511627906976745,
+          "precision": 0.6944444444444444,
+          "recall": 0.7142857142857143,
+          "f1": 0.7042253521126761,
           "support": 35
         },
         "PRAISE_FEEDBACK": {
-          "precision": 0.8775510204081632,
+          "precision": 0.86,
           "recall": 0.8958333333333334,
-          "f1": 0.8865979381443299,
+          "f1": 0.8775510204081632,
           "support": 48
         }
       },
@@ -339,81 +339,81 @@
         "FLIGHT_DISRUPTION": {
           "FLIGHT_DISRUPTION": 24,
           "BAGGAGE_PROBLEM": 0,
-          "BOOKING_CHANGE": 0,
-          "REFUND_COMPENSATION": 0,
+          "BOOKING_CHANGE": 1,
+          "REFUND_COMPENSATION": 2,
           "ACCOUNT_LOYALTY": 0,
           "POLICY_QUESTION": 0,
-          "SERVICE_COMPLAINT": 6,
+          "SERVICE_COMPLAINT": 3,
           "PRAISE_FEEDBACK": 4
         },
         "BAGGAGE_PROBLEM": {
-          "FLIGHT_DISRUPTION": 0,
-          "BAGGAGE_PROBLEM": 22,
-          "BOOKING_CHANGE": 1,
+          "FLIGHT_DISRUPTION": 1,
+          "BAGGAGE_PROBLEM": 24,
+          "BOOKING_CHANGE": 0,
           "REFUND_COMPENSATION": 1,
-          "ACCOUNT_LOYALTY": 0,
-          "POLICY_QUESTION": 3,
-          "SERVICE_COMPLAINT": 3,
+          "ACCOUNT_LOYALTY": 1,
+          "POLICY_QUESTION": 2,
+          "SERVICE_COMPLAINT": 1,
           "PRAISE_FEEDBACK": 1
         },
         "BOOKING_CHANGE": {
           "FLIGHT_DISRUPTION": 0,
           "BAGGAGE_PROBLEM": 0,
-          "BOOKING_CHANGE": 8,
+          "BOOKING_CHANGE": 9,
           "REFUND_COMPENSATION": 0,
           "ACCOUNT_LOYALTY": 1,
-          "POLICY_QUESTION": 0,
-          "SERVICE_COMPLAINT": 4,
+          "POLICY_QUESTION": 1,
+          "SERVICE_COMPLAINT": 2,
           "PRAISE_FEEDBACK": 0
         },
         "REFUND_COMPENSATION": {
           "FLIGHT_DISRUPTION": 1,
           "BAGGAGE_PROBLEM": 0,
-          "BOOKING_CHANGE": 1,
-          "REFUND_COMPENSATION": 20,
+          "BOOKING_CHANGE": 0,
+          "REFUND_COMPENSATION": 24,
           "ACCOUNT_LOYALTY": 0,
-          "POLICY_QUESTION": 2,
-          "SERVICE_COMPLAINT": 5,
-          "PRAISE_FEEDBACK": 0
+          "POLICY_QUESTION": 1,
+          "SERVICE_COMPLAINT": 2,
+          "PRAISE_FEEDBACK": 1
         },
         "ACCOUNT_LOYALTY": {
           "FLIGHT_DISRUPTION": 0,
           "BAGGAGE_PROBLEM": 0,
           "BOOKING_CHANGE": 1,
           "REFUND_COMPENSATION": 0,
-          "ACCOUNT_LOYALTY": 11,
-          "POLICY_QUESTION": 9,
-          "SERVICE_COMPLAINT": 2,
+          "ACCOUNT_LOYALTY": 18,
+          "POLICY_QUESTION": 4,
+          "SERVICE_COMPLAINT": 0,
           "PRAISE_FEEDBACK": 1
         },
         "POLICY_QUESTION": {
           "FLIGHT_DISRUPTION": 0,
           "BAGGAGE_PROBLEM": 0,
           "BOOKING_CHANGE": 0,
-          "REFUND_COMPENSATION": 0,
-          "ACCOUNT_LOYALTY": 0,
-          "POLICY_QUESTION": 26,
-          "SERVICE_COMPLAINT": 0,
+          "REFUND_COMPENSATION": 2,
+          "ACCOUNT_LOYALTY": 1,
+          "POLICY_QUESTION": 22,
+          "SERVICE_COMPLAINT": 1,
           "PRAISE_FEEDBACK": 0
         },
         "SERVICE_COMPLAINT": {
-          "FLIGHT_DISRUPTION": 1,
-          "BAGGAGE_PROBLEM": 3,
+          "FLIGHT_DISRUPTION": 3,
+          "BAGGAGE_PROBLEM": 4,
           "BOOKING_CHANGE": 0,
-          "REFUND_COMPENSATION": 0,
+          "REFUND_COMPENSATION": 1,
           "ACCOUNT_LOYALTY": 0,
-          "POLICY_QUESTION": 3,
-          "SERVICE_COMPLAINT": 28,
+          "POLICY_QUESTION": 2,
+          "SERVICE_COMPLAINT": 25,
           "PRAISE_FEEDBACK": 0
         },
         "PRAISE_FEEDBACK": {
           "FLIGHT_DISRUPTION": 0,
           "BAGGAGE_PROBLEM": 0,
-          "BOOKING_CHANGE": 1,
+          "BOOKING_CHANGE": 2,
           "REFUND_COMPENSATION": 0,
           "ACCOUNT_LOYALTY": 0,
           "POLICY_QUESTION": 1,
-          "SERVICE_COMPLAINT": 3,
+          "SERVICE_COMPLAINT": 2,
           "PRAISE_FEEDBACK": 43
         }
       }

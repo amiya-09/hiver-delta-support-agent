@@ -104,18 +104,18 @@
   },
   "end_to_end": {
     "binary_metrics": {
-      "accuracy": 0.7708333333333334,
+      "accuracy": 0.7291666666666666,
       "per_label": {
         "ESCALATE": {
-          "precision": 0.5089285714285714,
+          "precision": 0.4672131147540984,
           "recall": 1.0,
-          "f1": 0.6745562130177515,
+          "f1": 0.6368715083798883,
           "support": 57
         },
         "AUTO_HANDLE": {
           "precision": 1.0,
-          "recall": 0.6994535519125683,
-          "f1": 0.8231511254019294,
+          "recall": 0.644808743169399,
+          "f1": 0.7840531561461794,
           "support": 183
         }
       },
@@ -125,13 +125,13 @@
           "AUTO_HANDLE": 0
         },
         "AUTO_HANDLE": {
-          "ESCALATE": 55,
-          "AUTO_HANDLE": 128
+          "ESCALATE": 65,
+          "AUTO_HANDLE": 118
         }
       }
     },
     "rule_metrics": {
-      "accuracy": 0.7375,
+      "accuracy": 0.7,
       "per_label": {
         "hard_risk_keyword": {
           "precision": 0.5,
@@ -140,9 +140,9 @@
           "support": 20
         },
         "risk_category_default": {
-          "precision": 0.6744186046511628,
-          "recall": 0.8285714285714286,
-          "f1": 0.7435897435897435,
+          "precision": 0.5454545454545454,
+          "recall": 0.8571428571428571,
+          "f1": 0.6666666666666665,
           "support": 35
         },
         "weak_grounding": {
@@ -159,8 +159,8 @@
         },
         "none_auto_handle": {
           "precision": 1.0,
-          "recall": 0.6994535519125683,
-          "f1": 0.8231511254019294,
+          "recall": 0.644808743169399,
+          "f1": 0.7840531561461794,
           "support": 183
         }
       },
@@ -174,9 +174,9 @@
         },
         "risk_category_default": {
           "hard_risk_keyword": 4,
-          "risk_category_default": 29,
+          "risk_category_default": 30,
           "weak_grounding": 0,
-          "ambiguous_classification": 2,
+          "ambiguous_classification": 1,
           "none_auto_handle": 0
         },
         "weak_grounding": {
@@ -195,10 +195,10 @@
         },
         "none_auto_handle": {
           "hard_risk_keyword": 14,
-          "risk_category_default": 14,
+          "risk_category_default": 25,
           "weak_grounding": 1,
-          "ambiguous_classification": 26,
-          "none_auto_handle": 128
+          "ambiguous_classification": 25,
+          "none_auto_handle": 118
         }
       }
     }
@@ -250,9 +250,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       }
     },
     {
@@ -301,9 +301,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -386,9 +386,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
       }
     },
     {
@@ -422,7 +422,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
+        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -471,9 +471,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs SERVICE_COMPLAINT."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       }
     },
     {
@@ -573,9 +573,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       }
     },
     {
@@ -760,9 +760,9 @@
         "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: POLICY_QUESTION vs ACCOUNT_LOYALTY."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       }
     },
     {
@@ -811,9 +811,9 @@
         "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       }
     },
     {
@@ -1032,9 +1032,9 @@
         "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       }
     },
     {
@@ -1068,7 +1068,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: BOOKING_CHANGE vs BAGGAGE_PROBLEM."
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs BAGGAGE_PROBLEM."
       }
     },
     {
@@ -1134,9 +1134,9 @@
         "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       }
     },
     {
@@ -1187,7 +1187,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs BOOKING_CHANGE."
+        "reason": "Intent classification ambiguous: BOOKING_CHANGE vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -1202,9 +1202,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: BOOKING_CHANGE vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -1219,9 +1219,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs BOOKING_CHANGE."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       }
     },
     {
@@ -1304,9 +1304,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs BOOKING_CHANGE."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       }
     },
     {
@@ -1457,9 +1457,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -1578,7 +1578,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs BOOKING_CHANGE."
+        "reason": "Intent classification ambiguous: BOOKING_CHANGE vs FLIGHT_DISRUPTION."
       }
     },
     {
@@ -1729,9 +1729,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -1798,8 +1798,8 @@
       },
       "end_to_end": {
         "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -1882,9 +1882,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
       }
     },
     {
@@ -2018,9 +2018,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.91) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.91) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -2052,9 +2052,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: ACCOUNT_LOYALTY vs POLICY_QUESTION."
       }
     },
     {
@@ -2188,9 +2188,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.84) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -2239,9 +2239,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
       }
     },
     {
@@ -2290,9 +2290,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs BOOKING_CHANGE."
       }
     },
     {
@@ -3327,9 +3327,9 @@
         "reason": "Category defaults to human review: REFUND_COMPENSATION."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -3447,8 +3447,8 @@
       },
       "end_to_end": {
         "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs REFUND_COMPENSATION."
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -3497,9 +3497,9 @@
         "reason": "Category defaults to human review: REFUND_COMPENSATION."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -3601,7 +3601,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -3633,9 +3633,9 @@
         "reason": "Category defaults to human review: REFUND_COMPENSATION."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -3922,9 +3922,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
       }
     },
     {
@@ -3939,9 +3939,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.87) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
       }
     },
     {
@@ -3958,7 +3958,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -3975,7 +3975,7 @@
       "end_to_end": {
         "escalate": true,
         "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs FLIGHT_DISRUPTION."
+        "reason": "Intent classification ambiguous: FLIGHT_DISRUPTION vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -3990,9 +3990,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.85) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: BAGGAGE_PROBLEM."
       }
     },
     {
@@ -4109,9 +4109,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.86) and confident classification."
+        "escalate": true,
+        "rule": "risk_category_default",
+        "reason": "Category defaults to human review: REFUND_COMPENSATION."
       }
     },
     {
@@ -4211,9 +4211,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
       },
       "end_to_end": {
-        "escalate": false,
-        "rule": "none_auto_handle",
-        "reason": "Routine case with strong historical precedent (similarity=0.89) and confident classification."
+        "escalate": true,
+        "rule": "ambiguous_classification",
+        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
       }
     },
     {
@@ -4245,9 +4245,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.81) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: SERVICE_COMPLAINT vs PRAISE_FEEDBACK."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.81) and confident classification."
       }
     },
     {
@@ -4262,9 +4262,9 @@
         "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
       },
       "end_to_end": {
-        "escalate": true,
-        "rule": "ambiguous_classification",
-        "reason": "Intent classification ambiguous: POLICY_QUESTION vs SERVICE_COMPLAINT."
+        "escalate": false,
+        "rule": "none_auto_handle",
+        "reason": "Routine case with strong historical precedent (similarity=0.88) and confident classification."
       }
     },
     {

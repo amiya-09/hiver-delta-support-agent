@@ -2,54 +2,54 @@
   "n_total": 240,
   "n_ambiguous_excluded": 6,
   "overall": {
-    "accuracy": 0.7583333333333333,
+    "accuracy": 0.7875,
     "per_label": {
       "FLIGHT_DISRUPTION": {
-        "precision": 0.9230769230769231,
+        "precision": 0.8275862068965517,
         "recall": 0.7058823529411765,
-        "f1": 0.8000000000000002,
+        "f1": 0.7619047619047619,
         "support": 34
       },
       "BAGGAGE_PROBLEM": {
-        "precision": 0.88,
-        "recall": 0.7096774193548387,
-        "f1": 0.7857142857142856,
+        "precision": 0.8571428571428571,
+        "recall": 0.7741935483870968,
+        "f1": 0.8135593220338982,
         "support": 31
       },
       "BOOKING_CHANGE": {
-        "precision": 0.6666666666666666,
-        "recall": 0.6153846153846154,
-        "f1": 0.64,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f1": 0.6923076923076923,
         "support": 13
       },
       "REFUND_COMPENSATION": {
-        "precision": 0.9523809523809523,
-        "recall": 0.6896551724137931,
-        "f1": 0.7999999999999999,
+        "precision": 0.8,
+        "recall": 0.8275862068965517,
+        "f1": 0.8135593220338982,
         "support": 29
       },
       "ACCOUNT_LOYALTY": {
-        "precision": 0.9166666666666666,
-        "recall": 0.4583333333333333,
-        "f1": 0.611111111111111,
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "f1": 0.7999999999999999,
         "support": 24
       },
       "POLICY_QUESTION": {
-        "precision": 0.5909090909090909,
-        "recall": 1.0,
-        "f1": 0.7428571428571429,
+        "precision": 0.6666666666666666,
+        "recall": 0.8461538461538461,
+        "f1": 0.7457627118644068,
         "support": 26
       },
       "SERVICE_COMPLAINT": {
-        "precision": 0.5490196078431373,
-        "recall": 0.8,
-        "f1": 0.6511627906976745,
+        "precision": 0.6944444444444444,
+        "recall": 0.7142857142857143,
+        "f1": 0.7042253521126761,
         "support": 35
       },
       "PRAISE_FEEDBACK": {
-        "precision": 0.8775510204081632,
+        "precision": 0.86,
         "recall": 0.8958333333333334,
-        "f1": 0.8865979381443299,
+        "f1": 0.8775510204081632,
         "support": 48
       }
     },
@@ -57,216 +57,216 @@
       "FLIGHT_DISRUPTION": {
         "FLIGHT_DISRUPTION": 24,
         "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 0,
-        "REFUND_COMPENSATION": 0,
+        "BOOKING_CHANGE": 1,
+        "REFUND_COMPENSATION": 2,
         "ACCOUNT_LOYALTY": 0,
         "POLICY_QUESTION": 0,
-        "SERVICE_COMPLAINT": 6,
+        "SERVICE_COMPLAINT": 3,
         "PRAISE_FEEDBACK": 4
       },
       "BAGGAGE_PROBLEM": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 22,
-        "BOOKING_CHANGE": 1,
+        "FLIGHT_DISRUPTION": 1,
+        "BAGGAGE_PROBLEM": 24,
+        "BOOKING_CHANGE": 0,
         "REFUND_COMPENSATION": 1,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 3,
-        "SERVICE_COMPLAINT": 3,
+        "ACCOUNT_LOYALTY": 1,
+        "POLICY_QUESTION": 2,
+        "SERVICE_COMPLAINT": 1,
         "PRAISE_FEEDBACK": 1
       },
       "BOOKING_CHANGE": {
         "FLIGHT_DISRUPTION": 0,
         "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 8,
+        "BOOKING_CHANGE": 9,
         "REFUND_COMPENSATION": 0,
         "ACCOUNT_LOYALTY": 1,
-        "POLICY_QUESTION": 0,
-        "SERVICE_COMPLAINT": 4,
+        "POLICY_QUESTION": 1,
+        "SERVICE_COMPLAINT": 2,
         "PRAISE_FEEDBACK": 0
       },
       "REFUND_COMPENSATION": {
         "FLIGHT_DISRUPTION": 1,
         "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 1,
-        "REFUND_COMPENSATION": 20,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 2,
-        "SERVICE_COMPLAINT": 5,
-        "PRAISE_FEEDBACK": 0
-      },
-      "ACCOUNT_LOYALTY": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 1,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 11,
-        "POLICY_QUESTION": 9,
-        "SERVICE_COMPLAINT": 2,
-        "PRAISE_FEEDBACK": 1
-      },
-      "POLICY_QUESTION": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 0,
         "BOOKING_CHANGE": 0,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 26,
-        "SERVICE_COMPLAINT": 0,
-        "PRAISE_FEEDBACK": 0
-      },
-      "SERVICE_COMPLAINT": {
-        "FLIGHT_DISRUPTION": 1,
-        "BAGGAGE_PROBLEM": 3,
-        "BOOKING_CHANGE": 0,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 3,
-        "SERVICE_COMPLAINT": 28,
-        "PRAISE_FEEDBACK": 0
-      },
-      "PRAISE_FEEDBACK": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 1,
-        "REFUND_COMPENSATION": 0,
+        "REFUND_COMPENSATION": 24,
         "ACCOUNT_LOYALTY": 0,
         "POLICY_QUESTION": 1,
-        "SERVICE_COMPLAINT": 3,
-        "PRAISE_FEEDBACK": 43
-      }
-    }
-  },
-  "excluding_ambiguous": {
-    "accuracy": 0.7564102564102564,
-    "per_label": {
-      "FLIGHT_DISRUPTION": {
-        "precision": 0.92,
-        "recall": 0.71875,
-        "f1": 0.8070175438596492,
-        "support": 32
-      },
-      "BAGGAGE_PROBLEM": {
-        "precision": 0.88,
-        "recall": 0.7096774193548387,
-        "f1": 0.7857142857142856,
-        "support": 31
-      },
-      "BOOKING_CHANGE": {
-        "precision": 0.6666666666666666,
-        "recall": 0.6153846153846154,
-        "f1": 0.64,
-        "support": 13
-      },
-      "REFUND_COMPENSATION": {
-        "precision": 0.95,
-        "recall": 0.6785714285714286,
-        "f1": 0.7916666666666667,
-        "support": 28
-      },
-      "ACCOUNT_LOYALTY": {
-        "precision": 0.9166666666666666,
-        "recall": 0.4583333333333333,
-        "f1": 0.611111111111111,
-        "support": 24
-      },
-      "POLICY_QUESTION": {
-        "precision": 0.5909090909090909,
-        "recall": 1.0,
-        "f1": 0.7428571428571429,
-        "support": 26
-      },
-      "SERVICE_COMPLAINT": {
-        "precision": 0.5319148936170213,
-        "recall": 0.78125,
-        "f1": 0.6329113924050632,
-        "support": 32
-      },
-      "PRAISE_FEEDBACK": {
-        "precision": 0.8775510204081632,
-        "recall": 0.8958333333333334,
-        "f1": 0.8865979381443299,
-        "support": 48
-      }
-    },
-    "confusion_matrix": {
-      "FLIGHT_DISRUPTION": {
-        "FLIGHT_DISRUPTION": 23,
-        "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 0,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 0,
-        "SERVICE_COMPLAINT": 5,
-        "PRAISE_FEEDBACK": 4
-      },
-      "BAGGAGE_PROBLEM": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 22,
-        "BOOKING_CHANGE": 1,
-        "REFUND_COMPENSATION": 1,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 3,
-        "SERVICE_COMPLAINT": 3,
-        "PRAISE_FEEDBACK": 1
-      },
-      "BOOKING_CHANGE": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 8,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 1,
-        "POLICY_QUESTION": 0,
-        "SERVICE_COMPLAINT": 4,
-        "PRAISE_FEEDBACK": 0
-      },
-      "REFUND_COMPENSATION": {
-        "FLIGHT_DISRUPTION": 1,
-        "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 1,
-        "REFUND_COMPENSATION": 19,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 2,
-        "SERVICE_COMPLAINT": 5,
-        "PRAISE_FEEDBACK": 0
-      },
-      "ACCOUNT_LOYALTY": {
-        "FLIGHT_DISRUPTION": 0,
-        "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 1,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 11,
-        "POLICY_QUESTION": 9,
         "SERVICE_COMPLAINT": 2,
         "PRAISE_FEEDBACK": 1
       },
+      "ACCOUNT_LOYALTY": {
+        "FLIGHT_DISRUPTION": 0,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 1,
+        "REFUND_COMPENSATION": 0,
+        "ACCOUNT_LOYALTY": 18,
+        "POLICY_QUESTION": 4,
+        "SERVICE_COMPLAINT": 0,
+        "PRAISE_FEEDBACK": 1
+      },
       "POLICY_QUESTION": {
         "FLIGHT_DISRUPTION": 0,
         "BAGGAGE_PROBLEM": 0,
         "BOOKING_CHANGE": 0,
-        "REFUND_COMPENSATION": 0,
-        "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 26,
-        "SERVICE_COMPLAINT": 0,
+        "REFUND_COMPENSATION": 2,
+        "ACCOUNT_LOYALTY": 1,
+        "POLICY_QUESTION": 22,
+        "SERVICE_COMPLAINT": 1,
         "PRAISE_FEEDBACK": 0
       },
       "SERVICE_COMPLAINT": {
-        "FLIGHT_DISRUPTION": 1,
-        "BAGGAGE_PROBLEM": 3,
+        "FLIGHT_DISRUPTION": 3,
+        "BAGGAGE_PROBLEM": 4,
         "BOOKING_CHANGE": 0,
-        "REFUND_COMPENSATION": 0,
+        "REFUND_COMPENSATION": 1,
         "ACCOUNT_LOYALTY": 0,
-        "POLICY_QUESTION": 3,
+        "POLICY_QUESTION": 2,
         "SERVICE_COMPLAINT": 25,
         "PRAISE_FEEDBACK": 0
       },
       "PRAISE_FEEDBACK": {
         "FLIGHT_DISRUPTION": 0,
         "BAGGAGE_PROBLEM": 0,
-        "BOOKING_CHANGE": 1,
+        "BOOKING_CHANGE": 2,
         "REFUND_COMPENSATION": 0,
         "ACCOUNT_LOYALTY": 0,
         "POLICY_QUESTION": 1,
-        "SERVICE_COMPLAINT": 3,
+        "SERVICE_COMPLAINT": 2,
+        "PRAISE_FEEDBACK": 43
+      }
+    }
+  },
+  "excluding_ambiguous": {
+    "accuracy": 0.7905982905982906,
+    "per_label": {
+      "FLIGHT_DISRUPTION": {
+        "precision": 0.8275862068965517,
+        "recall": 0.75,
+        "f1": 0.7868852459016394,
+        "support": 32
+      },
+      "BAGGAGE_PROBLEM": {
+        "precision": 0.8571428571428571,
+        "recall": 0.7741935483870968,
+        "f1": 0.8135593220338982,
+        "support": 31
+      },
+      "BOOKING_CHANGE": {
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f1": 0.6923076923076923,
+        "support": 13
+      },
+      "REFUND_COMPENSATION": {
+        "precision": 0.8214285714285714,
+        "recall": 0.8214285714285714,
+        "f1": 0.8214285714285714,
+        "support": 28
+      },
+      "ACCOUNT_LOYALTY": {
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "f1": 0.7999999999999999,
+        "support": 24
+      },
+      "POLICY_QUESTION": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8461538461538461,
+        "f1": 0.7457627118644068,
+        "support": 26
+      },
+      "SERVICE_COMPLAINT": {
+        "precision": 0.6875,
+        "recall": 0.6875,
+        "f1": 0.6875,
+        "support": 32
+      },
+      "PRAISE_FEEDBACK": {
+        "precision": 0.86,
+        "recall": 0.8958333333333334,
+        "f1": 0.8775510204081632,
+        "support": 48
+      }
+    },
+    "confusion_matrix": {
+      "FLIGHT_DISRUPTION": {
+        "FLIGHT_DISRUPTION": 24,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 1,
+        "REFUND_COMPENSATION": 1,
+        "ACCOUNT_LOYALTY": 0,
+        "POLICY_QUESTION": 0,
+        "SERVICE_COMPLAINT": 2,
+        "PRAISE_FEEDBACK": 4
+      },
+      "BAGGAGE_PROBLEM": {
+        "FLIGHT_DISRUPTION": 1,
+        "BAGGAGE_PROBLEM": 24,
+        "BOOKING_CHANGE": 0,
+        "REFUND_COMPENSATION": 1,
+        "ACCOUNT_LOYALTY": 1,
+        "POLICY_QUESTION": 2,
+        "SERVICE_COMPLAINT": 1,
+        "PRAISE_FEEDBACK": 1
+      },
+      "BOOKING_CHANGE": {
+        "FLIGHT_DISRUPTION": 0,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 9,
+        "REFUND_COMPENSATION": 0,
+        "ACCOUNT_LOYALTY": 1,
+        "POLICY_QUESTION": 1,
+        "SERVICE_COMPLAINT": 2,
+        "PRAISE_FEEDBACK": 0
+      },
+      "REFUND_COMPENSATION": {
+        "FLIGHT_DISRUPTION": 1,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 0,
+        "REFUND_COMPENSATION": 23,
+        "ACCOUNT_LOYALTY": 0,
+        "POLICY_QUESTION": 1,
+        "SERVICE_COMPLAINT": 2,
+        "PRAISE_FEEDBACK": 1
+      },
+      "ACCOUNT_LOYALTY": {
+        "FLIGHT_DISRUPTION": 0,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 1,
+        "REFUND_COMPENSATION": 0,
+        "ACCOUNT_LOYALTY": 18,
+        "POLICY_QUESTION": 4,
+        "SERVICE_COMPLAINT": 0,
+        "PRAISE_FEEDBACK": 1
+      },
+      "POLICY_QUESTION": {
+        "FLIGHT_DISRUPTION": 0,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 0,
+        "REFUND_COMPENSATION": 2,
+        "ACCOUNT_LOYALTY": 1,
+        "POLICY_QUESTION": 22,
+        "SERVICE_COMPLAINT": 1,
+        "PRAISE_FEEDBACK": 0
+      },
+      "SERVICE_COMPLAINT": {
+        "FLIGHT_DISRUPTION": 3,
+        "BAGGAGE_PROBLEM": 4,
+        "BOOKING_CHANGE": 0,
+        "REFUND_COMPENSATION": 1,
+        "ACCOUNT_LOYALTY": 0,
+        "POLICY_QUESTION": 2,
+        "SERVICE_COMPLAINT": 22,
+        "PRAISE_FEEDBACK": 0
+      },
+      "PRAISE_FEEDBACK": {
+        "FLIGHT_DISRUPTION": 0,
+        "BAGGAGE_PROBLEM": 0,
+        "BOOKING_CHANGE": 2,
+        "REFUND_COMPENSATION": 0,
+        "ACCOUNT_LOYALTY": 0,
+        "POLICY_QUESTION": 1,
+        "SERVICE_COMPLAINT": 2,
         "PRAISE_FEEDBACK": 43
       }
     }
@@ -278,7 +278,7 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is requesting to use or transfer air miles for a family member, which falls under the account loyalty/miles category.",
+      "reasoning": "The user requests SkyMiles points for their son, which falls under loyalty program queries.",
       "intent_ambiguous": false
     },
     {
@@ -287,16 +287,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer is asking how to redeem a credit card companion flight perk, an informational request about a policy.",
+      "reasoning": "The customer is asking how to redeem a companion flight perk from their credit card, which is a policy/eligibility question.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1932380",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
-      "second_choice": "ACCOUNT_LOYALTY",
-      "reasoning": "The user is asking for policy information regarding SkyMiles credit eligibility, which is a policy question, with a secondary concern about their SkyMiles account credit.",
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
+      "second_choice": null,
+      "reasoning": "The user is asking if a boarding pass alone is sufficient for SkyMiles credit, which is a direct question about SkyMiles accrual rules.",
       "intent_ambiguous": false
     },
     {
@@ -305,7 +305,7 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is inquiring about missing Skymiles credit for a flight, which directly relates to miles/account status.",
+      "reasoning": "The customer is specifically asking about SkyMiles credit eligibility for a flight, which falls under the loyalty account category.",
       "intent_ambiguous": false
     },
     {
@@ -314,25 +314,25 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for help to unlock and recover a SkyMiles account, which is an account-related issue.",
+      "reasoning": "The customer is requesting help with a locked SkyMiles account, which falls under the account loyalty category.",
       "intent_ambiguous": false
     },
     {
       "example_id": "214187",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": null,
-      "reasoning": "The user is upset that customer service lied about helping with tech issues when trying to book a car with miles, making the main issue a complaint.",
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The customer is frustrated about using miles to book a car and alleges CS lied, making the core issue about SkyMiles usage rather than general service dissatisfaction.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1506713",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "ACCOUNT_LOYALTY",
-      "correct": true,
+      "predicted_intent": "PRAISE_FEEDBACK",
+      "correct": false,
       "second_choice": null,
-      "reasoning": "The tweet celebrates earning elite status, which falls under loyalty status updates.",
+      "reasoning": "User is expressing excitement and praise after achieving elite status.",
       "intent_ambiguous": false
     },
     {
@@ -341,25 +341,25 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user reports missing miles on their account, which is a direct account or loyalty status concern.",
+      "reasoning": "The customer is asking about missing miles in their loyalty account, which directly concerns SkyMiles status and program mechanics.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1225340",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for clarification on program terminology and mileage status, which is an informational question with no active issue.",
+      "reasoning": "The user is asking for details about SkyMiles program metrics and their current miles, which falls under the SkyMiles/Medallion status category.",
       "intent_ambiguous": false
     },
     {
       "example_id": "608666",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is asking about a SkyMiles program policy \u2013 the bonus miles awarded for donations \u2013 and does not request a specific action or complaint.",
+      "reasoning": "The tweet focuses on SkyMiles bonus miles for donating, which falls under the SkyMiles/Medallion account loyalty category.",
       "intent_ambiguous": false
     },
     {
@@ -367,8 +367,8 @@
       "true_intent": "ACCOUNT_LOYALTY",
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
-      "second_choice": null,
-      "reasoning": "The user is asking for seating policy regarding Medallion members, which is a policy question.",
+      "second_choice": "ACCOUNT_LOYALTY",
+      "reasoning": "The user is asking how to seat a Medallion member at the back of the plane, which is a request for policy information about seat placement.",
       "intent_ambiguous": false
     },
     {
@@ -377,16 +377,16 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is complaining about a long wait time to change the password on their SkyMiles account, which is an account-related issue.",
+      "reasoning": "The user is complaining about a delay in changing their SkyMiles password, which is a loyalty program account issue.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2271159",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "User is asking for clarification on how to use miles for an upgrade and concerned about losing it due to a poor process, which is an informational policy query with a secondary complaint.",
+      "reasoning": "The user is worried about losing miles/upgrade points due to a problematic process, which is a SkyMiles/medallion issue, and also expresses frustration with the process itself.",
       "intent_ambiguous": false
     },
     {
@@ -395,16 +395,16 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking when their miles will credit to their account after a recent flight, which is an issue related to SkyMiles account balance.",
+      "reasoning": "User is asking about the timing of miles crediting after a flight, which is a core loyalty program question.",
       "intent_ambiguous": false
     },
     {
       "example_id": "259508",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": "ACCOUNT_LOYALTY",
-      "reasoning": "The tweet vents frustration about the airline losing customer loyalty, expressing a complaint rather than a specific request for a fix.",
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
+      "second_choice": null,
+      "reasoning": "The tweet expresses dissatisfaction about earning and losing loyalty points, directly referring to Delta\u2019s loyalty program, making ACCOUNT_LOYALTY the most specific category.",
       "intent_ambiguous": false
     },
     {
@@ -412,8 +412,8 @@
       "true_intent": "ACCOUNT_LOYALTY",
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer is upset about Medallion upgrades and loyalty miles not being applied, indicating a problem with their Medallion status and account, which fits the ACCOUNT_LOYALTY category, while the frustration also aligns with a service complaint.",
+      "second_choice": null,
+      "reasoning": "User is complaining about Medallion upgrades not being available, which relates directly to the loyalty program.",
       "intent_ambiguous": false
     },
     {
@@ -422,7 +422,7 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for help with resetting their SkyMiles account password, which is an account-related request.",
+      "reasoning": "The user is asking for help resetting their SkyMiles password, a direct account\u2011management request that falls under the ACCOUNT_LOYALTY category.",
       "intent_ambiguous": false
     },
     {
@@ -431,7 +431,7 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is inquiring why they have not received a credit card benefit tied to their SkyMiles status, which is a matter of account loyalty.",
+      "reasoning": "User is asking why their MQD waiver, a SkyMiles loyalty benefit, hasn't been credited despite meeting spend requirements.",
       "intent_ambiguous": false
     },
     {
@@ -440,16 +440,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "User is asking whether it is normal for a Miles + Cash purchase to result in 100% miles used, which is an informational question about the policy.",
+      "reasoning": "The user is asking if the Miles+Cash purchase process that converts cash into miles is normal, which is a policy question about program mechanics.",
       "intent_ambiguous": false
     },
     {
       "example_id": "223259",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "PRAISE_FEEDBACK",
-      "correct": false,
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is expressing excitement about achieving Diamond Medallion status, which is a positive comment.",
+      "reasoning": "The tweet celebrates achieving Diamond Medallion status, which is a SkyMiles loyalty program milestone, so the most specific category is ACCOUNT_LOYALTY.",
       "intent_ambiguous": false
     },
     {
@@ -458,16 +458,16 @@
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is asking about the delay in Medallion status updates, which is an account/loyalty inquiry.",
+      "reasoning": "The user is asking when Medallion status updates after earning miles, which directly concerns the SkyMiles loyalty program, making ACCOUNT_LOYALTY the most specific category.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1103837",
       "true_intent": "ACCOUNT_LOYALTY",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
-      "second_choice": "ACCOUNT_LOYALTY",
-      "reasoning": "The user asks whether they can move miles or convert hotel points to Delta miles, which is an informational policy question about loyalty points.",
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": true,
+      "second_choice": null,
+      "reasoning": "User is asking about moving/hybrid transfer of points to SkyMiles, which is a loyalty account matter.",
       "intent_ambiguous": false
     },
     {
@@ -476,7 +476,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer is asking for information about how to redeem or qualify for a companion certificate, which is a policy/FAQ type question.",
+      "reasoning": "The user is asking for instructions and eligibility regarding a companion certificate, which is an informational policy question.",
       "intent_ambiguous": false
     },
     {
@@ -485,7 +485,7 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The tweet is a request for a seat upgrade, which is a booking change request.",
+      "reasoning": "The user is requesting a seat upgrade, which is a seat change request.",
       "intent_ambiguous": false
     },
     {
@@ -493,17 +493,17 @@
       "true_intent": "BAGGAGE_PROBLEM",
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "User reports losing a wheelchair (a type of baggage) and threatens to go on the news, so the primary issue is a baggage problem.",
+      "second_choice": "REFUND_COMPENSATION",
+      "reasoning": "The user is complaining about losing their son's wheelchair, which falls under lost baggage, making BAGGAGE_PROBLEM the primary intent.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1882931",
       "true_intent": "BAGGAGE_PROBLEM",
-      "predicted_intent": "BAGGAGE_PROBLEM",
-      "correct": true,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user reports a missing wheelchair, which is considered a piece of mobility equipment handled as baggage, making BAGGAGE_PROBLEM the primary intent.",
+      "predicted_intent": "SERVICE_COMPLAINT",
+      "correct": false,
+      "second_choice": null,
+      "reasoning": "The user is upset that the reserved wheelchair was not provided, which is a dissatisfaction with a service provision.",
       "intent_ambiguous": false
     },
     {
@@ -512,7 +512,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer reports that their luggage was broken and a replacement was also damaged, indicating a baggage issue.",
+      "reasoning": "The customer reports that their luggage was damaged and the replacement provided by the airline also broke, indicating a baggage mishandling issue that requires assistance.",
       "intent_ambiguous": false
     },
     {
@@ -521,7 +521,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The tweet references a problem with a bag and dissatisfaction with desk agent help, indicating a baggage issue as the primary ask.",
+      "reasoning": "The user reports an issue with their bag and unsatisfactory help from desk staff, indicating a baggage problem as the primary concern.",
       "intent_ambiguous": false
     },
     {
@@ -530,7 +530,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is unable to add baggage in the app after auto-check-in, indicating a baggage issue rather than a general policy question or other category.",
+      "reasoning": "The user cannot add a checked bag after auto-check-in, which is a baggage handling issue.",
       "intent_ambiguous": false
     },
     {
@@ -539,7 +539,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet complains about a lost bag caused by weather delays, making baggage handling the primary issue.",
+      "reasoning": "The tweet complains about a lost bag caused by a weather delay, making it a baggage issue.",
       "intent_ambiguous": false
     },
     {
@@ -548,7 +548,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The tweet complains that the luggage was sent home, indicating a baggage mishandling issue.",
+      "reasoning": "The user\u2019s main issue is that their luggage was sent home, indicating a baggage mishandling problem.",
       "intent_ambiguous": false
     },
     {
@@ -557,16 +557,16 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": "ACCOUNT_LOYALTY",
-      "reasoning": "The customer\u2019s main concern is a lost bag on a short flight, with a secondary comment about loyalty status.",
+      "reasoning": "The user primarily complains about a lost bag on a 2\u2011hour flight, which is a baggage issue; the mention of Diamond status is secondary.",
       "intent_ambiguous": false
     },
     {
       "example_id": "506153",
       "true_intent": "BAGGAGE_PROBLEM",
-      "predicted_intent": "POLICY_QUESTION",
+      "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": false,
-      "second_choice": "ACCOUNT_LOYALTY",
-      "reasoning": "User is asking whether they qualify for free baggage with Medallion status, which is a policy inquiry.",
+      "second_choice": null,
+      "reasoning": "The user is asking if their gold medallion status applies to a future trip, specifically about baggage benefits tied to that status, which is a SkyMiles/Medallion status question.",
       "intent_ambiguous": false
     },
     {
@@ -575,7 +575,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user complains that their bag was flown to the wrong location and is seeking explanation, which is a baggage mishandling issue.",
+      "reasoning": "The user reports their bag was flown to the wrong city, which is a baggage mishandling issue.",
       "intent_ambiguous": false
     },
     {
@@ -584,16 +584,16 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user reports that their luggage was routed to a flight to Mexico instead of their intended Jamaica flight, indicating a mishandled baggage issue.",
+      "reasoning": "The user is concerned about luggage being routed to the wrong destination, a typical baggage misrouting issue.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2707115",
       "true_intent": "BAGGAGE_PROBLEM",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": null,
-      "reasoning": "The user complains about being forced to check baggage when there was available overhead space, expressing annoyance rather than requesting a specific fix, which fits a service complaint.",
+      "predicted_intent": "BAGGAGE_PROBLEM",
+      "correct": true,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The customer complains that the airline forced them to check baggage despite available overhead space, a specific baggage handling issue.",
       "intent_ambiguous": false
     },
     {
@@ -602,7 +602,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is complaining about delayed baggage and asks for an update on the missing luggage.",
+      "reasoning": "The user is reporting a baggage delay, which falls under BAGGAGE_PROBLEM.",
       "intent_ambiguous": false
     },
     {
@@ -611,7 +611,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is missing their baggage after a 20\u2011minute delay and is seeking information on the baggage process.",
+      "reasoning": "The user is experiencing a missing baggage issue and asking how the 20\u2011minute baggage procedure works, which falls under baggage problems.",
       "intent_ambiguous": false
     },
     {
@@ -620,7 +620,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "They are seeking help to resolve a lost/stolen luggage issue.",
+      "reasoning": "The user is reporting a lost/stolen baggage issue, which is the primary concern.",
       "intent_ambiguous": false
     },
     {
@@ -629,7 +629,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude for assistance with baggage issues, indicating a positive review rather than a complaint or request.",
+      "reasoning": "The tweet expresses gratitude and compliments the airline for helping with bag issues, which is a positive feedback scenario.",
       "intent_ambiguous": false
     },
     {
@@ -638,7 +638,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user is requesting a receipt for a checked bag, which is an informational request rather than a problem, fitting the policy/FAQ category.",
+      "reasoning": "The user is requesting a receipt for a checked bag, which is an informational request about the airline\u2019s policies or procedures, fitting the POLICY_QUESTION category.",
       "intent_ambiguous": false
     },
     {
@@ -647,7 +647,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is complaining that their luggage is missing, indicating a baggage issue.",
+      "reasoning": "The tweet complains about not knowing where luggage went, indicating a lost baggage issue.",
       "intent_ambiguous": false
     },
     {
@@ -656,7 +656,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user is asking for an explanation of baggage drop hours, which is an informational query about policy.",
+      "reasoning": "The user is asking for an explanation about baggage drop hours, which is a general policy inquiry.",
       "intent_ambiguous": false
     },
     {
@@ -664,8 +664,8 @@
       "true_intent": "BAGGAGE_PROBLEM",
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The user reports damaged luggage and lost items, a typical baggage issue requiring a response.",
+      "second_choice": "REFUND_COMPENSATION",
+      "reasoning": "The customer reports damaged and lost luggage and asks for action, a direct baggage problem.",
       "intent_ambiguous": false
     },
     {
@@ -674,7 +674,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer complains about not being able to check their bag through a layover, which is a baggage handling issue.",
+      "reasoning": "The user is complaining that they cannot check their bag through a long, same\u2011day layover, which is a baggage handling issue.",
       "intent_ambiguous": false
     },
     {
@@ -682,8 +682,8 @@
       "true_intent": "BAGGAGE_PROBLEM",
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The user complains that their bag did not make the trip and is frustrated about the wait\u2014primary issue is missing baggage.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The tweet focuses on the missed baggage issue and the frustration around it, making BAGGAGE_PROBLEM the primary intent.",
       "intent_ambiguous": false
     },
     {
@@ -692,7 +692,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is specifically asking for guidance regarding a lost baggage claim, which falls under baggage issues.",
+      "reasoning": "The user is asking for advice on a lost baggage claim, which directly falls under baggage problems.",
       "intent_ambiguous": false
     },
     {
@@ -700,17 +700,17 @@
       "true_intent": "BAGGAGE_PROBLEM",
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
-      "second_choice": "REFUND_COMPENSATION",
-      "reasoning": "The user is primarily complaining that their checked bag did not arrive at their destination, which is a baggage problem; they also imply a request for miles, which relates to compensation.",
+      "second_choice": null,
+      "reasoning": "The customer complains that their checked bag did not reach the destination, which is a baggage mishandling issue, making BAGGAGE_PROBLEM the primary category.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2038932",
       "true_intent": "BAGGAGE_PROBLEM",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
+      "predicted_intent": "BAGGAGE_PROBLEM",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses frustration about being forced to check their bag, a service-related complaint rather than a factual query or a baggage mishap.",
+      "reasoning": "The tweet complains about having lost or mishandled personal belongings after checking a bag, which is a specific baggage problem.",
       "intent_ambiguous": false
     },
     {
@@ -719,16 +719,16 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": "REFUND_COMPENSATION",
-      "reasoning": "The customer reports a missing bag, which is a baggage problem, and requests a refund as a secondary request.",
+      "reasoning": "The main issue is a missing bag, which falls under baggage problems, with a secondary refund request.",
       "intent_ambiguous": false
     },
     {
       "example_id": "52361",
       "true_intent": "BAGGAGE_PROBLEM",
-      "predicted_intent": "BOOKING_CHANGE",
+      "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": false,
       "second_choice": "BAGGAGE_PROBLEM",
-      "reasoning": "The user is primarily asking for a direct flight from CMH to PHL, which is a booking change request.",
+      "reasoning": "The user requests immediate flight assistance due to a tarmac delay, making flight disruption the primary concern, while the baggage wait indicates a secondary baggage issue.",
       "intent_ambiguous": false
     },
     {
@@ -737,7 +737,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer is specifically requesting reimbursement for a baggage fee, which falls under the refund/compensation category.",
+      "reasoning": "The user requests reimbursement for a baggage fee and asks for required documents, which is a request for a refund/credit.",
       "intent_ambiguous": false
     },
     {
@@ -746,7 +746,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer reports lost baggage and seeks compensation, indicating a baggage issue.",
+      "reasoning": "The user reports lost baggage and seeks compensation, which falls under a baggage issue.",
       "intent_ambiguous": false
     },
     {
@@ -755,16 +755,16 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet complains that Delta's handling of bags is poor, indicating a baggage issue rather than a request for compensation or other services.",
+      "reasoning": "The tweet complains that Delta mishandles baggage by sending it elsewhere, which falls under baggage problems.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2805356",
       "true_intent": "BAGGAGE_PROBLEM",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": null,
-      "reasoning": "The tweet vents frustration about flight attendants removing carry\u2011ons and denying overhead bin use, which is a service complaint.",
+      "predicted_intent": "BAGGAGE_PROBLEM",
+      "correct": true,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The core issue is the flight attendant removing carry\u2011ons from the overhead bin, a direct baggage handling problem, while the user also vents frustration, making SERVICE_COMPLAINT a secondary relevant category.",
       "intent_ambiguous": false
     },
     {
@@ -773,7 +773,7 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is attempting to cancel a flight and is facing website and phone support issues, which is a booking change request.",
+      "reasoning": "Customer wants to cancel a flight, a booking change request.",
       "intent_ambiguous": false
     },
     {
@@ -782,16 +782,16 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer wants to restore a flight they accidentally canceled, which is a booking change request.",
+      "reasoning": "The user is asking to reverse an accidental cancellation and retrieve the original flight, which is a booking modification request.",
       "intent_ambiguous": false
     },
     {
       "example_id": "550075",
       "true_intent": "BOOKING_CHANGE",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The user is primarily upset with the poor customer service response time while attempting to change a flight.",
+      "predicted_intent": "BOOKING_CHANGE",
+      "correct": true,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user is primarily asking to change a flight and only secondarily complains about the long hold time, making BOOKING_CHANGE the main intent.",
       "intent_ambiguous": false
     },
     {
@@ -799,8 +799,8 @@
       "true_intent": "BOOKING_CHANGE",
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The customer is upset about a seat change on a connecting flight.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "User is upset about having their seat changed from aisle to middle, a seat change issue.",
       "intent_ambiguous": false
     },
     {
@@ -808,8 +808,8 @@
       "true_intent": "BOOKING_CHANGE",
       "predicted_intent": "ACCOUNT_LOYALTY",
       "correct": false,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The user is trying to add a known traveler number to an existing reservation, which is a loyalty account-related request rather than a typical booking modification.",
+      "second_choice": null,
+      "reasoning": "The user is trying to add a Known Traveler Number to a reservation, which is a SkyMiles/Medallion loyalty program issue.",
       "intent_ambiguous": false
     },
     {
@@ -818,7 +818,7 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is requesting a seat change to an aisle seat due to a medical concern, which is a direct booking modification request.",
+      "reasoning": "The customer is requesting a seat change to an aisle seat, which falls under booking changes.",
       "intent_ambiguous": false
     },
     {
@@ -827,16 +827,16 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user complains about the handling of the upgrade list and seat assignment, which is a service-related issue.",
+      "reasoning": "The user is frustrated that they did not receive an upgrade despite being first on the list and someone else took a seat, indicating a service complaint.",
       "intent_ambiguous": false
     },
     {
       "example_id": "949437",
       "true_intent": "BOOKING_CHANGE",
-      "predicted_intent": "BOOKING_CHANGE",
-      "correct": true,
+      "predicted_intent": "POLICY_QUESTION",
+      "correct": false,
       "second_choice": null,
-      "reasoning": "The user is asking how to avoid getting the middle seat, which is a request for a seat assignment change.",
+      "reasoning": "The user is asking how the seat assignment policy works for their \u201cassign my seat at the gate\u201d ticket, specifically how to avoid the middle seat, which is a policy inquiry rather than a direct request for a seat change.",
       "intent_ambiguous": false
     },
     {
@@ -845,16 +845,16 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user is primarily asking to change a reservation but is facing technical issues preventing the change.",
+      "reasoning": "The user is actively trying to modify a reservation but cannot complete the payment, making a booking change the primary issue.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2541909",
       "true_intent": "BOOKING_CHANGE",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The customer complains about the seat being changed without notification, indicating dissatisfaction with service rather than requesting a new seat assignment.",
+      "predicted_intent": "BOOKING_CHANGE",
+      "correct": true,
+      "second_choice": null,
+      "reasoning": "The user is asking why their seat assignment was changed without notification, which is a seat change request under booking modifications.",
       "intent_ambiguous": false
     },
     {
@@ -863,7 +863,7 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer wants to correct a misspelled name on a ticket, which is a booking modification request.",
+      "reasoning": "The customer requests a name correction on their ticket, a typical booking change issue.",
       "intent_ambiguous": false
     },
     {
@@ -872,7 +872,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": null,
-      "reasoning": "User vents about policy and third\u2011party booking inconvenience, indicating a complaint.",
+      "reasoning": "The user is venting frustration over the policy and booking experience, with no specific request for a fix, fitting the SERVICE_COMPLAINT category.",
       "intent_ambiguous": false
     },
     {
@@ -881,7 +881,7 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is asking how to change the date of a non-refundable flight and what the cost would be, which directly concerns a booking modification.",
+      "reasoning": "The customer is asking about changing the date of a non-refundable flight and the associated cost, which directly relates to modifying a booking.",
       "intent_ambiguous": false
     },
     {
@@ -890,25 +890,25 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer is unable to board while bags are loaded, indicating a flight disruption problem that needs immediate resolution, while also expressing frustration with service.",
+      "reasoning": "The user cannot board at the gate and watches bags load, indicating a flight disruption that requires immediate resolution.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2811308",
       "true_intent": "FLIGHT_DISRUPTION",
-      "predicted_intent": "FLIGHT_DISRUPTION",
-      "correct": true,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user primarily reports a flight cancellation and severe delay, which is a flight disruption, but also complains about missing wheelchair and food services, indicating a secondary service complaint.",
+      "predicted_intent": "SERVICE_COMPLAINT",
+      "correct": false,
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The customer vents about a canceled & delayed flight and lack of wheelchair/food, indicating a service complaint rather than a request for specific resolution.",
       "intent_ambiguous": true
     },
     {
       "example_id": "2258149",
       "true_intent": "FLIGHT_DISRUPTION",
-      "predicted_intent": "SERVICE_COMPLAINT",
+      "predicted_intent": "REFUND_COMPENSATION",
       "correct": false,
-      "second_choice": "POLICY_QUESTION",
-      "reasoning": "The user expresses frustration over fees and boarding restrictions, indicating a primary complaint about service.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user complains about having to pay change and unaccompanied minor fees when they were denied boarding, indicating a request for fee refund or waiver, which is most specifically covered by REFUND_COMPENSATION.",
       "intent_ambiguous": true
     },
     {
@@ -917,7 +917,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is stuck on the ground and worries about missing a connection, indicating a flight disruption issue.",
+      "reasoning": "The customer is stuck on the ground at Newark and fears missing their connection, a classic flight disruption scenario.",
       "intent_ambiguous": false
     },
     {
@@ -926,7 +926,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking why they missed a flight despite arriving early, which is a flight disruption issue needing a response.",
+      "reasoning": "The user is upset about missing a flight despite arriving early, indicating a flight disruption scenario.",
       "intent_ambiguous": false
     },
     {
@@ -934,8 +934,8 @@
       "true_intent": "FLIGHT_DISRUPTION",
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The tweet complains about a delayed flight and seeks explanation, indicating a flight disruption issue.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The tweet complains about a flight delay and asks for an explanation, indicating a disruption issue.",
       "intent_ambiguous": false
     },
     {
@@ -944,7 +944,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is requesting an update on a flight that was rescheduled, indicating a concern about its status or delay.",
+      "reasoning": "The customer is requesting updates on the status of a specific flight (DL9859) which is a rescheduled flight after cancellation, fitting the flight disruption category.",
       "intent_ambiguous": false
     },
     {
@@ -953,7 +953,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing frustration over multiple significant flight delays, a clear flight disruption complaint.",
+      "reasoning": "The customer is primarily concerned with multiple significant flight delays.",
       "intent_ambiguous": false
     },
     {
@@ -962,7 +962,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is concerned about a potential flight delay, which falls under flight disruption issues.",
+      "reasoning": "The tweet concerns a potential flight delay due to wind, which is a flight disruption issue.",
       "intent_ambiguous": false
     },
     {
@@ -971,7 +971,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user reports a flight delay that caused a missed connection and additional maintenance-related delays on the tarmac, indicating a primary flight disruption issue.",
+      "reasoning": "User reports a flight delay that caused a missed connection and tarmac wait\u2014primary issue is a flight disruption.",
       "intent_ambiguous": false
     },
     {
@@ -980,25 +980,25 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for help with a delayed connection, requiring flight disruption support.",
+      "reasoning": "The user is experiencing a flight delay and needs assistance holding the connecting flight.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2774764",
       "true_intent": "FLIGHT_DISRUPTION",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
+      "predicted_intent": "FLIGHT_DISRUPTION",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The user vents about frequent delays and asks for an alternative airline, expressing dissatisfaction with the service rather than requesting a specific fix.",
+      "reasoning": "The tweet complains that every flight is delayed, directly addressing flight disruptions.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2105393",
       "true_intent": "FLIGHT_DISRUPTION",
-      "predicted_intent": "FLIGHT_DISRUPTION",
-      "correct": true,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The user is upset about being bumped and delayed, resulting in a missed schedule, which is a flight disruption; the seat issue is secondary.",
+      "predicted_intent": "BOOKING_CHANGE",
+      "correct": false,
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The customer\u2019s main issue is the seat assignment change from window to middle, which is a booking change request, even though the flight was also delayed and bumped.",
       "intent_ambiguous": false
     },
     {
@@ -1007,7 +1007,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "User is asking about a delayed flight and its impact on arrival time.",
+      "reasoning": "The user is concerned about a delayed flight and whether they'll arrive on time, which falls squarely under flight disruption issues.",
       "intent_ambiguous": false
     },
     {
@@ -1016,7 +1016,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user\u2019s main issue is a delayed flight, which falls under flight disruption, though they also mention long wait times for customer service.",
+      "reasoning": "The main issue is a delayed flight, which is a flight disruption; the mention of long customer service wait time is a secondary complaint.",
       "intent_ambiguous": false
     },
     {
@@ -1025,7 +1025,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user reports a 5\u2011hour mechanical delay, which is the main issue to address, but also complains about rude staff.",
+      "reasoning": "The customer\u2019s main issue is the 5\u2011hour mechanical delay impacting their business trip, which falls under flight disruption, with a secondary complaint about employee behavior.",
       "intent_ambiguous": false
     },
     {
@@ -1034,7 +1034,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is complaining about an hour-long flight delay due to crew lateness, which is a flight disruption issue.",
+      "reasoning": "The tweet complains about an hour-long flight delay caused by crew lateness, which is a flight disruption issue.",
       "intent_ambiguous": false
     },
     {
@@ -1043,7 +1043,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet explicitly states a flight delay and requests assistance, which is a flight disruption scenario.",
+      "reasoning": "The user reports a flight delay and requests help, which directly falls under flight disruption issues.",
       "intent_ambiguous": false
     },
     {
@@ -1052,7 +1052,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user is expressing gratitude and complimenting the lounge team for quickly swapping their flight after a delay, which is a praise/feedback scenario.",
+      "reasoning": "The tweet thanks the lounge team for quickly swapping a delayed flight, expressing appreciation for their service.",
       "intent_ambiguous": false
     },
     {
@@ -1061,7 +1061,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is focused on a flight that is already delayed and the user fears further delays, indicating a primary concern with flight disruption.",
+      "reasoning": "The user is concerned about a flight delay and requests an update.",
       "intent_ambiguous": false
     },
     {
@@ -1070,7 +1070,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user is primarily complaining about a delayed flight and a missed connection, indicating a flight disruption.",
+      "reasoning": "The tweet describes a delayed flight that caused a missed connection, making flight disruption the primary issue.",
       "intent_ambiguous": false
     },
     {
@@ -1078,8 +1078,8 @@
       "true_intent": "FLIGHT_DISRUPTION",
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "User complains about a delayed flight impacting plans.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The tweet complains about a delayed flight, which is a flight disruption, while also expressing frustration that could also be seen as a service complaint.",
       "intent_ambiguous": false
     },
     {
@@ -1088,7 +1088,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The tweet is a compliment about the employee\u2019s service, despite the flight being delayed.",
+      "reasoning": "The tweet expresses gratitude and compliments a staff member despite a delayed flight, so the primary intent is praising the service.",
       "intent_ambiguous": false
     },
     {
@@ -1097,7 +1097,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer\u2019s primary complaint is about a flight delay, with the inoperative IFE screens as a secondary issue.",
+      "reasoning": "The user first reports a significant delay, which is the primary issue needing resolution, followed by a complaint about in-flight entertainment screens.",
       "intent_ambiguous": false
     },
     {
@@ -1106,16 +1106,16 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user reports a 3\u2011hour delay that will cause them to miss a connecting flight, which is the main issue requiring resolution.",
+      "reasoning": "The user is primarily concerned with a 3\u2011hour flight delay that will cause them to miss a connection, which is a flight disruption issue.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1743881",
       "true_intent": "FLIGHT_DISRUPTION",
-      "predicted_intent": "SERVICE_COMPLAINT",
+      "predicted_intent": "REFUND_COMPENSATION",
       "correct": false,
       "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "The customer is primarily expressing dissatisfaction with the level of compensation received for significant flight delays, which constitutes a service complaint.",
+      "reasoning": "The user is dissatisfied with the compensation (10,000 miles) after delayed DeltaOne flights and is implicitly asking for better reimbursement, making REFUND_COMPENSATION the primary intent, with flight disruption as a secondary topic.",
       "intent_ambiguous": false
     },
     {
@@ -1124,7 +1124,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet complains about a 1+ hour delay on flight DL1810, indicating a flight disruption.",
+      "reasoning": "The tweet complains about a 1+ hour delay, so the primary issue is a flight disruption.",
       "intent_ambiguous": false
     },
     {
@@ -1133,7 +1133,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user is complimenting staff and pilots during a long delay, indicating a positive experience rather than a request or complaint.",
+      "reasoning": "The tweet praises staff and pilot despite a long delay, indicating a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1142,7 +1142,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet complains about a missed connection and being stuck for six hours, a flight disruption.",
+      "reasoning": "The customer reports a repeated missed connection causing a 6\u2011hour delay, which is a flight disruption issue.",
       "intent_ambiguous": false
     },
     {
@@ -1151,7 +1151,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer expresses gratitude and compliments the service for handling a canceled trip, with no complaint or request for action.",
+      "reasoning": "The tweet expresses gratitude and compliments the customer experience, not a request or complaint.",
       "intent_ambiguous": false
     },
     {
@@ -1159,17 +1159,17 @@
       "true_intent": "FLIGHT_DISRUPTION",
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
-      "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "User vents about airline's suggestion to pay for an upgrade to avoid a tight connection, indicating dissatisfaction with service rather than a specific flight disruption.",
+      "second_choice": null,
+      "reasoning": "The tweet expresses dissatisfaction with the airline's suggestion to pay for a seat upgrade to navigate a tight connection, indicating a service complaint rather than a policy question or other category.",
       "intent_ambiguous": false
     },
     {
       "example_id": "435226",
       "true_intent": "FLIGHT_DISRUPTION",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
+      "predicted_intent": "FLIGHT_DISRUPTION",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The user is venting frustration about a flight delay without requesting a specific remedy, fitting the SERVICE_COMPLAINT category.",
+      "reasoning": "The user complains about flights not operating on time, indicating a flight delay/disruption issue.",
       "intent_ambiguous": false
     },
     {
@@ -1178,7 +1178,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "The user expresses frustration over delays and lack of information, which is a complaint rather than a specific request for action.",
+      "reasoning": "User complains about delays and lack of information, indicating dissatisfaction with service.",
       "intent_ambiguous": false
     },
     {
@@ -1187,7 +1187,7 @@
       "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer is primarily complaining about flight delays and the lack of help desk system access, which is a flight disruption issue with a secondary service complaint.",
+      "reasoning": "The user is mainly upset about flight delays and the unavailability of help\u2011desk assistance, with the delay being the primary issue.",
       "intent_ambiguous": false
     },
     {
@@ -1196,7 +1196,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking if the ages of their children are acceptable for a ticket, which is an informational policy question.",
+      "reasoning": "The user is asking for clarification on airline ticketing rules for minors, which is a policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1205,7 +1205,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "User is asking for shuttle schedule and accessibility info, which is informational.",
+      "reasoning": "The user is asking for information about shuttle timing and wheelchair accessibility, which is an informational request.",
       "intent_ambiguous": false
     },
     {
@@ -1214,7 +1214,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is an informational request about how to obtain a wheelchair for a companion, fitting the policy question category.",
+      "reasoning": "The user is asking how to request a wheelchair for a companion, which is an informational question about a service policy rather than a complaint or other category.",
       "intent_ambiguous": false
     },
     {
@@ -1223,16 +1223,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is questioning the rationale of Delta\u2019s no refund policy for Basic Economy, which is a policy inquiry rather than a request for a refund or complaint.",
+      "reasoning": "The tweet is questioning the refund policy for Basic Economy rather than requesting a refund or compensation.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1051988",
       "true_intent": "POLICY_QUESTION",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": true,
-      "second_choice": null,
-      "reasoning": "The user is asking about the airline's cancellation policy for a non-refundable ticket, which is a policy question.",
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": false,
+      "second_choice": "POLICY_QUESTION",
+      "reasoning": "User is inquiring about the ability to cancel a non\u2011refundable ticket and obtain a refund, a refund\u2011related policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1241,16 +1241,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for confirmation about baggage allowance, which is a policy question.",
+      "reasoning": "The user is asking about the baggage allowance policy for a flight, which is a policy question.",
       "intent_ambiguous": false
     },
     {
       "example_id": "783827",
       "true_intent": "POLICY_QUESTION",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": true,
-      "second_choice": null,
-      "reasoning": "The user is asking for clarification about baggage fees for SkyTeam Elite status, which is an informational policy question.",
+      "predicted_intent": "ACCOUNT_LOYALTY",
+      "correct": false,
+      "second_choice": "POLICY_QUESTION",
+      "reasoning": "The customer is asking about a benefit (baggage fee exemption) linked to elite status, which is a loyalty program policy inquiry, so the primary category is ACCOUNT_LOYALTY.",
       "intent_ambiguous": false
     },
     {
@@ -1259,7 +1259,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking about the cost for adding extra checked baggage, which is a policy-related question.",
+      "reasoning": "The user is requesting specific information about the cost of adding an extra checked bag, which is an informational policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1268,7 +1268,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking about the baggage allowance policy for international flights with a Gold SkyMiles credit card.",
+      "reasoning": "The user asks about the baggage allowance policy for international flights with a Gold Skymiles credit card, which is a policy inquiry.",
       "intent_ambiguous": false
     },
     {
@@ -1277,7 +1277,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is asking a policy question about lounge credit card acceptance.",
+      "reasoning": "The tweet asks about lounge policy regarding credit card acceptance, which is an informational question.",
       "intent_ambiguous": false
     },
     {
@@ -1286,7 +1286,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for information about payment options, which is an informational request, fitting the POLICY_QUESTION category.",
+      "reasoning": "The user is asking about a specific payment method option, which is an informational query about airline policies.",
       "intent_ambiguous": false
     },
     {
@@ -1295,7 +1295,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for information on how to book a flight and bring a dog to the cabin, which is a policy/information query.",
+      "reasoning": "The user is asking for policy information about bringing a dog into the cabin, which falls under a policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1304,7 +1304,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking about the policy for mobile boarding passes for certain passengers on a reservation.",
+      "reasoning": "The user is asking about the policy regarding mobile boarding pass availability for selected passengers on a reservation.",
       "intent_ambiguous": false
     },
     {
@@ -1313,16 +1313,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is asking for information about the policy of photographing passengers, which is an informational query, not a complaint or issue.",
+      "reasoning": "The tweet is asking for an explanation of Delta's policy to photograph passengers, which is a request for policy information.",
       "intent_ambiguous": false
     },
     {
       "example_id": "189513",
       "true_intent": "POLICY_QUESTION",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": true,
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": false,
       "second_choice": null,
-      "reasoning": "The user is asking if a RUC can be used on their upcoming flight, which is an informational request about policy.",
+      "reasoning": "The user is asking if they can apply a RUC (refund/credit) to a specific flight, which falls under refund/credit usage.",
       "intent_ambiguous": false
     },
     {
@@ -1331,7 +1331,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is asking whether singing the national anthem on a plane is against company policy, which is an informational policy question.",
+      "reasoning": "The customer is asking whether singing the national anthem on a plane is against company policy, which is a policy inquiry.",
       "intent_ambiguous": false
     },
     {
@@ -1340,16 +1340,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking about airline policy regarding bringing an ice pack for breast milk.",
+      "reasoning": "The customer is asking a specific policy question about bringing an ice pack on board for breast milk.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1129486",
       "true_intent": "POLICY_QUESTION",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": true,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "User is asking how to remove the offline mode\u2014an informational request about app functionality.",
+      "predicted_intent": "SERVICE_COMPLAINT",
+      "correct": false,
+      "second_choice": null,
+      "reasoning": "User requests help removing the offline mode, which is an app functionality issue and a complaint about app usability.",
       "intent_ambiguous": false
     },
     {
@@ -1358,7 +1358,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is asking for general information on how to contact Delta from Madrid, which is an informational request without an existing problem.",
+      "reasoning": "The tweet is a simple informational request for contact methods, fitting the POLICY_QUESTION category.",
       "intent_ambiguous": false
     },
     {
@@ -1367,7 +1367,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for information about whether a wedding dress can be carried on and where it can be hung, which is a policy inquiry rather than a complaint or problem.",
+      "reasoning": "The user is asking about the airline's carry\u2011on policy for a wedding dress, which is a policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1375,8 +1375,8 @@
       "true_intent": "POLICY_QUESTION",
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The user is asking an informational question about the policy for using an upgrade certificate, not requesting a change or complaint.",
+      "second_choice": "BOOKING_CHANGE",
+      "reasoning": "The tweet asks about the policy for using a regional upgrade certificate post-booking, which is an informational question about airline rules, making POLICY_QUESTION the primary intent.",
       "intent_ambiguous": false
     },
     {
@@ -1385,7 +1385,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is inquiring about the rules for using SkyClub access purchased in one airport on another airport the same day.",
+      "reasoning": "The user is asking for information about whether lounge access purchased in one airport can be used at another location, which is an informational policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1394,7 +1394,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is asking for instructions on how to roll the windows down, which is an informational request about in\u2011flight procedures.",
+      "reasoning": "It is an informational request about how to operate windows on the plane.",
       "intent_ambiguous": false
     },
     {
@@ -1403,7 +1403,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is asking about whether snowshoes can be brought as carry-on baggage, which is a policy-related question.",
+      "reasoning": "The user is asking about whether snowshoes can be carried on, a specific question about airline baggage policy.",
       "intent_ambiguous": false
     },
     {
@@ -1412,7 +1412,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is inquiring about the carry\u2011on weight allowance, which is a policy question.",
+      "reasoning": "The user is asking about the carry\u2011on weight allowance, which is an informational policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1421,7 +1421,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for a feature request about adding a movie to in-flight entertainment, which is an informational policy query.",
+      "reasoning": "The user is requesting information about adding a movie to the in-flight entertainment list, which is an informational policy query.",
       "intent_ambiguous": false
     },
     {
@@ -1430,7 +1430,7 @@
       "predicted_intent": "BOOKING_CHANGE",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user expresses gratitude for help canceling an international ticket, indicating a booking change request.",
+      "reasoning": "The customer is thanking the airline for helping cancel their ticket, which is a booking change request.",
       "intent_ambiguous": false
     },
     {
@@ -1439,7 +1439,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude and appreciation for the attendant and pilots\u2019 enthusiasm for a photo op.",
+      "reasoning": "The tweet expresses gratitude and compliments the attendants and pilots for a photo opportunity.",
       "intent_ambiguous": false
     },
     {
@@ -1448,7 +1448,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is expressing gratitude and compliments for the service and discounts, indicating a positive experience.",
+      "reasoning": "The tweet expresses gratitude and appreciation for exceptional customer service and medical emergency discounts, which is a compliment.",
       "intent_ambiguous": false
     },
     {
@@ -1457,7 +1457,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is expressing gratitude and praise for the crew\u2019s handling of a medical emergency, which is a positive feedback scenario.",
+      "reasoning": "The customer is expressing gratitude and praise for the airline\u2019s handling of a medical emergency, which is a compliment.",
       "intent_ambiguous": false
     },
     {
@@ -1466,7 +1466,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude for excellent wheelchair assistance and overall service, making it a straightforward praise feedback.",
+      "reasoning": "The tweet expresses gratitude and compliments the wheelchair assistance and staff, indicating a positive feedback scenario.",
       "intent_ambiguous": false
     },
     {
@@ -1475,7 +1475,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude and praise for the pilot's kindness, which is a compliment rather than a complaint or request.",
+      "reasoning": "Compliment of the pilot's kindness to the customer\u2019s daughter.",
       "intent_ambiguous": false
     },
     {
@@ -1484,7 +1484,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is giving a compliment about the airline\u2019s handling of their wheelchair, which fits the praise/feedback category.",
+      "reasoning": "The user is expressing a compliment about how the airline handles their wheelchair.",
       "intent_ambiguous": false
     },
     {
@@ -1493,7 +1493,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing gratitude and compliments the rep for a flight change that has already been made, indicating a positive experience rather than a request.",
+      "reasoning": "The user is thanking and praising the airline and representative for accommodating a flight change, which is a compliment rather than a request or complaint.",
       "intent_ambiguous": false
     },
     {
@@ -1502,7 +1502,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing gratitude and complimenting a crew member for making their son feel special, which is a praise/feedback intent.",
+      "reasoning": "The tweet expresses gratitude toward a crew member for a positive experience, making it a compliment.",
       "intent_ambiguous": false
     },
     {
@@ -1511,16 +1511,16 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses gratitude for an upgrade and praises the service, which is a compliment, not a complaint or request.",
+      "reasoning": "The tweet expresses gratitude for a first\u2011class upgrade and celebrates a positive experience.",
       "intent_ambiguous": false
     },
     {
       "example_id": "778419",
       "true_intent": "PRAISE_FEEDBACK",
-      "predicted_intent": "PRAISE_FEEDBACK",
-      "correct": true,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The tweet expresses gratitude for a flight change, with no request or complaint, making it primarily a compliment.",
+      "predicted_intent": "BOOKING_CHANGE",
+      "correct": false,
+      "second_choice": "PRAISE_FEEDBACK",
+      "reasoning": "The tweet acknowledges that a flight change was made by the rep for a family medical emergency, making booking change the primary subject, with gratitude indicating a secondary praise.",
       "intent_ambiguous": false
     },
     {
@@ -1529,7 +1529,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing gratitude for exceptional customer service and assistance with wheelchair accommodations, indicating a positive experience.",
+      "reasoning": "The tweet expresses gratitude and compliments the service received, fitting the praise/feedback category.",
       "intent_ambiguous": false
     },
     {
@@ -1538,7 +1538,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude for being moved onto an earlier flight, indicating a positive experience rather than a complaint or request.",
+      "reasoning": "The tweet thanks the staff for putting the customer onto an earlier flight, expressing a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1547,7 +1547,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet compliments Delta by joking about a potential future employee, showing positive sentiment.",
+      "reasoning": "The user is giving a compliment and suggesting a potential employee, indicating positive feedback.",
       "intent_ambiguous": false
     },
     {
@@ -1556,7 +1556,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses positive appreciation for the baggage check-in agent, fitting the PRAISE_FEEDBACK category.",
+      "reasoning": "The customer expresses gratitude for a positive experience with a baggage check-in agent.",
       "intent_ambiguous": false
     },
     {
@@ -1565,7 +1565,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": "PRAISE_FEEDBACK",
-      "reasoning": "The customer primarily expresses frustration about the difficulty of moving between terminals while injured, which is a service complaint, even though they also compliment the crew.",
+      "reasoning": "The tweet mainly vents about an injury and inconvenience rather than requesting a specific remedy, so it is a complaint, although it contains praise.",
       "intent_ambiguous": false
     },
     {
@@ -1574,7 +1574,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "User expresses gratitude for a voucher, indicating a positive experience.",
+      "reasoning": "The customer is simply expressing gratitude for receiving a voucher, indicating a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1583,7 +1583,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses gratitude and compliments the smooth flight and new amenities, indicating a positive feedback intent.",
+      "reasoning": "The user expresses gratitude and compliments the smooth flight and new amenities, indicating a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1592,7 +1592,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses gratitude and satisfaction about receiving exit row seats on both flights despite paying a cheap fare, which is a compliment.",
+      "reasoning": "The user is expressing positive sentiment about receiving exit row seats on both flights.",
       "intent_ambiguous": false
     },
     {
@@ -1601,7 +1601,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is a compliment about the seat mate, expressing positive sentiment.",
+      "reasoning": "The tweet expresses a compliment, praising the seat mate for being nice on an early morning flight.",
       "intent_ambiguous": false
     },
     {
@@ -1610,7 +1610,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet thanks for help rescheduling and expresses positive sentiment, fitting a praise/thank-you category.",
+      "reasoning": "The user expresses gratitude for assistance with rescheduling, indicating a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1619,7 +1619,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user expresses gratitude and satisfaction for being upgraded to a seat for free, which is a compliment.",
+      "reasoning": "The tweet humorously thanks Delta for a free seat, showing a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1628,7 +1628,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user expresses gratitude and compliments Medallion customer service, indicating a positive feedback scenario.",
+      "reasoning": "The customer is expressing gratitude and praise for Medallion customer service, which matches the praise/feedback category.",
       "intent_ambiguous": false
     },
     {
@@ -1637,7 +1637,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is complimenting a flight attendant and wants to ensure her good deed is recognized, which is a positive experience feedback.",
+      "reasoning": "The customer is complimenting a flight attendant and wants recognition, which is a positive feedback scenario.",
       "intent_ambiguous": false
     },
     {
@@ -1646,7 +1646,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses a positive sentiment about their flight experience, which is a compliment.",
+      "reasoning": "The tweet expresses a positive experience and compliments the airline.",
       "intent_ambiguous": false
     },
     {
@@ -1655,7 +1655,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is a clear compliment praising a specific staff member.",
+      "reasoning": "The tweet expresses appreciation and compliments a gate agent, fitting the praise feedback category.",
       "intent_ambiguous": false
     },
     {
@@ -1664,7 +1664,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is a positive statement with no complaint or question, so it best fits the general praise/feedback category.",
+      "reasoning": "The tweet expresses a positive outlook on a travel day, fitting the PRAISE_FEEDBACK category as it contains no complaints or requests.",
       "intent_ambiguous": false
     },
     {
@@ -1673,7 +1673,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses excitement and appreciation for an upgrade, with no complaint or request for action, qualifying as praise.",
+      "reasoning": "The user is expressing excitement and gratitude about being upgraded, which is a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1682,16 +1682,16 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing positive sentiment and gratitude for good customer service experiences.",
+      "reasoning": "The user expresses gratitude for excellent service experiences.",
       "intent_ambiguous": false
     },
     {
       "example_id": "189521",
       "true_intent": "PRAISE_FEEDBACK",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
+      "predicted_intent": "PRAISE_FEEDBACK",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is a vague, possibly sarcastic statement that does not correspond to a positive experience or a clear question, fitting best as a non\u2011specific complaint.",
+      "reasoning": "Positive offering with no complaint, fits praise/feedback.",
       "intent_ambiguous": false
     },
     {
@@ -1700,7 +1700,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses gratitude for an action, indicating a positive experience.",
+      "reasoning": "The tweet expresses gratitude and compliments the airline, matching the Praise/Feedback category.",
       "intent_ambiguous": false
     },
     {
@@ -1709,7 +1709,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user expresses positive sentiment and compliments the free in\u2011flight movies and USB ports, indicating praise rather than a problem or request.",
+      "reasoning": "The customer is complimenting the flight experience and amenities.",
       "intent_ambiguous": false
     },
     {
@@ -1718,7 +1718,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude and compliments flight crew and a specific crew member for excellent service, indicating a positive feedback scenario.",
+      "reasoning": "The tweet expresses gratitude and compliments the flight crew, indicating a positive feedback intent.",
       "intent_ambiguous": false
     },
     {
@@ -1727,7 +1727,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is expressing gratitude and praise for the service, with no request or complaint.",
+      "reasoning": "The user expresses gratitude and compliments the staff for locating their glasses, which is a positive feedback scenario.",
       "intent_ambiguous": false
     },
     {
@@ -1736,7 +1736,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user expresses gratitude and compliments flight attendants, indicating a positive experience.",
+      "reasoning": "The tweet expresses gratitude and compliments staff, fitting the praise/feedback category.",
       "intent_ambiguous": false
     },
     {
@@ -1745,7 +1745,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude and compliments Delta for a safe and efficient journey, indicating positive feedback.",
+      "reasoning": "The user is expressing gratitude and praise for a safe and efficient journey, fitting a compliment scenario.",
       "intent_ambiguous": false
     },
     {
@@ -1754,7 +1754,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses gratitude and compliments the travel experience, indicating a positive feedback.",
+      "reasoning": "The user expresses gratitude for a great traveler experience, indicating a compliment.",
       "intent_ambiguous": false
     },
     {
@@ -1763,7 +1763,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is complimenting a flight attendant, expressing positive sentiment.",
+      "reasoning": "The tweet is a compliment praising a flight attendant, which matches the PRAISE_FEEDBACK category.",
       "intent_ambiguous": false
     },
     {
@@ -1772,7 +1772,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude and excitement after landing, indicating a positive feedback.",
+      "reasoning": "The tweet expresses gratitude and excitement after landing, indicating a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1781,7 +1781,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet is a positive acknowledgment and compliment about the flight's performance, with no request or complaint.",
+      "reasoning": "The tweet expresses appreciation for flight 4614's successful navigation and a good connection, making it a compliment.",
       "intent_ambiguous": false
     },
     {
@@ -1790,7 +1790,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The message primarily praises the Delta staff after a prior bad experience, with no request or complaint.",
+      "reasoning": "The tweet praises Delta team members after a difficult experience, indicating a positive feedback scenario.",
       "intent_ambiguous": false
     },
     {
@@ -1799,7 +1799,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer expresses appreciation for personalized service in the main cabin, indicating a positive experience.",
+      "reasoning": "The user is expressing appreciation for a personalized service, which is a compliment rather than a complaint or request.",
       "intent_ambiguous": false
     },
     {
@@ -1808,7 +1808,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses gratitude and positive experience, with no complaint or request.",
+      "reasoning": "User is complimenting the service and expressing gratitude.",
       "intent_ambiguous": false
     },
     {
@@ -1817,7 +1817,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user is asking about the availability of fast charging on the airplane, which is an informational policy question.",
+      "reasoning": "The customer is inquiring about the availability of fast charging on the airplane, which is a straightforward informational request.",
       "intent_ambiguous": false
     },
     {
@@ -1826,7 +1826,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses positive feedback and appreciation for an agent's performance.",
+      "reasoning": "The tweet expresses gratitude and compliments a Delta agent, fitting a praise/feedback intent.",
       "intent_ambiguous": false
     },
     {
@@ -1835,7 +1835,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": null,
-      "reasoning": "Customer is complaining about missing Splenda and requesting it, which is a service-related complaint.",
+      "reasoning": "The tweet is a complaint requesting the airline to provide Splenda again, a service-related issue rather than a refund, booking, or policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1844,7 +1844,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "Customer expresses gratitude and positive experience with the airline.",
+      "reasoning": "The tweet expresses gratitude for a positive experience and acknowledges the airline\u2019s help during delays, fitting a compliment/thank-you scenario.",
       "intent_ambiguous": false
     },
     {
@@ -1853,7 +1853,7 @@
       "predicted_intent": "PRAISE_FEEDBACK",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user expresses gratitude for the flight, indicating a positive experience without any complaint or request.",
+      "reasoning": "The customer expresses gratitude for the flight, indicating a positive experience.",
       "intent_ambiguous": false
     },
     {
@@ -1862,7 +1862,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The tweet expresses strong dissatisfaction with Delta\u2019s cancellation policy and contains no direct request for a refund or policy clarification, making it a complaint.",
+      "reasoning": "The tweet expresses dissatisfaction with the cancellation policy and lack of credit, without explicitly requesting a refund or compensation.",
       "intent_ambiguous": false
     },
     {
@@ -1871,7 +1871,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is requesting credit compensation for medical assistance rendered, which falls under refund or credit inquiries.",
+      "reasoning": "The user is requesting confirmation of a credit compensation promised for medical assistance on a flight.",
       "intent_ambiguous": true
     },
     {
@@ -1879,8 +1879,8 @@
       "true_intent": "REFUND_COMPENSATION",
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
-      "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "The customer is asking how much compensation they are entitled to for a cancelled flight, which is a direct request for refund/compensation information.",
+      "second_choice": null,
+      "reasoning": "The user is specifically asking about the amount of compensation for a cancelled flight, which is a refund/credit issue.",
       "intent_ambiguous": false
     },
     {
@@ -1889,7 +1889,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "Customer requests a refund due to denied boarding and overcharge, making refund the primary ask.",
+      "reasoning": "The customer explicitly requests a refund, making REFUND_COMPENSATION the primary intent, while the boarding denial indicates a flight disruption as a close secondary issue.",
       "intent_ambiguous": false
     },
     {
@@ -1898,7 +1898,7 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user is asking about the policy of using a voucher for booking via the app, which is an informational query.",
+      "reasoning": "The customer asks whether a voucher can be applied during app booking, which is a purely informational policy question.",
       "intent_ambiguous": false
     },
     {
@@ -1907,7 +1907,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "User is seeking help to obtain a credit voucher, a direct request for a refund/credit, fitting the REFUND_COMPENSATION category.",
+      "reasoning": "Customer is asking how to get a credit voucher, which is a refund/credit request.",
       "intent_ambiguous": false
     },
     {
@@ -1916,16 +1916,16 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user expresses frustration with repeated airline mistakes, indicating a complaint about service.",
+      "reasoning": "The user vents frustration over repeated mishaps after receiving a voucher, expressing a complaint rather than a specific request.",
       "intent_ambiguous": false
     },
     {
       "example_id": "922824",
       "true_intent": "REFUND_COMPENSATION",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The user is primarily asking whether they can receive free drinks or a voucher for sitting near a bathroom, which is an informational request about airline policy.",
+      "reasoning": "The tweet explicitly asks for compensation (free drinks or a $50 voucher) for discomfort, which fits the REFUND_COMPENSATION category.",
       "intent_ambiguous": false
     },
     {
@@ -1934,7 +1934,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer is demanding a refund for a seat that was charged but not available, which is a clear refund request.",
+      "reasoning": "User complains about being charged for a seat that is not available and requests a refund.",
       "intent_ambiguous": false
     },
     {
@@ -1943,7 +1943,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user explicitly requests a money-back for a product that was not what they expected, indicating a refund request.",
+      "reasoning": "The customer explicitly requests a refund for the meal, making refund compensation the primary intent, with the meal complaint as a secondary issue.",
       "intent_ambiguous": false
     },
     {
@@ -1951,8 +1951,8 @@
       "true_intent": "REFUND_COMPENSATION",
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The user is requesting a refund after being moved from an extra-legroom seat to a regular seat, making a refund the primary issue.",
+      "second_choice": null,
+      "reasoning": "User is requesting a refund for having been moved from an paid extra legroom seat to a regular seat.",
       "intent_ambiguous": false
     },
     {
@@ -1960,8 +1960,8 @@
       "true_intent": "REFUND_COMPENSATION",
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer is primarily requesting a refund for the stroller and wants to speak to someone about it, making it a refund/compensation issue.",
+      "second_choice": "BAGGAGE_PROBLEM",
+      "reasoning": "The user is specifically complaining about the limited refund received for a stroller and wants to speak to someone else, indicating a request for a refund or compensation.",
       "intent_ambiguous": false
     },
     {
@@ -1970,7 +1970,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer paid for in-flight Wi-Fi that did not work and is explicitly requesting a refund.",
+      "reasoning": "The customer explicitly requests a refund for the in\u2011flight Wi\u2011Fi service that did not work.",
       "intent_ambiguous": false
     },
     {
@@ -1978,26 +1978,26 @@
       "true_intent": "REFUND_COMPENSATION",
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
-      "second_choice": "BOOKING_CHANGE",
-      "reasoning": "The customer is specifically requesting a full monetary refund rather than a voucher, indicating a refund/compensation request.",
+      "second_choice": null,
+      "reasoning": "The user explicitly requests a full ticket refund rather than a voucher, which is a direct refund request.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2215051",
       "true_intent": "REFUND_COMPENSATION",
-      "predicted_intent": "FLIGHT_DISRUPTION",
-      "correct": false,
-      "second_choice": "REFUND_COMPENSATION",
-      "reasoning": "Customer complains about a flight cancellation and the insufficient voucher, but the primary issue is the cancellation itself.",
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": true,
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The user is unhappy with the $100 voucher offered after a cancellation, indicating a refund/compensation issue as the primary concern.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1562694",
       "true_intent": "REFUND_COMPENSATION",
-      "predicted_intent": "BOOKING_CHANGE",
+      "predicted_intent": "PRAISE_FEEDBACK",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The tweet is about using a flight voucher to book a free flight, which falls under booking activity rather than a complaint or praise.",
+      "reasoning": "The tweet expresses excitement and positive sentiment about using a flight voucher, fitting the PRAISE_FEEDBACK category.",
       "intent_ambiguous": false
     },
     {
@@ -2006,16 +2006,16 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user explicitly asks to request a refund, making refund compensation the primary issue.",
+      "reasoning": "The user explicitly asks if they can request a refund, making refund request the primary intent.",
       "intent_ambiguous": false
     },
     {
       "example_id": "146036",
       "true_intent": "REFUND_COMPENSATION",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": null,
-      "reasoning": "User is frustrated that the voucher cannot be applied when purchasing a new ticket, indicating a service issue rather than a request for policy info or booking change.",
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": true,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user is unable to apply the $200 voucher to a new ticket, which is a compensation issue.",
       "intent_ambiguous": false
     },
     {
@@ -2024,7 +2024,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for a refund on a non-refundable ticket due to a terrible incident.",
+      "reasoning": "The tweet is a request to obtain a refund for a non\u2011refundable ticket, which directly corresponds to a refund/compensation inquiry.",
       "intent_ambiguous": false
     },
     {
@@ -2033,7 +2033,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user complains they are not being refunded all points used for the flight, which is a refund/compensation issue.",
+      "reasoning": "The user is explicitly requesting a refund of all points used for the flight, which is a refund/credit issue.",
       "intent_ambiguous": false
     },
     {
@@ -2042,7 +2042,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user reports a duplicate credit card charge and is likely seeking a refund.",
+      "reasoning": "User reports a duplicate charge and seeks refund/credit.",
       "intent_ambiguous": false
     },
     {
@@ -2051,7 +2051,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is requesting a full flight refund or voucher due to an issue with the service (expired napkin).",
+      "reasoning": "The user explicitly requests a full flight refund or voucher.",
       "intent_ambiguous": false
     },
     {
@@ -2060,16 +2060,16 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is asking for assistance with obtaining a refund for an airline ticket due to a cruise cancellation, which is a request for a refund.",
+      "reasoning": "The user is requesting a refund for a ticket that was cancelled, which directly matches the refund/credit category.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2584677",
       "true_intent": "REFUND_COMPENSATION",
-      "predicted_intent": "SERVICE_COMPLAINT",
+      "predicted_intent": "FLIGHT_DISRUPTION",
       "correct": false,
-      "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "The tweet vents frustration about a flight change that caused extra travel time and no compensation, making it a service complaint rather than a formal request for a specific resolution.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The tweet complains about an 8-hour flight change that added 5 hours to the trip, a clear flight disruption issue.",
       "intent_ambiguous": false
     },
     {
@@ -2078,16 +2078,16 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The customer is explicitly asking for a refund due to the unusable power outlets, making a refund request the primary intent.",
+      "reasoning": "The tweet explicitly requests a refund due to dissatisfaction with the aircraft outlets, making a refund request the primary intent.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2560926",
       "true_intent": "REFUND_COMPENSATION",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": false,
-      "second_choice": null,
-      "reasoning": "The user vents about poor handling and an insulting credit, indicating a dissatisfaction with service rather than a specific request for a refund or policy info.",
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": true,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user\u2019s main issue concerns the inadequate credit they received, which is a refund/compensation topic, making REFUND_COMPENSATION the most specific category.",
       "intent_ambiguous": false
     },
     {
@@ -2096,7 +2096,7 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "The user is specifically asking about their ticket credit while also complaining about the hold time, with the primary request being the credit.",
+      "reasoning": "The user is primarily seeking assistance with a ticket credit, which falls under refund/credit issues, while also expressing frustration over a long hold time.",
       "intent_ambiguous": false
     },
     {
@@ -2104,8 +2104,8 @@
       "true_intent": "REFUND_COMPENSATION",
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The user is explicitly requesting refunds and hotel accommodations, making refund compensation the primary intent.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user is primarily requesting a refund for flight 5836, which falls under refund and compensation inquiries.",
       "intent_ambiguous": false
     },
     {
@@ -2114,16 +2114,16 @@
       "predicted_intent": "REFUND_COMPENSATION",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer explicitly requests $800 credit and $100 cash as compensation for a flight inconvenience.",
+      "reasoning": "The customer is explicitly requesting $800 credit and $100 cash compensation for a delay, making REFUND_COMPENSATION the primary intent.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2891330",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": true,
-      "second_choice": null,
-      "reasoning": "The user is venting about being forcibly removed and assaulted by security, a clear service complaint.",
+      "predicted_intent": "FLIGHT_DISRUPTION",
+      "correct": false,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user complains that they and their son were forcibly removed from the airline (flight) with no record, indicating a disruption to their travel experience.",
       "intent_ambiguous": false
     },
     {
@@ -2132,7 +2132,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is frustrated about being unable to check their son in, indicating a service issue that needs resolution.",
+      "reasoning": "The user is expressing frustration about being unable to check their son in for a flight, which is a service issue rather than a specific booking change or policy question.",
       "intent_ambiguous": false
     },
     {
@@ -2141,7 +2141,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet contains a threatening statement implying harassment, which falls under SERVICE_COMPLAINT.",
+      "reasoning": "The tweet is a hostile remark with no service request, fitting the SERVICE_COMPLAINT category.",
       "intent_ambiguous": false
     },
     {
@@ -2150,7 +2150,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is venting about inadequate wheelchair assistance and staff failure, a direct service complaint.",
+      "reasoning": "The customer is venting dissatisfaction about the airline failing to provide the wheelchair as promised, which is a service complaint.",
       "intent_ambiguous": false
     },
     {
@@ -2159,7 +2159,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses a clear complaint about discrimination, a serious service issue requiring attention.",
+      "reasoning": "The user is voicing a serious complaint about experiencing racism, which falls under a service complaint.",
       "intent_ambiguous": false
     },
     {
@@ -2168,7 +2168,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer complains about insufficient wheelchair assistance, indicating a service issue rather than a question or other request.",
+      "reasoning": "The tweet complains about wheelchair assistance being severely understaffed and causing long wait times, which is a service complaint rather than a baggage issue or other category.",
       "intent_ambiguous": false
     },
     {
@@ -2177,7 +2177,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user complains about consistently terrible service and threatens legal action, which falls squarely under a service complaint.",
+      "reasoning": "The user is expressing dissatisfaction with service and threatening legal action, which is a direct service complaint.",
       "intent_ambiguous": false
     },
     {
@@ -2186,7 +2186,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing dissatisfaction with SkyClub service and raising a possible discrimination concern, which is a complaint rather than a request for specific action.",
+      "reasoning": "The customer complains about the quality of SkyClub service, raising a service issue rather than asking for a specific action.",
       "intent_ambiguous": true
     },
     {
@@ -2195,7 +2195,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet expresses a complaint about discrimination and threatens a lawsuit, with no specific request for a fix or assistance.",
+      "reasoning": "The tweet expresses a grievance about discrimination and racism at a Delta station, which is a service-related complaint.",
       "intent_ambiguous": true
     },
     {
@@ -2203,8 +2203,8 @@
       "true_intent": "SERVICE_COMPLAINT",
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The tweet vents about Delta staff not meeting the bus, indicating dissatisfaction with service rather than requesting a fix.",
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The tweet vents frustration about Delta staff failing to meet passengers, especially a wheelchair user and a passenger with a lost passport, indicating a service complaint rather than a request for a specific fix.",
       "intent_ambiguous": true
     },
     {
@@ -2212,8 +2212,8 @@
       "true_intent": "SERVICE_COMPLAINT",
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The tweet expresses dissatisfaction with how the passengers were treated and kicked off the flight, which is a service complaint.",
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The user complains about rude treatment and being removed from a flight, which is a service complaint rather than a specific request for refund or booking change.",
       "intent_ambiguous": false
     },
     {
@@ -2222,7 +2222,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is expressing a serious allegation of discriminatory treatment and expressing strong dissatisfaction, which falls under a service complaint.",
+      "reasoning": "The tweet expresses a serious complaint about discrimination and being denied service.",
       "intent_ambiguous": false
     },
     {
@@ -2231,7 +2231,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer complains about a dangerous product and requests a replacement, which is a service complaint.",
+      "reasoning": "The user is expressing concern that a gifted item could be unsafe and is asking for a replacement, which is a complaint requiring a response.",
       "intent_ambiguous": false
     },
     {
@@ -2239,8 +2239,8 @@
       "true_intent": "SERVICE_COMPLAINT",
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The user is venting frustration over a delayed flight and not receiving a drink, which is a direct service complaint.",
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The tweet expresses dissatisfaction with a delayed flight and poor service, which is a complaint rather than a request for a specific fix like a refund or booking change.",
       "intent_ambiguous": false
     },
     {
@@ -2248,35 +2248,35 @@
       "true_intent": "SERVICE_COMPLAINT",
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
-      "second_choice": null,
-      "reasoning": "The tweet is primarily venting about poor customer service and delay, with no specific request for resolution, fitting SERVICE_COMPLAINT.",
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The customer is venting about poor customer service that caused a delay, making it a service complaint; it also involves a flight delay but the primary issue is staff behavior.",
       "intent_ambiguous": false
     },
     {
       "example_id": "1363386",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": true,
-      "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "The tweet expresses dissatisfaction with customer service and the 9\u2011hour delay, with no explicit request for a fix, making it a service complaint.",
+      "predicted_intent": "FLIGHT_DISRUPTION",
+      "correct": false,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user\u2019s main issue is a 9\u2011hour flight delay caused by Delta, which is a flight disruption; the club access complaint is secondary.",
       "intent_ambiguous": false
     },
     {
       "example_id": "551361",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": true,
-      "second_choice": "FLIGHT_DISRUPTION",
-      "reasoning": "The user expresses strong dissatisfaction with staff behavior and service after a flight cancellation, making the primary complaint a service issue.",
+      "predicted_intent": "FLIGHT_DISRUPTION",
+      "correct": false,
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The user complains about a flight cancellation and the resulting overnight stay, which is a flight disruption issue.",
       "intent_ambiguous": false
     },
     {
       "example_id": "152351",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": true,
-      "second_choice": null,
-      "reasoning": "The tweet vents frustration about a stuck baggage line and staff shortage, with no specific request for a fix, fitting a service complaint.",
+      "predicted_intent": "BAGGAGE_PROBLEM",
+      "correct": false,
+      "second_choice": "FLIGHT_DISRUPTION",
+      "reasoning": "The tweet complains about a stalled baggage line, which is a direct baggage issue, even though it mentions missed flights.",
       "intent_ambiguous": false
     },
     {
@@ -2285,7 +2285,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user expresses dissatisfaction with the window seat, indicating a service complaint.",
+      "reasoning": "The tweet expresses dissatisfaction with a window seat, indicating a complaint rather than a request for help or praise.",
       "intent_ambiguous": false
     },
     {
@@ -2294,7 +2294,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The user forgot an item on the flight and is requesting the airline to hold it for them, which is a baggage-related issue.",
+      "reasoning": "The user is asking Delta to hold a forgotten notebook, which is a request about personal baggage handling, fitting the BAGGAGE_PROBLEM category.",
       "intent_ambiguous": false
     },
     {
@@ -2303,7 +2303,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer reports a coat left on the flight, indicating a lost baggage issue.",
+      "reasoning": "The customer reports an item left on a flight, which is a baggage retrieval issue.",
       "intent_ambiguous": false
     },
     {
@@ -2312,7 +2312,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is venting dissatisfaction with the airline\u2019s ticketing, seat assignment, and boarding procedures, which is a service complaint.",
+      "reasoning": "User vents about ticketing, seat assignment, and boarding procedures, expressing dissatisfaction without requesting a fix.",
       "intent_ambiguous": false
     },
     {
@@ -2321,7 +2321,7 @@
       "predicted_intent": "BAGGAGE_PROBLEM",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer is reporting a lost item on the plane and seeking retrieval, which is a baggage problem.",
+      "reasoning": "The customer reports a lost laptop on the plane and seeks help retrieving it, a classic baggage problem.",
       "intent_ambiguous": false
     },
     {
@@ -2330,16 +2330,16 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet vents frustration about poor customer service and bad food, with no request for a specific resolution such as a refund or booking change.",
+      "reasoning": "The tweet vents about poor ground service and food quality, expressing dissatisfaction but not requesting a refund or other specific solution.",
       "intent_ambiguous": false
     },
     {
       "example_id": "172576",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "SERVICE_COMPLAINT",
-      "correct": true,
+      "predicted_intent": "REFUND_COMPENSATION",
+      "correct": false,
       "second_choice": null,
-      "reasoning": "The user expresses strong dissatisfaction and unwillingness to pay, but does not request a specific action such as a refund or change, making the primary intent a complaint.",
+      "reasoning": "The customer is upset about being charged and explicitly wants no further fees, which is a request for refund or fee waiver, making REFUND_COMPENSATION the primary intent.",
       "intent_ambiguous": false
     },
     {
@@ -2348,7 +2348,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet vents frustration about the airline\u2019s indifference to feedback, with no request for a specific solution.",
+      "reasoning": "The user is venting about their likely negative feedback on the survey, showing dissatisfaction without requesting a specific fix.",
       "intent_ambiguous": false
     },
     {
@@ -2357,7 +2357,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user is frustrated that the Delta website is down when trying to buy a flight, indicating a service complaint.",
+      "reasoning": "The user expresses frustration that Delta's site is down when trying to purchase a flight, which is a general complaint about service availability rather than a specific request for a refund, booking change, or policy clarification.",
       "intent_ambiguous": false
     },
     {
@@ -2366,7 +2366,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet vents frustration without specifying a concrete issue like flight delay or baggage, indicating a general complaint about service.",
+      "reasoning": "The tweet vents frustration without a specific request, indicating a general complaint about service.",
       "intent_ambiguous": false
     },
     {
@@ -2375,16 +2375,16 @@
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
       "second_choice": null,
-      "reasoning": "The customer is asking for clarification on check-in policy due to residency and passport status, which is an informational request.",
+      "reasoning": "The user is asking for guidance on check\u2011in eligibility based on travel residency, a policy-related question.",
       "intent_ambiguous": false
     },
     {
       "example_id": "2215021",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "FLIGHT_DISRUPTION",
-      "correct": false,
+      "predicted_intent": "SERVICE_COMPLAINT",
+      "correct": true,
       "second_choice": null,
-      "reasoning": "The tweet indicates the user missed a game due to a flight issue, which is a flight disruption problem.",
+      "reasoning": "The user expresses sadness about missing a Cardinals game, venting frustration without a specific request or issue that requires a direct resolution.",
       "intent_ambiguous": false
     },
     {
@@ -2392,8 +2392,8 @@
       "true_intent": "SERVICE_COMPLAINT",
       "predicted_intent": "POLICY_QUESTION",
       "correct": false,
-      "second_choice": null,
-      "reasoning": "The user is requesting information on how to check bags for a connecting flight, an informational query without an active baggage issue.",
+      "second_choice": "SERVICE_COMPLAINT",
+      "reasoning": "The customer primarily seeks information about checked baggage rules for a connecting flight, which is a policy question, while also venting about a long hold, which is a secondary complaint.",
       "intent_ambiguous": false
     },
     {
@@ -2402,7 +2402,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The customer is expressing dissatisfaction with customer service despite acknowledging a new in-flight messaging feature, so the primary issue is a service complaint.",
+      "reasoning": "The tweet expresses dissatisfaction with the airline\u2019s customer service, despite praising a new feature, making SERVICE_COMPLAINT the primary intent.",
       "intent_ambiguous": false
     },
     {
@@ -2410,17 +2410,17 @@
       "true_intent": "SERVICE_COMPLAINT",
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
-      "second_choice": "PRAISE_FEEDBACK",
-      "reasoning": "The user primarily expresses dissatisfaction with unhelpful agents, while also giving a backhanded compliment to one agent, making SERVICE_COMPLAINT the main intent.",
+      "second_choice": null,
+      "reasoning": "The tweet complains about unhelpful agents, expressing frustration that outweighs the praise for one individual, making it a service complaint.",
       "intent_ambiguous": false
     },
     {
       "example_id": "961583",
       "true_intent": "SERVICE_COMPLAINT",
-      "predicted_intent": "POLICY_QUESTION",
-      "correct": false,
-      "second_choice": "SERVICE_COMPLAINT",
-      "reasoning": "User is primarily asking for wait time information, which is an informational policy question, while also showing frustration about the long hold.",
+      "predicted_intent": "SERVICE_COMPLAINT",
+      "correct": true,
+      "second_choice": null,
+      "reasoning": "The tweet asks for information on current wait times while expressing frustration, fitting the SERVICE_COMPLAINT category for a service issue needing a response.",
       "intent_ambiguous": false
     },
     {
@@ -2429,7 +2429,7 @@
       "predicted_intent": "SERVICE_COMPLAINT",
       "correct": true,
       "second_choice": null,
-      "reasoning": "The user complains about the flight being gross and requests cleaning, which is a service complaint.",
+      "reasoning": "The user is complaining about the cleanliness of the flight, a direct service complaint.",
       "intent_ambiguous": false
     }
   ]
