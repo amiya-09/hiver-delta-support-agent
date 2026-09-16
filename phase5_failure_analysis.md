@@ -40,17 +40,18 @@ escalation precision drops from 0.588 isolated to 0.509 end-to-end,
 false positives growing from 40 to 55.
 
 Something more interesting turned up comparing the two runs side by
-side. The baggage/refund rule's false positives actually dropped from
-25 to 14 in the end-to-end run over the same set of examples, which
-looked at first like the pipeline was somehow doing better as a whole
-than its individual pieces. I didn't trust that and traced the actual
-examples instead of taking the aggregate number at face value. Of the
-14 examples where that false positive disappeared, only 2 shifted to
-the ambiguous rule as I first guessed. The other 12 shifted purely
-because Phase 3 misclassified the intent away from baggage or refund
-entirely, moving the message out of the only two categories that rule
-even watches, not because anything correctly judged it didn't need
-escalation.
+side, back when Phase 3's classifier was still running under the
+pre-fix prompt. The baggage/refund rule's false positives actually
+dropped from 25 to 14 in the end-to-end run over the same set of
+examples, which looked at first like the pipeline was somehow doing
+better as a whole than its individual pieces. I didn't trust that and
+traced the actual examples instead of taking the aggregate number at
+face value. Of the 14 examples where that false positive disappeared,
+only 2 shifted to the ambiguous rule as I first guessed. The other 12
+shifted purely because Phase 3 misclassified the intent away from
+baggage or refund entirely, moving the message out of the only two
+categories that rule even watches, not because anything correctly
+judged it didn't need escalation.
 
 The wrong predicted categories for those 12: SERVICE_COMPLAINT for 5 of
 them, POLICY_QUESTION for 4, one each to BOOKING_CHANGE and
@@ -61,15 +62,28 @@ already found. The POLICY_QUESTION cases suggest that same underlying
 mechanism, surface phrasing beating topic specificity, generalizes
 beyond the two category pairs my prompt fix specifically targeted.
 
-The real conclusion here: the rule's apparently better precision in the
-end-to-end run is two independent errors canceling out, a
+The real conclusion at the time: the rule's apparently better precision
+in the end-to-end run was two independent errors canceling out, a
 classification mistake accidentally dodging an over-eager escalation
 rule, not evidence the pipeline performs better together than its parts
-do individually. If Phase 3's classifier were more accurate on these
-12 examples specifically, this rule's real false-positive rate would
-surface, not improve. That's a genuine example of a single end-to-end
-metric hiding the fact that one upstream error is masking a downstream
-one.
+do individually. That gave me a falsifiable prediction: if Phase 3's
+classifier got more accurate on these 12 examples specifically, this
+rule's real false-positive rate should surface, not improve.
+
+I later actually fixed Phase 3's classification (see the topic
+specificity rule and the real, complete reclassification described in
+its own failure analysis) and reran this evaluation against the same
+240 examples. The prediction held. The end-to-end `risk_category_default`
+false positive count went from 14 back up to 25, exactly matching the
+isolated run's number, meaning the classifier is now accurate enough on
+these examples that the rule's own true false-positive rate is fully
+exposed rather than partially masked. End-to-end precision dropped from
+0.509 to 0.467, and end-to-end rule-level accuracy dropped from 0.738 to
+0.700, both moving in exactly the direction I predicted, not the
+direction that would look better on a headline number. That's a genuine
+confirmed example of a single end-to-end metric hiding the fact that
+one upstream error was masking a downstream one, not just a plausible
+story.
 
 ## The safety keyword rule has its own steady false-positive rate
 
@@ -94,9 +108,12 @@ something I can currently rule out or confirm either way.
 
 ## What this means for the headline number
 
-Rule-level accuracy, 0.808 isolated and 0.738 end-to-end, looks like
-one coherent number but is really hiding at least three separately
-caused sources of over-escalation, plus a real blind spot on two of the
-five rules entirely. Whichever of those numbers gets quoted as "how good
-the escalation logic is," it would be missing that these are three
-different problems that would need three different fixes, not one.
+Rule-level accuracy, 0.808 isolated and 0.700 end-to-end (after the
+Phase 3 classification fix; it was 0.738 before), looks like one
+coherent number but is really hiding at least three separately caused
+sources of over-escalation, plus a real blind spot on two of the five
+rules entirely. Whichever of those numbers gets quoted as "how good the
+escalation logic is," it would be missing that these are three
+different problems that would need three different fixes, not one, and
+that fixing one of them (classification) made a downstream number look
+worse, not better, exactly as predicted above.

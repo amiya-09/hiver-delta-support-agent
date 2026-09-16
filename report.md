@@ -84,10 +84,12 @@ The LLM beats the keyword baseline by about 16 points, which is a real
 gap, not just clearing the trivial floor that any working system should
 clear easily.
 
-One category runs against that overall trend and I want to be upfront
-about it: on ACCOUNT_LOYALTY specifically, the keyword baseline actually
-does better than my LLM classifier (0.818 F1 vs. 0.611 F1). Failure Mode
-1 below explains why.
+One category ran against that overall trend early on: on ACCOUNT_LOYALTY
+specifically, the keyword baseline did better than my LLM classifier
+(0.818 F1 vs. 0.611 F1). Failure Mode 1 below explains why. After the
+topic-specificity fix described in Failure Mode 2, this gap nearly
+closed, ACCOUNT_LOYALTY F1 improved to 0.800, almost matching the
+keyword baseline rather than losing to it by a wide margin.
 
 Excluding the 6 examples I'd personally marked ambiguous while labelling
 only moves the number from 75.83% to 75.64%, barely anything. That
@@ -96,9 +98,12 @@ in the genuinely hard cases I struggled with myself, they're a real,
 systematic pattern, which Failure Mode 1 covers.
 
 I also tried a targeted fix for that pattern and tested it cheaply (see
-Failure Mode 2), which brought accuracy to an estimated 79.9%, but with
-real costs of its own that I don't want to hide behind the improved
-number.
+Failure Mode 2), which the targeted recheck estimated would bring
+accuracy to about 79.9%. I later ran a full, real reclassification of
+all 240 examples under the fixed prompt (needed anyway to complete the
+cache for a clean reproduction, see decision log), and the real number
+came in at 78.75%, close to the estimate but not identical, with real
+costs of its own that I don't want to hide behind the improved number.
 
 ## Failure Analysis
 
@@ -198,11 +203,12 @@ It doesn't say anything about how classification errors propagate
 downstream. Failure Mode 5 above is the clearest example: a Phase 3
 mistake can accidentally cancel out a Phase 5 mistake, making the
 combined system look better on one specific number than either
-component actually is on its own. That means improving classification
-accuracy in isolation could, in a very specific and checkable way,
-actually make a downstream metric (Rule 2's end-to-end false-positive
-rate) look worse rather than better. A single end-to-end number
-completely hides that kind of interaction.
+component actually is on its own. I actually tested this after fixing
+Phase 3's classification: Rule 2's end-to-end false-positive rate got
+worse, not better (rule-level accuracy dropped from 0.738 to 0.700),
+exactly as the mechanism predicted. A single end-to-end number would
+have completely hidden that this specific improvement had that specific
+cost.
 
 The escalation recall number tells a similar story from the other
 direction. ESCALATE recall is a perfect 1.0, every message that should

@@ -261,3 +261,19 @@ without it, someone cloning the repo fresh couldn't get past the very
 first step. Fixed that by committing the cleaned, already-processed
 pairs file directly instead, since that's the one thing every later
 phase actually depends on and it's small enough to just include.
+
+## A late but important confirmation
+
+While fixing the reproducibility bug above, I ended up running a real,
+complete reclassification of all 240 golden-set examples under the
+current, already-fixed prompt (the old committed results file was
+captured under a stale prompt version, and the cache was only partially
+backfilled from the targeted recheck). Real accuracy came in at 78.75%,
+close to but not identical to the ~79.9% the targeted recheck had
+estimated. More importantly, this let me actually test the falsifiable
+prediction from Phase 5's failure analysis: that fixing Phase 3's
+classification would make Rule 2's end-to-end false-positive rate get
+worse, not better, since the earlier apparent improvement was really
+two errors canceling out. It held. End-to-end rule-level accuracy
+dropped from 0.738 to 0.700 once classification actually improved,
+exactly the predicted direction.
